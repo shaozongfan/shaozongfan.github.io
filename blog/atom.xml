@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shaozongfan.github.io/blog</id>
-    <title>��褵��������� Blog</title>
+    <title>蒲城小农的文字世界 Blog</title>
     <updated>2025-09-07T11:29:47.997Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shaozongfan.github.io/blog"/>
-    <subtitle>��褵��������� Blog</subtitle>
+    <subtitle>蒲城小农的文字世界 Blog</subtitle>
     <entry>
         <title type="html"><![CDATA[libc/使用mtrace跟踪内存泄露问题]]></title>
         <id>/libc/使用mtrace跟踪内存泄露问题</id>
