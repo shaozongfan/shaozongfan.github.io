@@ -1,0 +1,24 @@
+{
+  "unversionedId": "读书笔记/见识/走错路的思考",
+  "id": "读书笔记/见识/走错路的思考",
+  "title": "走错路的思考",
+  "description": "走着走着便忘记了目的是什么，一回头才发现已经不知道自己走到了哪里。停步走回头路又感觉好像是新路，以为会回到岔路口，没想到却回到了起点。正生气时却发现走了更多的路，达成了目的，谁成想竟然是如此的过程。",
+  "source": "@site/docs/读书笔记/见识/走错路的思考.md",
+  "sourceDirName": "读书笔记/见识",
+  "slug": "/读书笔记/见识/走错路的思考",
+  "permalink": "/docs/读书笔记/见识/走错路的思考",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/读书笔记/见识/走错路的思考.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "成长型思维与固定型思维",
+    "permalink": "/docs/读书笔记/终身成长/成长型思维与固定型思维"
+  },
+  "next": {
+    "title": "到不了",
+    "permalink": "/docs/那些年写的诗歌/到不了"
+  }
+}

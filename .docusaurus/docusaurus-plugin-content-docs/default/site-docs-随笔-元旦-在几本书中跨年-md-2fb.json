@@ -1,0 +1,24 @@
+{
+  "unversionedId": "随笔/元旦/在几本书中跨年",
+  "id": "随笔/元旦/在几本书中跨年",
+  "title": "在几本书中跨年",
+  "description": "今年的跨年如此单调，毫无新意，宛如秋天的落叶般，打着旋儿落到了地上。",
+  "source": "@site/docs/随笔/元旦/在几本书中跨年.md",
+  "sourceDirName": "随笔/元旦",
+  "slug": "/随笔/元旦/在几本书中跨年",
+  "permalink": "/docs/随笔/元旦/在几本书中跨年",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/随笔/元旦/在几本书中跨年.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "龙瑜文赋",
+    "permalink": "/docs/那些年写的诗歌/龙瑜文赋"
+  },
+  "next": {
+    "title": "坚持写作",
+    "permalink": "/docs/随笔/坚持写作"
+  }
+}

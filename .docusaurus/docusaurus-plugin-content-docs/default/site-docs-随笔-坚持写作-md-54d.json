@@ -1,0 +1,24 @@
+{
+  "unversionedId": "随笔/坚持写作",
+  "id": "随笔/坚持写作",
+  "title": "坚持写作",
+  "description": "许久不曾在网络上发表自己的文章了，我突然意识到。而今天再次撰写新的文章，我想以一种新的方式来赋予它不同的命运。日志对于我而言不止是个平台，更是我鼓励自己写作的一个中间因素。我想写作的目的不是仅仅写给自己，更想让更多的读者看到，以前我都会选择以更新动态的方式来推送自己的文章，而现在我想退居幕后，让读者自己去发现我的文章。我之前有做过这样的尝试，最后的结果也在我的意料之中，那便是无人浏览。以前的我对是否有人看非常关心，可现在我对这一点有点淡漠了。生活中哪有那么多的提醒？自己不睁大眼睛去发现的话，又如何能够获取到更多的信息呢？而主动的获取信息确实我们渐渐失却的一大能力。",
+  "source": "@site/docs/随笔/坚持写作.md",
+  "sourceDirName": "随笔",
+  "slug": "/随笔/坚持写作",
+  "permalink": "/docs/随笔/坚持写作",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/随笔/坚持写作.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "在几本书中跨年",
+    "permalink": "/docs/随笔/元旦/在几本书中跨年"
+  },
+  "next": {
+    "title": "想得却不可得",
+    "permalink": "/docs/随笔/想得却不可得"
+  }
+}

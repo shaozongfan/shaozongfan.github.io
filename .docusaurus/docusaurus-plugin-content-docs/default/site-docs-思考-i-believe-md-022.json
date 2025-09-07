@@ -1,0 +1,24 @@
+{
+  "unversionedId": "思考/I believe",
+  "id": "思考/I believe",
+  "title": "I believe",
+  "description": "如果时间真的有魔法，就让我们在岁月中重逢吧！无论多少年都好！I believe!",
+  "source": "@site/docs/思考/I believe.md",
+  "sourceDirName": "思考",
+  "slug": "/思考/I believe",
+  "permalink": "/docs/思考/I believe",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/思考/I believe.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "笔记本开篇序言",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "从改变开始成长",
+    "permalink": "/docs/思考/从改变开始成长"
+  }
+}

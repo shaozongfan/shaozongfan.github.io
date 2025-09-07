@@ -1,0 +1,23 @@
+{
+  "unversionedId": "初心",
+  "id": "初心",
+  "title": "笔记本开篇序言",
+  "description": "2017 年笔记本开篇序言",
+  "source": "@site/docs/初心.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/初心.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "初心",
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "docs/intro.md",
+    "permalink": "/docs/intro"
+  }
+}

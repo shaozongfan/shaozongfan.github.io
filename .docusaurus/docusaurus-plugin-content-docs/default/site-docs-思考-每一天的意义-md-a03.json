@@ -1,0 +1,24 @@
+{
+  "unversionedId": "思考/每一天的意义",
+  "id": "思考/每一天的意义",
+  "title": "每一天的意义",
+  "description": "请告诉我，这每一天的生活有何意义？一个明天接着一个明天到来，我只不过在今天这个时间里虚度了一天。这时，我禁不住问自己——你到底追求怎样的生活？眼前的生活你可还满意？不满意你又能做出什么样的改变？我想我对自己的要求在这些年间一直在起起落落，我确实没有停止过要求自己学习，可这种要求在今天蓬勃又会在明天阑珊，而我就任由自己的青春在这样的时间中过去了。我想我一直都有点自欺欺人的想法，我心中的无所谓不过是我自己制造出出来的面具，而我将自己内心中真正的想法牢牢的封锁在我的心中。",
+  "source": "@site/docs/思考/每一天的意义.md",
+  "sourceDirName": "思考",
+  "slug": "/思考/每一天的意义",
+  "permalink": "/docs/思考/每一天的意义",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/思考/每一天的意义.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "开始优先与停止",
+    "permalink": "/docs/思考/开始优先与停止"
+  },
+  "next": {
+    "title": "简单与复杂",
+    "permalink": "/docs/思考/简单与复杂"
+  }
+}

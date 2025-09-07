@@ -1,0 +1,24 @@
+{
+  "unversionedId": "思考/坚持与妥协",
+  "id": "思考/坚持与妥协",
+  "title": "坚持与妥协",
+  "description": "当我还在上学的时候，我可以畅快的与别人谈未来的理想如何如何。当我步入社会之后，工作了一个月之后，身边的同事们开始谈论一些买房、买车、结婚的现实问题时，我心中陷入了极大的矛盾。",
+  "source": "@site/docs/思考/坚持与妥协.md",
+  "sourceDirName": "思考",
+  "slug": "/思考/坚持与妥协",
+  "permalink": "/docs/思考/坚持与妥协",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/思考/坚持与妥协.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "十年磨一剑",
+    "permalink": "/docs/思考/十年磨一剑"
+  },
+  "next": {
+    "title": "开始优先与停止",
+    "permalink": "/docs/思考/开始优先与停止"
+  }
+}

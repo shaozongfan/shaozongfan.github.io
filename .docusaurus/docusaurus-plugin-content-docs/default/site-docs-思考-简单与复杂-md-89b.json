@@ -1,0 +1,24 @@
+{
+  "unversionedId": "思考/简单与复杂",
+  "id": "思考/简单与复杂",
+  "title": "简单与复杂",
+  "description": "复杂在生活中是广泛存在的，而做为复杂对立面的简单，是复杂得以滋生的土壤。谈复杂，不得不提的是简单，这是从事物的不同角度去看待问题的方法，这也是不得不说的——简单与复杂的关系一直是引人思索的话题。",
+  "source": "@site/docs/思考/简单与复杂.md",
+  "sourceDirName": "思考",
+  "slug": "/思考/简单与复杂",
+  "permalink": "/docs/思考/简单与复杂",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/思考/简单与复杂.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "每一天的意义",
+    "permalink": "/docs/思考/每一天的意义"
+  },
+  "next": {
+    "title": "配方",
+    "permalink": "/docs/思考/配方"
+  }
+}

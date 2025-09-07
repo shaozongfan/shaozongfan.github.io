@@ -1,0 +1,24 @@
+{
+  "unversionedId": "读书笔记/终身成长/成长型思维与固定型思维",
+  "id": "读书笔记/终身成长/成长型思维与固定型思维",
+  "title": "成长型思维与固定型思维",
+  "description": "刻板印象实际上几乎无处不在。不仅仅是对自己，对别人可能也存在着很多的刻板印象。",
+  "source": "@site/docs/读书笔记/终身成长/成长型思维与固定型思维.md",
+  "sourceDirName": "读书笔记/终身成长",
+  "slug": "/读书笔记/终身成长/成长型思维与固定型思维",
+  "permalink": "/docs/读书笔记/终身成长/成长型思维与固定型思维",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/读书笔记/终身成长/成长型思维与固定型思维.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "配方",
+    "permalink": "/docs/思考/配方"
+  },
+  "next": {
+    "title": "走错路的思考",
+    "permalink": "/docs/读书笔记/见识/走错路的思考"
+  }
+}

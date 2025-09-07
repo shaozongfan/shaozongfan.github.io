@@ -1,0 +1,24 @@
+{
+  "unversionedId": "那些年写的诗歌/到不了",
+  "id": "那些年写的诗歌/到不了",
+  "title": "到不了",
+  "description": "",
+  "source": "@site/docs/那些年写的诗歌/到不了.md",
+  "sourceDirName": "那些年写的诗歌",
+  "slug": "/那些年写的诗歌/到不了",
+  "permalink": "/docs/那些年写的诗歌/到不了",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/那些年写的诗歌/到不了.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "走错路的思考",
+    "permalink": "/docs/读书笔记/见识/走错路的思考"
+  },
+  "next": {
+    "title": "当你老了",
+    "permalink": "/docs/那些年写的诗歌/当你老了"
+  }
+}

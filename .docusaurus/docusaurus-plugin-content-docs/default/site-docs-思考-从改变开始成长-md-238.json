@@ -1,0 +1,24 @@
+{
+  "unversionedId": "思考/从改变开始成长",
+  "id": "思考/从改变开始成长",
+  "title": "从改变开始成长",
+  "description": "不知怎的我现在对改变充满了亲切感，我不时的觉得自己在即将到来的工作生涯中将面对极大的改变。我确实也不太确定自己到底要从事那个行业，但我想无论是哪个，我都要做出极大的改变。这种改变可能是潜移默化的，但它确确实实会发生。从我所置身的环境来看，我必须要做出改变，而且要改变很多。我还是有些迷茫，但我正一步步的走出，我想这就是改变的结果。如果我不改变，那么我的迷茫将不会减少，我将继续在很长一段时间中停滞不前，可时间并不允许我慢慢煎熬，我只有改变，必须改变。改变可能是我当前所处的环境所造就的，也可能是我自己的主观意愿所倾向的，可它确实是我必须接受的。",
+  "source": "@site/docs/思考/从改变开始成长.md",
+  "sourceDirName": "思考",
+  "slug": "/思考/从改变开始成长",
+  "permalink": "/docs/思考/从改变开始成长",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/思考/从改变开始成长.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "I believe",
+    "permalink": "/docs/思考/I believe"
+  },
+  "next": {
+    "title": "十年磨一剑",
+    "permalink": "/docs/思考/十年磨一剑"
+  }
+}

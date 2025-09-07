@@ -1,0 +1,24 @@
+{
+  "unversionedId": "写给 hy 的文字/等待的珍贵",
+  "id": "写给 hy 的文字/等待的珍贵",
+  "title": "等待的珍贵",
+  "description": "我在这里等待着你的归来，一直等待着你的归来。不知这份等待到底值不值得，可连这份",
+  "source": "@site/docs/写给 hy 的文字/等待的珍贵.md",
+  "sourceDirName": "写给 hy 的文字",
+  "slug": "/写给 hy 的文字/等待的珍贵",
+  "permalink": "/docs/写给 hy 的文字/等待的珍贵",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/写给 hy 的文字/等待的珍贵.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "docs/intro.md",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "笔记本开篇序言",
+    "permalink": "/docs/"
+  }
+}

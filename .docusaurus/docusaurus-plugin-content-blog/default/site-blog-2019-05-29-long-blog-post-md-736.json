@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/shaozongfan-blog-post",
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/blog/2019-05-29-long-blog-post.md",
+  "source": "@site/blog/2019-05-29-long-blog-post.md",
+  "title": "shaozongfan Blog Post",
+  "description": "This is the summary of a very long blog post,",
+  "date": "2019-05-29T00:00:00.000Z",
+  "formattedDate": "2019年5月29日",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    }
+  ],
+  "readingTime": 2.05,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "shaozongfan",
+      "title": "shaozongfan's life manager",
+      "url": "https://github.com/shaozongfan",
+      "imageURL": "https://github.com/longyuwlz.png",
+      "key": "shaozongfan"
+    }
+  ],
+  "frontMatter": {
+    "slug": "shaozongfan-blog-post",
+    "title": "shaozongfan Blog Post",
+    "authors": "shaozongfan",
+    "tags": [
+      "hello",
+      "docusaurus"
+    ]
+  },
+  "prevItem": {
+    "title": "MDX Blog Post",
+    "permalink": "/blog/mdx-blog-post"
+  },
+  "nextItem": {
+    "title": "First Blog Post",
+    "permalink": "/blog/first-blog-post"
+  }
+}

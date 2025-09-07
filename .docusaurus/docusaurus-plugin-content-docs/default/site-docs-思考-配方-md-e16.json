@@ -1,0 +1,24 @@
+{
+  "unversionedId": "思考/配方",
+  "id": "思考/配方",
+  "title": "配方",
+  "description": "将多少事物？从什么地方？在什么时候？放到什么地方？做什么事情？得到什么结果？",
+  "source": "@site/docs/思考/配方.md",
+  "sourceDirName": "思考",
+  "slug": "/思考/配方",
+  "permalink": "/docs/思考/配方",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/思考/配方.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "简单与复杂",
+    "permalink": "/docs/思考/简单与复杂"
+  },
+  "next": {
+    "title": "成长型思维与固定型思维",
+    "permalink": "/docs/读书笔记/终身成长/成长型思维与固定型思维"
+  }
+}

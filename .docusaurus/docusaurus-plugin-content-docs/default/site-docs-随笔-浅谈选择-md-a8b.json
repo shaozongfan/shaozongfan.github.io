@@ -1,0 +1,24 @@
+{
+  "unversionedId": "随笔/浅谈选择",
+  "id": "随笔/浅谈选择",
+  "title": "浅谈选择",
+  "description": "画不出来新的东西，可能是素材太多了吧！",
+  "source": "@site/docs/随笔/浅谈选择.md",
+  "sourceDirName": "随笔",
+  "slug": "/随笔/浅谈选择",
+  "permalink": "/docs/随笔/浅谈选择",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/随笔/浅谈选择.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "想得却不可得",
+    "permalink": "/docs/随笔/想得却不可得"
+  },
+  "next": {
+    "title": "相遇的缘分",
+    "permalink": "/docs/随笔/相遇的缘分"
+  }
+}

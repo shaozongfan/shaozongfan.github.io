@@ -1,0 +1,22 @@
+{
+  "permalink": "/blog/linux-kernel/linux-内核模块中引用符号是如何链接的",
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/blog/linux-kernel/linux-内核模块中引用符号是如何链接的.md",
+  "source": "@site/blog/linux-kernel/linux-内核模块中引用符号是如何链接的.md",
+  "title": "linux-kernel/linux-内核模块中引用符号是如何链接的",
+  "description": "前言",
+  "date": "2025-09-07T15:02:21.838Z",
+  "formattedDate": "2025年9月7日",
+  "tags": [],
+  "readingTime": 10.255,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {},
+  "prevItem": {
+    "title": "libc/使用mtrace跟踪内存泄露问题",
+    "permalink": "/blog/libc/使用mtrace跟踪内存泄露问题"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

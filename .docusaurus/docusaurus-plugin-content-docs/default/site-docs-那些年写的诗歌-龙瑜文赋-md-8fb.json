@@ -1,0 +1,34 @@
+{
+  "unversionedId": "那些年写的诗歌/龙瑜文赋",
+  "id": "那些年写的诗歌/龙瑜文赋",
+  "title": "龙瑜文赋",
+  "description": "潇洒不拘一格，文笔清新自然，",
+  "source": "@site/docs/那些年写的诗歌/龙瑜文赋.md",
+  "sourceDirName": "那些年写的诗歌",
+  "slug": "/那些年写的诗歌/龙瑜文赋",
+  "permalink": "/docs/那些年写的诗歌/龙瑜文赋",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/那些年写的诗歌/龙瑜文赋.md",
+  "tags": [
+    {
+      "label": "文赋",
+      "permalink": "/docs/tags/文赋"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "龙瑜文赋",
+    "tags": [
+      "文赋"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "追光者",
+    "permalink": "/docs/那些年写的诗歌/追光者"
+  },
+  "next": {
+    "title": "在几本书中跨年",
+    "permalink": "/docs/随笔/元旦/在几本书中跨年"
+  }
+}

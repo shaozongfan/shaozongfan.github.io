@@ -1,0 +1,24 @@
+{
+  "unversionedId": "思考/十年磨一剑",
+  "id": "思考/十年磨一剑",
+  "title": "十年磨一剑",
+  "description": "悄无声息地磨一把剑，用十年的时间磨一把剑。十年磨一剑的目标在每一天的生活中实现，从点滴的积累中慢慢沉淀，用十年的时间沉淀下真正珍贵的知识与能力。不需要刻意的去实现，应当安排好每一天的事情，从培养习惯开始达成十年磨一剑的目标。不需要时刻奋战，只需要以习惯来引领，加之时间催化，这样就能在十年这个时间到来时完成一把剑。",
+  "source": "@site/docs/思考/十年磨一剑.md",
+  "sourceDirName": "思考",
+  "slug": "/思考/十年磨一剑",
+  "permalink": "/docs/思考/十年磨一剑",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/思考/十年磨一剑.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "从改变开始成长",
+    "permalink": "/docs/思考/从改变开始成长"
+  },
+  "next": {
+    "title": "坚持与妥协",
+    "permalink": "/docs/思考/坚持与妥协"
+  }
+}

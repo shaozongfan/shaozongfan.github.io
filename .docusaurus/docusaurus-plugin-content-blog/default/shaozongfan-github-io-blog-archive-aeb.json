@@ -1,0 +1,262 @@
+{
+  "blogPosts": [
+    {
+      "id": "/libc/使用mtrace跟踪内存泄露问题",
+      "metadata": {
+        "permalink": "/shaozongfan.github.io/blog/libc/使用mtrace跟踪内存泄露问题",
+        "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/blog/libc/使用mtrace跟踪内存泄露问题.md",
+        "source": "@site/blog/libc/使用mtrace跟踪内存泄露问题.md",
+        "title": "libc/使用mtrace跟踪内存泄露问题",
+        "description": "前言",
+        "date": "2025-09-07T05:24:28.500Z",
+        "formattedDate": "2025年9月7日",
+        "tags": [],
+        "readingTime": 20.065,
+        "truncated": false,
+        "authors": [],
+        "frontMatter": {},
+        "nextItem": {
+          "title": "linux-kernel/linux-内核模块中引用符号是如何链接的",
+          "permalink": "/shaozongfan.github.io/blog/linux-kernel/linux-内核模块中引用符号是如何链接的"
+        }
+      },
+      "content": "## 前言\n研究动态链接的原理中，无意间发现了 **mtrace** 这个东东。它是一个 libc 库提供的函数，**通过向 malloc、calloc、free 等函数注册 hook 函数来实现内存申请与释放的跟踪**，可以用来**定位内存泄露问题**。\n\n在本文中，我将描述一个具体的使用实例，及使用过程中遇到的一些问题。\n## mtrace 示例 demo\n**man 3 mtrace** 查看 manual 信息，发现 manual 中已经提供了一个非常简单的示例 demo，其源码如下：\n\n```c\n#include <mcheck.h>\n#include <stdlib.h>\n#include <stdio.h>\n\nint\nmain(int argc, char *argv[])\n{\n    int j;\n\n    mtrace();\n\n    for (j = 0; j < 2; j++)\n        malloc(100);            /* Never freed--a memory leak */\n\n    calloc(16, 16);             /* Never freed--a memory leak */\n    exit(EXIT_SUCCESS);\n}\n```\n将上述代码保存为 t_mtrace.c 源文件，执行如下命令进行编译：\n\n```bash\ngcc -g t_mtrace.c -o t_mtrace\n```\n在运行之前，我们需要设定 **MALLOC_TRACE** 环境变量，这个环境变量指向 mtrace 输出记录文件的路径。\n\nMALLOC_TRACE 设定示例如下：\n\n```bash\n export MALLOC_TRACE=/tmp/t\n```\n设定了这个变量之后就可以运行 **t_mtrace** 程序，运行完成后 /tmp/t 文件中将会保存输出的记录，示例如下：\n\n```bash\n[longyu@debian-10:19:25:40] program-problem $ cat /tmp/t\n= Start\n@ ./t_mtrace:[0x55555555518c] + 0x5555555596a0 0x64\n@ ./t_mtrace:[0x55555555518c] + 0x555555559710 0x64\n@ ./t_mtrace:[0x5555555551a5] + 0x555555559780 0x100\n```\n**/tmp/t** 的输出并不直观，libc 库提供了一个同样名为 mtrace 的 perl 脚本来解析这个记录，mtrace 脚本需要提供两个参数，第一个参数为**可执行程序的路径名**，第二个参数为 **mtrace 函数输出的记录文件**。\n\n执行示例如下：\n\n```bash\n[longyu@debian-10:19:29:08] program-problem $ mtrace ./t_mtrace $MALLOC_TRACE\n\nMemory not freed:\n-----------------\n           Address     Size     Caller\n0x00005555555596a0     0x64  at 0x55555555518c\n0x0000555555559710     0x64  at 0x55555555518c\n0x0000555555559780    0x100  at 0x5555555551a5\n```\n这里我得到的输出信息与 manual 中的信息不同，**没有显示出调用者所在源码中的行号。**\n\nmanual 中的输出信息如下：\n```bash\n           $ mtrace ./t_mtrace $MALLOC_TRACE\n           Memory not freed:\n           -----------------\n              Address     Size     Caller\n           0x084c9378     0x64  at /home/cecilia/t_mtrace.c:12\n           0x084c93e0     0x64  at /home/cecilia/t_mtrace.c:12\n           0x084c9448    0x100  at /home/cecilia/t_mtrace.c:16\n```\n重新 **check** 我的运行过程，我确定与 manual 中描述的一致，看来一定是哪里出了问题了。\n\n## 对 mtrace 脚本解析不到行号问题的解决过程\n对这个问题，我最开始进行了如下尝试：\n\n1. -O0 -g 编译后测试发现仍旧没有打印\n2. 修改文件名为绝对路径后也没有打印\n3. 对比加了-g、没有加 -g  /tmp/t 文件的区别，发现内容完全相同\n4. 网上搜索发现有相关的描述，不过网页中同 manual 中一样能够显示源代码行号\n\n在上面的尝试都失败后，我开始使用 strace 大法。用了 strace 后看到了一堆系统调用，其中**有执行 addr2line 的过程**，看来这个 mtrace 脚本实际是运行 addr2line 命令获取到的行号，那**问题是否出在 addr2line 中呢？**\n\n我单独使用 addr2line 获取 /tmp/t 中函数调用地址对应的行号，发现根本获取不到任何信息，输出内容为 ??。\n\n搞到这里我还是没有发现根本问题，只能硬着头皮用 perl -d 来运行这个 mtrace 脚本，调试了下也没有发现关键的点。\n\n### 进一步的分析\n在一系列的尝试后，我暂时没有找到一个解决方案，不过我觉得 **addr2line 是个非常重要的怀疑对象**。为了验证我的猜测，我将代码进行了如下修改：\n\n```c\n#include <mcheck.h>\n#include <stdlib.h>\n#include <stdio.h>\n\nint\nmain(int argc, char *argv[])\n{\n    int j;\n\n    mtrace();\n\t\t\t\t\n    printf(\"%p\\n\", mtrace);\n    for (j = 0; j < 2; j++)\n        malloc(100);            /* Never freed--a memory leak */\n\n    calloc(16, 16);             /* Never freed--a memory leak */\n    pause();\n    exit(EXIT_SUCCESS);\n}\n```\n\n我这里打印出了 **mtrace 函数的地址**，编译并执行后会得到 mtrace 函数的地址，然后我使用 addr2line 命令，指定这个地址来获取源码行号，发现仍旧打印的是 ??，这让我觉的很大概率是 **addr2line 命令的问题**。\n\n在这个基础上，我执行 **objdump -d 反汇编可执行文件**，然后使用 main 函数的**相对地址为参数**继续调用 addr2line 命令来解析，这一次**能够解析到了。**\n\n测试过程记录如下：\n\n```bash\n[longyu@debian-10:19:50:39] program-problem $ objdump -d t_mtrace | grep main\n    109d:\t48 8d 3d c1 00 00 00 \tlea    0xc1(%rip),%rdi        # 1165 <main>\n    10a4:\tff 15 2e 2f 00 00    \tcallq  *0x2f2e(%rip)        # 3fd8 <__libc_start_main@GLIBC_2.2.5>\n0000000000001165 <main>:\n    119b:\teb 0e                \tjmp    11ab <main+0x46>\n    11af:\t7e ec                \tjle    119d <main+0x38>\n[longyu@debian-10:19:50:44] program-problem $ addr2line -e ./t_mtrace 1165\n/home/longyu/problem_and_solution/program-problem/./t_mtrace.c:7\n```\n可以看到在最后一行，addr2line 打印出了行号！\n\n然后使用 gdb 运行，start 后在 main 函数处停下来后，反汇编 main 函数，发现 **main 函数的地址与 objdump -d 的输出完全不同**，看来应该是**基地址被修改了。**\n\n测试记录如下：\n```bash\n(gdb) start\nTemporary breakpoint 1 at 0x1174: file ./mtrace.c, line 10.\nStarting program: /home/longyu/problem_and_solution/program-problem/t_mtrace \n\nTemporary breakpoint 1, main (argc=1, argv=0x7fffffffdae8) at ./mtrace.c:10\n10\t               mtrace();\n(gdb) disass main\nDump of assembler code for function main:\n   0x0000555555555165 <+0>:\tpush   %rbp\n```\n可以看到这里 main 函数的地址变为了 **0x0000555555555165**，这就造成 addr2line 命令不能解析到源码行号。\n\n### 关闭 ASLR\n**再次执行此程序**，我发现每次打印的 mtrace 函数的地址都不一样，这点让我想起了 ASLR 这个功能，首先查看 /proc/sys/kernel/randomize_va_space 文件的内容，发现值为 2 表示**这个功能确实是打开的。**\n\n使用 root 权限向 /proc/sys/kernel/randomize_va_space 文件写入 0 关闭这个功能后，重新执行上面的测试，发现**仍旧不能获取到行号信息**。\n\n看来还是得从 addr2line 命令上着手！\n\n### 以 addr2line cannot work 为关键词搜索互联网\n使用 addr2line cannot work 搜索后，我在 [addr2line cannot decode addresses that gdb does](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=860394) 这篇链接中看到了如下关键信息：\n\n```\nThere are 2 things going on. First, by default gcc is now building\nexecutables as position independent (-pie). This can be explicitly\ndisabled with the -no-pie linking option. Disabling PIE should result in\nthings working as they did before.\n\nThe second thing going on is Address Space Layout Randomization\n(ASLR). This is now active by default and will cause all PIE executables\nto be loaded to random addresses. This can be disabled globally with\nsysctl:\n\n    $ sudo sysctl -w kernel.randomize_va_space=0\n\nOr with a boot argument:\n\n    norandmaps\n\nOr (preferrably) locally for the process you are interested:\n\n    $ setarch `uname -m` -R /some/program\n\nOften it is convenient to use the above command with /bin/bash so as to\nquickly create a non-randomized environment for yourself.\n\nHowever, be aware that even when ASLR is disabled, if it is a PIE\nexectuable, it will always load to the same address, but that is not the\naddress within the executable. That means that for PIE executables, many\nbinutils (such as addr2line) will require you to recalculate the offset.\n```\n我**已经关闭了 ASLR 功能**，对应上述描述的第二点，第一点描述说与 pie 有关，通过指定 **-no-pie** 参数重新编译上述程序，直接在 gdb 中运行，再次反汇编 main 函数，这次得到了如下输出信息：\n\n```bash\n(gdb) start\nTemporary breakpoint 1 at 0x401171: file ./mtrace.c, line 10.\nStarting program: /home/longyu/problem_and_solution/program-problem/t_mtrace \n\nTemporary breakpoint 1, main (argc=1, argv=0x7fffffffdae8) at ./mtrace.c:10\n10\t               mtrace();\n(gdb) disass main\nDump of assembler code for function main:\n   0x0000000000401162 <+0>:\tpush   %rbp\n```\n可以看到这次，main 函数地址变为了 **0x401162**，objdump -d 输出的 main 函数地址如下：\n\n```bash\n0000000000401162 <main>:\n  401162:\t55                   \tpush   %rbp\n```\n可以看到，**这次 objdump 得到的函数地址与运行时的地址一致了**，看来应该没有问题了。\n\n运行程序后，继续查看 /tmp/t 的内容，这次得到了如下信息：\n\n```bash\n[longyu@debian-10:20:09:00] program-problem $ cat /tmp/t\n= Start\n@ /lib/x86_64-linux-gnu/libc.so.6:(_IO_file_doallocate+0x8c)[0x7ffff7e5971c] + 0x4056a0 0x400\n@ ./t_mtrace:[0x4011a4] + 0x405ab0 0x64\n@ ./t_mtrace:[0x4011a4] + 0x405b20 0x64\n@ ./t_mtrace:[0x4011bd] + 0x405b90 0x100\n@ /lib/x86_64-linux-gnu/libc.so.6:[0x7ffff7f52ad4] - 0x4056a0\n```\n这个输出看上去非常正常，看来问题应该能够得到解决了！再次执行 mtrace 脚本，这次确实能够获取到源码行号了，操作记录如下：\n\n```bash\n[longyu@debian-10:20:10:06] program-problem $ mtrace ./t_mtrace /tmp/t\n\nMemory not freed:\n-----------------\n           Address     Size     Caller\n0x0000000000405ab0     0x64  at /home/longyu/problem_and_solution/program-problem/./t_mtrace.c:13 (discriminator 3)\n0x0000000000405b20     0x64  at /home/longyu/problem_and_solution/program-problem/./t_mtrace.c:13 (discriminator 3)\n0x0000000000405b90    0x100  at /home/longyu/problem_and_solution/program-problem/./t_mtrace.c:17\n```\n如果你对这里的行号足够敏感，你会发现这里的行号并不准确，其实在 manual 中已经说明了这个问题。\n\n上述 demo 中调用了 malloc 与 calloc 函数并且都没有调用 free 来释放，**模拟内存泄露的情况**，根据 mtrace 的输出，我们就能够马上定位到内存泄露的位置。\n\n同时需要注意的是，当 **MALLOC_TRACE** 指向了一个合法的可以写的文件路径时，mtrace 能够运行，但是可能会带来**性能上的损耗！**\n## mtrace 是咋样实现的？\n解决了 addr2line 不能显示源码行号的问题，mtrace 算正式上手了，下一个问题是 mtrace 是如何实现的呢？\n\nmtrace 函数的源码位于 glibc 源码中的 **malloc/mtrace.c** 中，核心逻辑是设定 malloc、calloc、realloc、free 等几个申请、释放内存空间函数使用的内部 hook 函数。相关代码如下：\n\n```c\n308           tr_old_free_hook = __free_hook;\n309           __free_hook = tr_freehook;\n310           tr_old_malloc_hook = __malloc_hook;\n311           __malloc_hook = tr_mallochook;\n312           tr_old_realloc_hook = __realloc_hook;\n313           __realloc_hook = tr_reallochook;                                                                                                                               \n314           tr_old_memalign_hook = __memalign_hook;\n315           __memalign_hook = tr_memalignhook;\n```\n那这些 hook 函数是在哪里被调用的呢？这里我以 malloc 函数中的调用代码为例来描述，旨在抛出**如何获取返回地址**这一问题。\n\n相关代码如下：\n\n```c\n3018 void * \n3019 __libc_malloc (size_t bytes)\n3020 { \n3021   mstate ar_ptr;\n3022   void *victim;\n3023   \n3024   void *(*hook) (size_t, const void *)\n3025     = atomic_forced_read (__malloc_hook);\n3026   if (__builtin_expect (hook != NULL, 0))\n3027     return (*hook)(bytes, RETURN_ADDRESS (0));\n```\n注意当 **__malloc_hook** 不为 NULL 的时候（调用了 mtrace 函数会设定 __malloc_hook 函数指针），该 hook 函数会被被调用，调用 hook 函数传递的第二个参数 **RETURN_ADDRESS (0)** 值得研究。\n\n这个 RETURN_ADDRESS(0) 是一个宏，其定义如下：\n\n```c\n/* Determine the return address.  */\n#define RETURN_ADDRESS(nr) \\\n  __builtin_extract_return_addr (__builtin_return_address (nr))\n```\n这里使用了 gcc 的扩展功能来获取函数的返回地址，这里的 nr 对应的是栈帧的层级，0 表示当前函数的返回地址，放在这就是 **malloc 函数执行完成后继续执行的下一条指令地址。**\n\n## __builtin_return_address 是如何实现的？\n写到这里与 mtrace 相关的内容告一段落，开始跳到 __builtin_return_address 的实现上。\n\n关于这个函数的实现，根据之前学习 《CSAPP》的印象，其实关键在于获取到栈中不同栈帧的 EBP 与 EIP 的值，**EBP 表示栈底，而 EIP 则是返回地址。**\n\n函数调用时，**参数首先压栈，按照从右向左的顺序**，然后**返回地址入栈**，然后**调用者的 EBP （旧的EBP ）压栈**。x86 中栈是向下增长的，我们只需要获取到当前 EBP 寄存器的值向上拨动一个数据单元（32-bit 4 字节，64-bit 8 字节），访问这个地址就能够得到返回地址。同时上一级函数栈帧的 EBP 又可以通过当前函数的 EBP 获取到（**访问当前函数 EBP 寄存器值指向的地址**）。\n\n由于函数调用存在嵌套性，可能存在多个函数栈帧，我们需要**递归执行**上述过程。\n\n更具体的信息请访问：\n\n[系统程序员成长计划－像机器一样思考(二)](https://blog.csdn.net/absurd/article/details/4207357?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160423542319724836730112%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=160423542319724836730112&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v1~rank_blog_v1-6-4207357.pc_v1_rank_blog_v1&utm_term=%E8%B0%83%E7%94%A8&spm=1018.2118.3001.4450)\n[](https://blog.csdn.net/absurd/article/details/4207357?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160423542319724836730112%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=160423542319724836730112&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v1~rank_blog_v1-6-4207357.pc_v1_rank_blog_v1&utm_term=%E8%B0%83%E7%94%A8&spm=1018.2118.3001.4450)\n\n上述链接中的示例代码直接编译运行在我的系统上会报段错误，我修改了部分内容，新的 demo 如下：\n\n```c\n#include <stdio.h> \n\n#define NEW_GCC\n#define MAX_LEVEL 4\n#ifdef NEW_GCC\n#define OFFSET 4\n#else\n#define OFFSET 0\n#endif/*NEW_GCC*/ \n\nint backtrace(void** buffer, int size)\n{\n\tlong n = 0xfefefefe;\n\tlong* p = &n;\n\tint\t i = 0; \n\n\tlong ebp = p[1 + OFFSET];\n\tlong eip = p[2 + OFFSET]; \n\n\tfor(i = 0; i < size; i++)\n\t{\n\t\tbuffer[i] = (void*)eip;\n\t\tp = (long*)ebp;\n\t\tebp = p[0];\n\t\teip = p[1];\n\t} \n\n\treturn size;\n} \n\nstatic void test2()\n{\n\tint i = 0;\n\tvoid* buffer[MAX_LEVEL] = {0}; \n\n\tbacktrace(buffer, MAX_LEVEL); \n\n\tfor(i = 0; i < MAX_LEVEL; i++)\n\t{\n\t\tprintf(\"called by %p\\n\",\tbuffer[i]);\n\t} \n\n\treturn;\n} \n\nstatic void test1()\n{\n\tint a=0x11111111;\n\tint b=0x11111112; \n\n\ttest2();\n\ta = b; \n\n\treturn;\n} \n\nstatic void test()\n{\n\tint a=0x10000000;\n\tint b=0x10000002; \n\n\ttest1();\n\ta = b; \n\n\treturn;\n} \n\nint main(int argc, char* argv[])\n{\n\ttest(); \n\n\treturn 0;\n}\n```\n将上述代码保存为 backtrace.c，编译运行能够正常，记录如下：\n```c\n[longyu@debian-10:21:04:29] program-problem $ gcc ./backtrace.c -o backtrace\n[longyu@debian-10:21:04:31] program-problem $ ./backtrace\ncalled by 0x555555555204\ncalled by 0x555555555258\ncalled by 0x555555555281\ncalled by 0x5555555552a3\n```\n[系统程序员成长计划－像机器一样思考(二)](https://blog.csdn.net/absurd/article/details/4207357?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160423542319724836730112%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=160423542319724836730112&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v1~rank_blog_v1-6-4207357.pc_v1_rank_blog_v1&utm_term=%E8%B0%83%E7%94%A8&spm=1018.2118.3001.4450)\n[](https://blog.csdn.net/absurd/article/details/4207357?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160423542319724836730112%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=160423542319724836730112&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v1~rank_blog_v1-6-4207357.pc_v1_rank_blog_v1&utm_term=%E8%B0%83%E7%94%A8&spm=1018.2118.3001.4450)这篇李先静大神的博客中，从根本上解释了我之前描述的 addr2line 命令不能获取到行号的问题。\n\n相关的内容摘录如下：\n\n>对于共享库，addr2line无法根据这个地址找到对应的源代码位置了。原因是：addr2line只能通过地址偏移量来查找，而打印出的地址是绝对地址。由于共享库加载到内存的位置是不确定的，为了计算地址偏移量，我们还需要进程maps文件的帮助\n\n## 进程 maps 文件的使用\n每一个进程都有自己的虚拟内存空间，其虚拟内存空间映射可以通过查看 /proc/[pid]/maps 文件来确定。\n\n上文中已经描述了运行 backtrace 程序得到的如下输出信息：\n\n```c\n[longyu@debian-10:21:04:31] program-problem $ ./backtrace\ncalled by 0x555555555204\ncalled by 0x555555555258\ncalled by 0x555555555281\ncalled by 0x5555555552a3\n```\n### 用 gdb 来验证\ngdb 挂起程序，反汇编调用到的不同函数，调用指令与返回地址指令列举如下：\n\n```asm\n   0x000055555555529e <+20>:\tcallq  0x555555555261 <test>\n   **0x00005555555552a3 <+25>:\tmov    $0x0,%eax**\n   0x000055555555527c <+27>:\tcallq  0x555555555238 <test1>\n   **0x0000555555555281 <+32>:\tmov    -0x8(%rbp),%eax**\n   0x0000555555555253 <+27>:\tcallq  0x5555555551c4 <test2>\n   **0x0000555555555258 <+32>:\tmov    -0x8(%rbp),%eax**\n   0x00005555555551ff <+59>:\tcallq  0x555555555135 <backtrace>\n   **0x0000555555555204 <+64>:\tmovl   $0x0,-0x4(%rbp)**\n```\n\n这里加粗的表示返回地址，可以看到与上面的输出是对应的，不过由于 backtrace 是向后回溯的，与这里的**顺序刚好相反**。\n\n### 使用 maps 文件来验证\n上面 backtrace 程序运行的输出信息中 0x555555555204 这些地址是**程序被映射到虚拟内存空间的虚拟地址**，我通过执行如下步骤来获取到程序虚拟内存空间布局：\n\n1. 使用 gdb 运行 backtrace 程序并在 main 函数处停下来\n2. 使用 pmap 查看 backtrace 程序的虚拟内存空间映射\n\n虚拟内存空间映射表如下：\n\n```bash\n[longyu@debian-10:21:17:56] glibc-2.28 $ pmap -p 5201\n5201:   /home/longyu/problem_and_solution/program-problem/backtrace\n0000555555554000      4K r---- /home/longyu/problem_and_solution/program-problem/backtrace\n0000555555555000      4K r-x-- /home/longyu/problem_and_solution/program-problem/backtrace\n0000555555556000      4K r---- /home/longyu/problem_and_solution/program-problem/backtrace\n0000555555557000      4K r---- /home/longyu/problem_and_solution/program-problem/backtrace\n0000555555558000      4K rw--- /home/longyu/problem_and_solution/program-problem/backtrace\n00007ffff7dea000    136K r---- /usr/lib/x86_64-linux-gnu/libc-2.28.so\n00007ffff7e0c000   1312K r-x-- /usr/lib/x86_64-linux-gnu/libc-2.28.so\n00007ffff7f54000    304K r---- /usr/lib/x86_64-linux-gnu/libc-2.28.so\n00007ffff7fa0000      4K ----- /usr/lib/x86_64-linux-gnu/libc-2.28.so\n00007ffff7fa1000     16K r---- /usr/lib/x86_64-linux-gnu/libc-2.28.so\n00007ffff7fa5000      8K rw--- /usr/lib/x86_64-linux-gnu/libc-2.28.so\n00007ffff7fa7000     24K rw---   [ anon ]\n00007ffff7fd0000     12K r----   [ anon ]\n00007ffff7fd3000      8K r-x--   [ anon ]\n00007ffff7fd5000      4K r---- /usr/lib/x86_64-linux-gnu/ld-2.28.so\n00007ffff7fd6000    120K r-x-- /usr/lib/x86_64-linux-gnu/ld-2.28.so\n00007ffff7ff4000     32K r---- /usr/lib/x86_64-linux-gnu/ld-2.28.so\n00007ffff7ffc000      4K r---- /usr/lib/x86_64-linux-gnu/ld-2.28.so\n00007ffff7ffd000      4K rw--- /usr/lib/x86_64-linux-gnu/ld-2.28.so\n00007ffff7ffe000      4K rw---   [ anon ]\n00007ffffffdd000    136K rw---   [ stack ]\n total             2148K\n```\n这里我们需要关注 backtrace 程序在虚拟内存空间中的布局，可以看到有几个项目，起始地址为 0000555555554000，对应的项目如下：\n\n```bash\n0000555555554000      4K r---- /home/longyu/problem_and_solution/program-problem/backtrace\n```\n0000555555554000  即为 backtrace 程序映射的起始地址，我们用 backtrace 程序的输出地址减掉这个起始地址，将会得到下面几个地址：\n\n0x1204\n0x1258\n0x1281\n0x12a3\n\n将这几个地址写入一个名为 test 的文件中，使用 xargs 读取这个文件制作参数调用 addr2line 命令，得到了如下信息：\n\n```bash\n[longyu@debian-10:21:37:35] program-problem $ xargs -a ./test  addr2line -e ./backtrace \n/home/longyu/problem_and_solution/program-problem/./backtrace.c:38\n/home/longyu/problem_and_solution/program-problem/./backtrace.c:52\n/home/longyu/problem_and_solution/program-problem/./backtrace.c:63\n/home/longyu/problem_and_solution/program-problem/./backtrace.c:72\n```\n可以看到 addr2line 成功解析出了指令在代码中的位置。对于动态库中的函数地址，有类似的过程！\n\n## 总结\n一个简单的知识背后可能蕴藏了很多的问题，这些问题环环相扣，当你处在分析问题的过程中时，常常会感到头痛，但将整个过程串联起来后，却又会有非常大的成就感。\n\n从一个问题跳跃到另外一个问题，绕来绕去最终又回到最初的问题，不过此时知识面得到了扩充，输入增加了，有了这个增加的输入信息，最初的问题已经不算是问题了！\n\n本文的问题脉络大致有如下几点：\n\n1. 如何使用 mtrace？\n2. mtrace 脚本为什么不能打印源码行号？\n3. addr2line 为什么不能打印源码行号？\n4. mtrace 函数是如何工作的？\n5. RETURN_ADDRESS 宏的定义是什么？\n6. gcc 内建的 __builtin_return_address 是如何实现的？\n7. 从 backtrace 程序再次回到第三个问题\n\n注意在第 7 个关键点的时候，又回到了 3 这个点，不过这时候我有了 maps 文件这个输入，这个输入让 addr2line 不能打印行号的问题迎刃而解！\n\n列出这些关键点只想抛出一个问题：**你觉得自己会在哪个点结束呢？**"
+    },
+    {
+      "id": "/linux-kernel/linux-内核模块中引用符号是如何链接的",
+      "metadata": {
+        "permalink": "/shaozongfan.github.io/blog/linux-kernel/linux-内核模块中引用符号是如何链接的",
+        "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/blog/linux-kernel/linux-内核模块中引用符号是如何链接的.md",
+        "source": "@site/blog/linux-kernel/linux-内核模块中引用符号是如何链接的.md",
+        "title": "linux-kernel/linux-内核模块中引用符号是如何链接的",
+        "description": "前言",
+        "date": "2025-09-07T05:24:28.500Z",
+        "formattedDate": "2025年9月7日",
+        "tags": [],
+        "readingTime": 10.255,
+        "truncated": false,
+        "authors": [],
+        "frontMatter": {},
+        "prevItem": {
+          "title": "libc/使用mtrace跟踪内存泄露问题",
+          "permalink": "/shaozongfan.github.io/blog/libc/使用mtrace跟踪内存泄露问题"
+        },
+        "nextItem": {
+          "title": "Welcome",
+          "permalink": "/shaozongfan.github.io/blog/welcome"
+        }
+      },
+      "content": "## 前言\nlinux 内核模块的加载流程去年大致琢磨了一遍，简单的写了个草稿后就在草稿箱里积压着。按照以往的风格，应当以一篇长文呈现，今天想想却觉得不太可取。为什么不从关键的问题着手，使用较短的篇幅来逐个击破呢？\n\n最终选择了从问题出发的描述方式，在这种方式下，我首先得提出关键问题，这需要一定的训练，本文便是这样的一次实践。\n\n## 我的问题\n\n### 1. **linux 内核模块是如何链接的？**\n\n暂时无法回答。\n\n### 2. 为什么要提这个问题？\n\n常规的 c 程序要经过编译链接来生成可执行文件，链接的过程会按照链接脚本的配置来完成可执行文件的 layout 同时也会对所有的可重定位项目进行重定位，以确定访问地址偏移。\n\nlinux 内核模块也有类似的过程，可编译生成的内核模块只是一个【可重定位目标文件】，**那它的链接过程是在哪里执行的呢？**\n\n## 经验之谈\n\n内核模块一般通过 insmod、modprobe 命令加载运行，既然要运行，肯定需要确定模块内调用的外部符号的偏移地址，这一过程可能在如下流程中进行：\n\n1. insmod、modprobe 命令中\n2. 内核代码中模块加载流程中\n\n曾经 strace 跟踪过 insmod 加载内核模块的过程，核心逻辑是调用 finit_module、init_module 系统调用，没有看到其它操作，于是判断内核模块的链接应当是在内核代码中做的。\n\n下面我以一个简单的 hello world 内核模块为例，探讨内核中执行模块链接的过程。\n\n## 一个简单的内核模块源码\n\n```c\n#include <linux/module.h>\n#include <linux/init.h>\n\nstatic int __init my_init(void)\n{\n  printk(KERN_INFO \"Hello from Hello Module\\\\n\");\n  return 0;\n}\n\nstatic void __exit my_exit(void)\n{\n  printk(KERN_INFO \"Bye from Hello Module\\\\n\");\n}\n\nmodule_init(my_init);\nmodule_exit(my_exit);\n\nMODULE_DESCRIPTION(\"Sample Hello World Module\");\nMODULE_LICENSE(\"GPL\");\n\n```\n\n将上述内容保存为 mymodule.c 使用如下 Makefile 内容编译：\n\n```makefile\nMODULE_FILENAME=mymodule\n\nPWD := $(shell pwd)\nobj-m += ${MODULE_FILENAME}.o\nKO_FILE=${MODULE_FILENAME}.ko\n\nexport KROOT=/lib/modules/$(shell uname -r)/build\nmodules:\n\t@${MAKE} -C ${KROOT} M=${PWD}\n\nmodules_install:\n\t@${MAKE} -C ${KROOT} M=${PWD} modules_install\n\nclean:\n\t@${MAKE} -C ${KROOT} M=${PWD} clean\n\trm -rf Modules.symvers modules.order\n\ninsert: modules\n\tsudo insmod ${KO_FILE}\n\nremove:\n\tsudo rmmod ${MODULE_FILENAME}\n\nprintlog:\n\tsudo dmesg -c\n\tsudo insmod ${KO_FILE}\n\tdmesg\n```\n\n## objdump -d mymodule.ko\n\n```bash\nDisassembly of section .init.text:\n\n0000000000000000 <init_module>:\n   0:\te8 00 00 00 00       \tcallq  5 <init_module+0x5>\n   5:\t48 c7 c7 00 00 00 00 \tmov    $0x0,%rdi\n   c:\te8 00 00 00 00       \tcallq  11 <init_module+0x11>\n  11:\t31 c0                \txor    %eax,%eax\n  13:\tc3                   \tretq\n\nDisassembly of section .exit.text:\n\n0000000000000000 <cleanup_module>:\n   0:\t48 c7 c7 00 00 00 00 \tmov    $0x0,%rdi\n   7:\te9 00 00 00 00       \tjmpq   c <__UNIQUE_ID_description18>\n\n```\n\ninit_module 为模块的初始化函数，在其中调用到的两个 **callq** 指令用于子函数调用。**callq** 指令的字节码为 **0xe8**，其后四个字节为函数跳转偏移，这里两个 **callq** 指令的函数跳转偏移值都为 0，这符合可重定位目标文件的特征，这里就是两处需要链接过程完成的重定位对象。\n\n第二个 callq 可以明确是 printk，第一个 callq 根据 readelf -r 的输出判断是 ```__fentry__ ```。\n\n## readelf -r mymodule.ko\n\n```bash\nRelocation section '.rela.init.text' at offset 0x1cb30 contains 3 entries:\n  Offset          Info           Type           Sym. Value    Sym. Name + Addend\n000000000001  002600000004 R_X86_64_PLT32    0000000000000000 __fentry__ - 4\n000000000008  00060000000b R_X86_64_32S      0000000000000000 .rodata.str1.1 + 0\n00000000000d  002800000004 R_X86_64_PLT32    0000000000000000 printk - 4\n\nRelocation section '.rela.exit.text' at offset 0x1cb78 contains 2 entries:\n  Offset          Info           Type           Sym. Value    Sym. Name + Addend\n000000000003  00060000000b R_X86_64_32S      0000000000000000 .rodata.str1.1 + 1b\n000000000008  002800000004 R_X86_64_PLT32    0000000000000000 printk - 4\n```\n\nreadelf -r 参数获取可执行目标文件的可重定位 section 表项。上述输出中有如下两个可重定位 section:\n\n1. .rela.init.text\n2. .rela.exit.text\n\n每个 section 中都列举出了【需要重定位的项目】，一个项目有五个方面的内容，其中 **Offset 为可重定位目标地址相对文件起始地址的偏移量**，**Type 为重定位的类型**，用于计算偏移地址，**Sym. Name + Addend 字段为符号名称以及计算地址偏移量时的修正值。**\n\n**.rela.init_text section** 中有两种重定位类型，**R_X86_64_PLT32**  用于函数偏移计算，**R_X86_64_32S** 用于数据偏移计算。str1.1 实际指向 init_module 函数中 printk 函数打印的字符串。\n\n函数偏移的计算可以参考如下内容来学习：\n\n>So despite the fact that the type of the relocation entry is R_X86_64_PLT32 the linker will still use the R_X86_64_PC32 computation (S + A - P) for the relocation target being modified, where:\n>\n>    S is the value of the symbol (st_value of Elf64_Sym)\n    A is the addend (-4 in your case)\n    P is the address of the memory location being relocated (the start of the address of the call to Other)\n\n上述英文摘自 [How does the address of R_X86_64_PLT32 computed?](https://stackoverflow.com/questions/64424692/how-does-the-address-of-r-x86-64-plt32-computed) 更多的信息可以阅读《深入理解计算机系统》第三版 7.7 节。\n\n在下文中我会用一个实例来说明函数偏移地址的计算过程。\n\n## 在内核源码中找到模块链接相关代码\n\n使用 R_X86_64_PLT32 关键字进行如下搜索：\n\n1. 搜索 kernel 目录\n2. 搜索 arch/x86 目录\n确定模块链接流程在 arch/x86/kernel/module.c 中实现。\n\n阅读 module.c 的代码，发现有一个调试信息，于是修改内核代码，开启调试信息。\n\n## 内核代码修改 patch\n\n```c\ndiff --git a/arch/x86/kernel/module.c b/arch/x86/kernel/module.c\nindex b052e883dd8c..11e39304c55f 100644\n--- a/arch/x86/kernel/module.c\n+++ b/arch/x86/kernel/module.c\n@@ -37,7 +37,7 @@\n #include <asm/setup.h>\n #include <asm/unwind.h>\n\n-#if 0\n+#if 1\n #define DEBUGP(fmt, ...)                               \\\\\n        printk(KERN_DEBUG fmt, ##__VA_ARGS__)\n #else\n@@ -196,6 +196,7 @@ int apply_relocate_add(Elf64_Shdr *sechdrs,\n                                goto invalid_relocation;\n                        val -= (u64)loc;\n                        *(u32 *)loc = val;\n+\n #if 0\n                        if ((s64)val != *(s32 *)loc)\n                                goto overflow;\n@@ -212,6 +213,7 @@ int apply_relocate_add(Elf64_Shdr *sechdrs,\n                               me->name, ELF64_R_TYPE(rel[i].r_info));\n                        return -ENOEXEC;\n                }\n+               DEBUGP(\"val is 0x%llx\\\\n\", val);\n        }\n        return 0;\n\n```\n\n## 重新编译并更新内核后加载 mymodule.ko 后 dmesg 部分打印信息\n\n```bash\n[  109.974417] type 4 st_value ffffffffbda016d0 r_addend fffffffffffffffc loc ffffffffc0106001\n[  109.974418] val is 0xfffffffffd8fb6cb\n.........\n```\n\n由于打印信息很多，我只截取了其中的一条项目。在上述项目中关键的信息解析如下：\n\n1. type 4 表示重定位类型为 R_X86_64_PLT32 \n2. st_value ffffffffbda016d0 表示 ```__fentry__```符号地址\n    \n    通过访问 /proc/kallsyms 文件确定，相关信息摘录如下；\n    \n\n\t```bash\n\t[root@debian-10:17:55:34] helloworld_module # grep __fentry__ /proc/kallsyms\n\tffffffffbda016d0 T __fentry__\n\t```\n\n1. r_addend fffffffffffffffc  为上文中 readelf -r 输出中 ```__fentry__```函数的 Addend 值—— -4\n2. loc ffffffffc0106001 表示上文中 readelf -r 输出中```__fentry__```被重定位区域在内核的实际地址\n3. val is 0xfffffffffd8fb6cb，val 为最终计算出的访问 ```__fentry__```函数的偏移量，会被填充到 loc 指向的地址中\n    \n    val 计算公式为 S + A - P: ffffffffbda016d0 + fffffffffffffffc  - ffffffffc0106001 = **0xfffffffffd8fb6cb**\n    \n\n## 核心内核代码\n\n内核代码中相关函数调用关系如下：\n```c\ninit_module/finit_module\n\tload_module\n       apply_relocations\n           apply_relocate_add\n  ```\napply_relocate_add 函数中完成重定向任务，核心代码摘录如下：\n\n```c\n        for (i = 0; i < sechdrs[relsec].sh_size / sizeof(*rel); i++) {\n                /* This is where to make the change */\n                loc = (void *)sechdrs[sechdrs[relsec].sh_info].sh_addr\n                        + rel[i].r_offset;\n\n                /* This is the symbol it is referring to.  Note that all\n                   undefined symbols have been resolved.  */\n                sym = (Elf64_Sym *)sechdrs[symindex].sh_addr\n                        + ELF64_R_SYM(rel[i].r_info);\n\n                DEBUGP(\"type %d st_value %Lx r_addend %Lx loc %Lx\\\\n\",\n                       (int)ELF64_R_TYPE(rel[i].r_info),\n                       sym->st_value, rel[i].r_addend, (u64)loc);\n\n                val = sym->st_value + rel[i].r_addend;\n                switch (ELF64_R_TYPE(rel[i].r_info)) {\n                case R_X86_64_NONE:\n                        break;\n                case R_X86_64_64:\n                        if (*(u64 *)loc != 0)\n                                goto invalid_relocation;\n                        *(u64 *)loc = val;\n                        break;\n                case R_X86_64_32:\n                        if (*(u32 *)loc != 0)\n                                goto invalid_relocation;\n                        *(u32 *)loc = val;\n                        if (val != *(u32 *)loc)\n                                goto overflow;\n                        break;\n                case R_X86_64_32S:\n                        if (*(s32 *)loc != 0)\n                                goto invalid_relocation;\n                        *(s32 *)loc = val;\n                        if ((s64)val != *(s32 *)loc)\n                                goto overflow;\n                        break;\n                case R_X86_64_PC32:\n                case R_X86_64_PLT32:\n                        if (*(u32 *)loc != 0)\n                                goto invalid_relocation;\n                        val -= (u64)loc;\n                        *(u32 *)loc = val;\n..........\n\n```\n\n上述代码遍历每个可重定位 section 项目，loc 指向模块加载到内核后存储每个可重定位项目被重定位区域的内存地址，代表 **R_X86_64_PLT32**  中的标号 **P**。\n\nsym 中保存已经 resolve 的未定义符号，sym->value 表示符号加载地址，代表 **R_X86_64_PLT32**  中的标号 **S**。\n\nrel[i].r_addend 保存可重定位项目的 **Addend** 值，代表 **R_X86_64_PLT32**  中的标号 **A**。\n\n在确定了这些信息后，switch 语句通过可重定位项目的 Type 字段进行逻辑分发，计算并填充重定位后的地址。对于 R_X86_64_PLT32  这种类型来说，计算公式就是 **S + A - P**。\n\n## 总结\n\n善于提问是一种很好的能力。主动发现并提出问题然后积极的寻找答案，最后给出合理的答案，收获成就感并推动自己继续提出新的问题，这是一个正反馈。从自己能够回答的小问题开始，不断的循环往复，雪球会越滚越大，时间正站在你这边。"
+    },
+    {
+      "id": "welcome",
+      "metadata": {
+        "permalink": "/shaozongfan.github.io/blog/welcome",
+        "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/blog/2021-08-26-welcome/index.md",
+        "source": "@site/blog/2021-08-26-welcome/index.md",
+        "title": "Welcome",
+        "description": "Docusaurus blogging features are powered by the blog plugin.",
+        "date": "2021-08-26T00:00:00.000Z",
+        "formattedDate": "2021年8月26日",
+        "tags": [
+          {
+            "label": "facebook",
+            "permalink": "/shaozongfan.github.io/blog/tags/facebook"
+          },
+          {
+            "label": "hello",
+            "permalink": "/shaozongfan.github.io/blog/tags/hello"
+          },
+          {
+            "label": "docusaurus",
+            "permalink": "/shaozongfan.github.io/blog/tags/docusaurus"
+          }
+        ],
+        "readingTime": 0.405,
+        "truncated": false,
+        "authors": [
+          {
+            "name": "shaozongfan",
+            "title": "shaozongfan's life manager",
+            "url": "https://github.com/shaozongfan",
+            "imageURL": "https://github.com/longyuwlz.png",
+            "key": "shaozongfan"
+          }
+        ],
+        "frontMatter": {
+          "slug": "welcome",
+          "title": "Welcome",
+          "authors": [
+            "shaozongfan"
+          ],
+          "tags": [
+            "facebook",
+            "hello",
+            "docusaurus"
+          ]
+        },
+        "prevItem": {
+          "title": "linux-kernel/linux-内核模块中引用符号是如何链接的",
+          "permalink": "/shaozongfan.github.io/blog/linux-kernel/linux-内核模块中引用符号是如何链接的"
+        },
+        "nextItem": {
+          "title": "MDX Blog Post",
+          "permalink": "/shaozongfan.github.io/blog/mdx-blog-post"
+        }
+      },
+      "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+    },
+    {
+      "id": "mdx-blog-post",
+      "metadata": {
+        "permalink": "/shaozongfan.github.io/blog/mdx-blog-post",
+        "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/blog/2021-08-01-mdx-blog-post.mdx",
+        "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+        "title": "MDX Blog Post",
+        "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+        "date": "2021-08-01T00:00:00.000Z",
+        "formattedDate": "2021年8月1日",
+        "tags": [
+          {
+            "label": "docusaurus",
+            "permalink": "/shaozongfan.github.io/blog/tags/docusaurus"
+          }
+        ],
+        "readingTime": 0.175,
+        "truncated": false,
+        "authors": [
+          {
+            "name": "shaozongfan",
+            "title": "shaozongfan's life manager",
+            "url": "https://github.com/shaozongfan",
+            "imageURL": "https://github.com/longyuwlz.png",
+            "key": "shaozongfan"
+          }
+        ],
+        "frontMatter": {
+          "slug": "mdx-blog-post",
+          "title": "MDX Blog Post",
+          "authors": [
+            "shaozongfan"
+          ],
+          "tags": [
+            "docusaurus"
+          ]
+        },
+        "prevItem": {
+          "title": "Welcome",
+          "permalink": "/shaozongfan.github.io/blog/welcome"
+        },
+        "nextItem": {
+          "title": "shaozongfan Blog Post",
+          "permalink": "/shaozongfan.github.io/blog/shaozongfan-blog-post"
+        }
+      },
+      "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+    },
+    {
+      "id": "shaozongfan-blog-post",
+      "metadata": {
+        "permalink": "/shaozongfan.github.io/blog/shaozongfan-blog-post",
+        "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/blog/2019-05-29-long-blog-post.md",
+        "source": "@site/blog/2019-05-29-long-blog-post.md",
+        "title": "shaozongfan Blog Post",
+        "description": "This is the summary of a very long blog post,",
+        "date": "2019-05-29T00:00:00.000Z",
+        "formattedDate": "2019年5月29日",
+        "tags": [
+          {
+            "label": "hello",
+            "permalink": "/shaozongfan.github.io/blog/tags/hello"
+          },
+          {
+            "label": "docusaurus",
+            "permalink": "/shaozongfan.github.io/blog/tags/docusaurus"
+          }
+        ],
+        "readingTime": 2.05,
+        "truncated": true,
+        "authors": [
+          {
+            "name": "shaozongfan",
+            "title": "shaozongfan's life manager",
+            "url": "https://github.com/shaozongfan",
+            "imageURL": "https://github.com/longyuwlz.png",
+            "key": "shaozongfan"
+          }
+        ],
+        "frontMatter": {
+          "slug": "shaozongfan-blog-post",
+          "title": "shaozongfan Blog Post",
+          "authors": "shaozongfan",
+          "tags": [
+            "hello",
+            "docusaurus"
+          ]
+        },
+        "prevItem": {
+          "title": "MDX Blog Post",
+          "permalink": "/shaozongfan.github.io/blog/mdx-blog-post"
+        },
+        "nextItem": {
+          "title": "First Blog Post",
+          "permalink": "/shaozongfan.github.io/blog/first-blog-post"
+        }
+      },
+      "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+    },
+    {
+      "id": "first-blog-post",
+      "metadata": {
+        "permalink": "/shaozongfan.github.io/blog/first-blog-post",
+        "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/blog/2019-05-28-first-blog-post.md",
+        "source": "@site/blog/2019-05-28-first-blog-post.md",
+        "title": "First Blog Post",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+        "date": "2019-05-28T00:00:00.000Z",
+        "formattedDate": "2019年5月28日",
+        "tags": [
+          {
+            "label": "hola",
+            "permalink": "/shaozongfan.github.io/blog/tags/hola"
+          },
+          {
+            "label": "docusaurus",
+            "permalink": "/shaozongfan.github.io/blog/tags/docusaurus"
+          }
+        ],
+        "readingTime": 0.12,
+        "truncated": false,
+        "authors": [
+          {
+            "name": "shaozongfan",
+            "title": "Docusaurus Core Team",
+            "url": "https://github.com/shaozongfan",
+            "image_url": "https://github.com/shaozongfan.png",
+            "imageURL": "https://github.com/shaozongfan.png"
+          }
+        ],
+        "frontMatter": {
+          "slug": "first-blog-post",
+          "title": "First Blog Post",
+          "authors": {
+            "name": "shaozongfan",
+            "title": "Docusaurus Core Team",
+            "url": "https://github.com/shaozongfan",
+            "image_url": "https://github.com/shaozongfan.png",
+            "imageURL": "https://github.com/shaozongfan.png"
+          },
+          "tags": [
+            "hola",
+            "docusaurus"
+          ]
+        },
+        "prevItem": {
+          "title": "shaozongfan Blog Post",
+          "permalink": "/shaozongfan.github.io/blog/shaozongfan-blog-post"
+        }
+      },
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+    }
+  ]
+}

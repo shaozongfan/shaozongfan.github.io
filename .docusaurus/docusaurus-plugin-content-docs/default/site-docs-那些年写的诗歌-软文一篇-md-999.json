@@ -1,0 +1,24 @@
+{
+  "unversionedId": "那些年写的诗歌/软文一篇",
+  "id": "那些年写的诗歌/软文一篇",
+  "title": "软文一篇",
+  "description": "",
+  "source": "@site/docs/那些年写的诗歌/软文一篇.md",
+  "sourceDirName": "那些年写的诗歌",
+  "slug": "/那些年写的诗歌/软文一篇",
+  "permalink": "/docs/那些年写的诗歌/软文一篇",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/那些年写的诗歌/软文一篇.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "当你老了",
+    "permalink": "/docs/那些年写的诗歌/当你老了"
+  },
+  "next": {
+    "title": "追光者",
+    "permalink": "/docs/那些年写的诗歌/追光者"
+  }
+}

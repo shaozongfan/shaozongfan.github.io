@@ -1,0 +1,24 @@
+{
+  "unversionedId": "思考/开始优先与停止",
+  "id": "思考/开始优先与停止",
+  "title": "开始优先与停止",
+  "description": "过去一直奉行开始优先的方针，为着在最短时间内开始做了很多努力。我的价值观中存在着对开始问题的倾向性，这种倾向反映在过去所做的诸多努力之上，让最困难的第一步变成了最简单的一步就是这一阶段所达成的目标。不得不说这一阶段已经可以画上句号，可新的问题渐渐浮上了水面。",
+  "source": "@site/docs/思考/开始优先与停止.md",
+  "sourceDirName": "思考",
+  "slug": "/思考/开始优先与停止",
+  "permalink": "/docs/思考/开始优先与停止",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/思考/开始优先与停止.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "坚持与妥协",
+    "permalink": "/docs/思考/坚持与妥协"
+  },
+  "next": {
+    "title": "每一天的意义",
+    "permalink": "/docs/思考/每一天的意义"
+  }
+}

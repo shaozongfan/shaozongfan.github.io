@@ -1,0 +1,20 @@
+{
+  "unversionedId": "随笔/相遇的缘分",
+  "id": "随笔/相遇的缘分",
+  "title": "相遇的缘分",
+  "description": "曾经拥有怎样的一场相遇？",
+  "source": "@site/docs/随笔/相遇的缘分.md",
+  "sourceDirName": "随笔",
+  "slug": "/随笔/相遇的缘分",
+  "permalink": "/docs/随笔/相遇的缘分",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/随笔/相遇的缘分.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "浅谈选择",
+    "permalink": "/docs/随笔/浅谈选择"
+  }
+}

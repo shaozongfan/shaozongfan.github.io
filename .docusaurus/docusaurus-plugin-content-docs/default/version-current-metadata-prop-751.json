@@ -1,0 +1,39 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "docs/intro.md",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "link",
+        "label": "笔记本开篇序言",
+        "href": "/docs/",
+        "docId": "初心"
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "docs/intro.md",
+      "description": "---",
+      "sidebar": "tutorialSidebar"
+    },
+    "初心": {
+      "id": "初心",
+      "title": "笔记本开篇序言",
+      "description": "2017 年笔记本开篇序言",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "随笔/想得却不可得",
+  "id": "随笔/想得却不可得",
+  "title": "想得却不可得",
+  "description": "今天无意间找到了手表的充电底座，也算因祸得福吧！",
+  "source": "@site/docs/随笔/想得却不可得.md",
+  "sourceDirName": "随笔",
+  "slug": "/随笔/想得却不可得",
+  "permalink": "/docs/随笔/想得却不可得",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/随笔/想得却不可得.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "坚持写作",
+    "permalink": "/docs/随笔/坚持写作"
+  },
+  "next": {
+    "title": "浅谈选择",
+    "permalink": "/docs/随笔/浅谈选择"
+  }
+}
