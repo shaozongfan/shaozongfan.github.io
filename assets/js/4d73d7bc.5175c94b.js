@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkshaozongfan_website=self.webpackChunkshaozongfan_website||[]).push([[872],{1840:function(a){a.exports=JSON.parse('{"label":"facebook","permalink":"/shaozongfan.github.io/blog/tags/facebook","allTagsPath":"/shaozongfan.github.io/blog/tags","count":1}')}}]);
