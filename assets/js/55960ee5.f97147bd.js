@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklongyu_website=self.webpackChunklongyu_website||[]).push([[4121],{8070:function(e){e.exports=JSON.parse('[{"label":"\u6587\u8d4b","permalink":"/shaozongfan.github.io/docs/tags/\u6587\u8d4b","count":1}]')}}]);
