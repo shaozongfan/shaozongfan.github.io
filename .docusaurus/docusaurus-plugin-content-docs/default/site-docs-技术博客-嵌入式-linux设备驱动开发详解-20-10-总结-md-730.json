@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/20.10　总结",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/20.10　总结",
+  "title": "20.10　总结",
+  "description": "移植Linux到全新的SMP SoC上，需在底层提供定时器节拍、中断控制器、SMP启动、GPIO、时钟、pinctrl等功能，这些底层的功能被封装好后，其他设备驱动只能调用内核提供的通用API。这良好地体现了内核的分层设计，即驱动都调用与硬件无关的通用API，而这些API的底层实现则更多的是填充内核规整好的回调函数。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/20.10　总结.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/20.10　总结",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.10　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/20.10　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.8.1　万用表",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.8　仪器仪表使用"
+  },
+  "next": {
+    "title": "20.1　ARM Linux底层驱动的组成和现状",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状"
+  }
+}

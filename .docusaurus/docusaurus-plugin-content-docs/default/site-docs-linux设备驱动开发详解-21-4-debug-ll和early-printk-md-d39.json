@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK",
+  "id": "linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK",
+  "title": "21.4　DEBUG_LL和EARLY_PRINTK",
+  "description": "DEBUGLL对应内核的Kernel low-level debugging功能，EARLYPRINTK则对应内核中一个早期的控制台。为了在内核的drivers/tty/serial下的控制台驱动初始化之前支持打印，可以选择DEBUGLL和EARLYPRINTK这两个配置选项。另外，也需要在bootargs中设置earlyprintk的选项。",
+  "source": "@site/docs/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK",
+  "permalink": "/docs/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.3　内核打印信息—printk（​）",
+    "permalink": "/docs/linux设备驱动开发详解/21.3　内核打印信息—printk（​）"
+  },
+  "next": {
+    "title": "21.5　使用“proc”",
+    "permalink": "/docs/linux设备驱动开发详解/21.5　使用“proc”"
+  }
+}

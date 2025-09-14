@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/10.4　中断共享",
+  "id": "linux设备驱动开发详解/10.4　中断共享",
+  "title": "10.4　中断共享",
+  "description": "多个设备共享一根硬件中断线的情况在实际的硬件系统中广泛存在，Linux支持这种中断共享。下面是中断共享的使用方法。",
+  "source": "@site/docs/linux设备驱动开发详解/10.4　中断共享.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/10.4　中断共享",
+  "permalink": "/docs/linux设备驱动开发详解/10.4　中断共享",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/10.4　中断共享.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10.3.1　申请和释放中断",
+    "permalink": "/docs/linux设备驱动开发详解/10.3　Linux中断编程"
+  },
+  "next": {
+    "title": "10.5.1　内核定时器编程",
+    "permalink": "/docs/linux设备驱动开发详解/10.5　内核定时器"
+  }
+}

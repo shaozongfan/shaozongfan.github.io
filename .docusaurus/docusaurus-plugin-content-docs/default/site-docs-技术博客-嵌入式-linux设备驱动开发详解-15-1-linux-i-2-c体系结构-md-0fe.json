@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构",
+  "title": "15.1　Linux I2 C体系结构",
+  "description": "Linux的I2 C体系结构分为3个组成部分。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "14.9.1　DM9000网卡硬件描述",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例"
+  },
+  "next": {
+    "title": "15.2　Linux I2 C核心",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心"
+  }
+}

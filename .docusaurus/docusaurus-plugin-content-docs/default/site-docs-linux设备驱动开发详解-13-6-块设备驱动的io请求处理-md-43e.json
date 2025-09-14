@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/13.6　块设备驱动的IO请求处理",
+  "id": "linux设备驱动开发详解/13.6　块设备驱动的IO请求处理",
+  "title": "13.6.1　使用请求队列",
+  "description": "块设备驱动在使用请求队列的场景下，会用blkinitqueue（）初始化requestqueue，而该函数的第一个参数就是请求处理函数的指针。requestqueue会作为参数传递给我们在调用blkinitqueue（）时指定的请求处理函数，块设备驱动请求处理函数的原型为：",
+  "source": "@site/docs/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理",
+  "permalink": "/docs/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "13.5　块设备驱动的ioctl函数",
+    "permalink": "/docs/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数"
+  },
+  "next": {
+    "title": "13.7.1　vmem_disk的硬件原理",
+    "permalink": "/docs/linux设备驱动开发详解/13.7　实例：vmem_disk驱动"
+  }
+}

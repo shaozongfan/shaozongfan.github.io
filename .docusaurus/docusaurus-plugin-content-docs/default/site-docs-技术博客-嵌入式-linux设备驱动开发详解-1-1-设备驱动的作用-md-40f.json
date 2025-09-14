@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用",
+  "title": "1.1　设备驱动的作用",
+  "description": "任何一个计算机系统的运转都是系统中软硬件共同努力的结果，没有硬件的软件是空中楼阁，而没有软件的硬件则只是一堆废铁。硬件是底层基础，是所有软件得以运行的平台，代码最终会落实为硬件上的组合逻辑与时序逻辑；软件则实现了具体应用，它按照各种不同的业务需求而设计，并完成用户的最终诉求。硬件较固定，软件则很灵活，可以适应各种复杂多变的应用。因此，计算机系统的软硬件相互成就了对方。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI核心技能",
+    "permalink": "/docs/技术博客/AI相关/AI核心技能"
+  },
+  "next": {
+    "title": "1.2　无操作系统时的设备驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.2　无操作系统时的设备驱动"
+  }
+}

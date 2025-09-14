@@ -1,0 +1,24 @@
+{
+  "unversionedId": "个人博客/docusaurus3.7",
+  "id": "个人博客/docusaurus3.7",
+  "title": "依赖工具安装",
+  "description": "命令行依赖工具",
+  "source": "@site/docs/个人博客/docusaurus3.7.md",
+  "sourceDirName": "个人博客",
+  "slug": "/个人博客/docusaurus3.7",
+  "permalink": "/docs/个人博客/docusaurus3.7",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/个人博客/docusaurus3.7.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "依赖工具安装",
+    "permalink": "/docs/个人博客/docusaurus2.4"
+  },
+  "next": {
+    "title": "2025国家生育政策8大补贴汇总",
+    "permalink": "/docs/个人生活/2025国家生育政策8大补贴汇总"
+  }
+}

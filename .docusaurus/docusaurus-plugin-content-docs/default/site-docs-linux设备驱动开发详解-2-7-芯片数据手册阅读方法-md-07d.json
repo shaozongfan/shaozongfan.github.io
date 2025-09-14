@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/2.7　芯片数据手册阅读方法",
+  "id": "linux设备驱动开发详解/2.7　芯片数据手册阅读方法",
+  "title": "2.7　芯片数据手册阅读方法",
+  "description": "芯片数据手册往往长达数百页，甚至上千页，而且全部是英文，从头到尾不加区分地阅读需要花费非常长的时间，而且不一定能获取对设计设备驱动有帮助的信息。芯片数据手册的正确阅读方法是快速而准确地定位有用信息，重点阅读这些信息，忽略无关内容。下面以S3C6410A的数据手册为例来分析阅读方法，为了直观地反映阅读过程，本节的图都是直接从数据手册中抓屏而得到的。",
+  "source": "@site/docs/linux设备驱动开发详解/2.7　芯片数据手册阅读方法.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/2.7　芯片数据手册阅读方法",
+  "permalink": "/docs/linux设备驱动开发详解/2.7　芯片数据手册阅读方法",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/2.7　芯片数据手册阅读方法.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.6.1　时序分析的概念",
+    "permalink": "/docs/linux设备驱动开发详解/2.6　硬件时序分析"
+  },
+  "next": {
+    "title": "2.8.1　万用表",
+    "permalink": "/docs/linux设备驱动开发详解/2.8　仪器仪表使用"
+  }
+}

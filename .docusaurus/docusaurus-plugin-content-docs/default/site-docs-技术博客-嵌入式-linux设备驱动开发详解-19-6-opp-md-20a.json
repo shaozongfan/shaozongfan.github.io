@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP",
+  "title": "19.6　OPP",
+  "description": "现今的SoC一般包含很多集成组件，在系统运行过程中，并不需要所有的模块都运行于最高频率和最高性能。在SoC内，某些domain可以运行在较低的频率和电压下，而其他domain可以运行在较高的频率和电压下，某个domain所支持的对的集合被称为Operating Performance Point，缩写为OPP。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "19.5　Regulator驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.5　Regulator驱动"
+  },
+  "next": {
+    "title": "19.7　PM QoS",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.7　PM QoS"
+  }
+}

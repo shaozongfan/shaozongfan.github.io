@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/基础架构/6、内存管理实战案例面试题",
+  "id": "奔跑吧linux/基础架构/6、内存管理实战案例面试题",
+  "title": "1．Linux内核的内存管理模块都对哪些页面进行了统计？",
+  "description": "",
+  "source": "@site/docs/奔跑吧linux/基础架构/6、内存管理实战案例面试题.md",
+  "sourceDirName": "奔跑吧linux/基础架构",
+  "slug": "/奔跑吧linux/基础架构/6、内存管理实战案例面试题",
+  "permalink": "/docs/奔跑吧linux/基础架构/6、内存管理实战案例面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/基础架构/6、内存管理实战案例面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．page数据结构中的_refcount和_mapcount有什么区别？",
+    "permalink": "/docs/奔跑吧linux/基础架构/5、内存管理高级专题面试题"
+  },
+  "next": {
+    "title": "1．进程是什么？",
+    "permalink": "/docs/奔跑吧linux/基础架构/7、进程管理基本概念面试题"
+  }
+}

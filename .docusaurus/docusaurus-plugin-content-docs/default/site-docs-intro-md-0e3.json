@@ -1,8 +1,8 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "docs/intro.md",
-  "description": "---",
+  "title": "intro",
+  "description": "蒲城小农的博客",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -14,7 +14,7 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "笔记本开篇序言",
-    "permalink": "/docs/"
+    "title": "依赖工具安装",
+    "permalink": "/docs/个人博客/docusaurus2.4"
   }
 }

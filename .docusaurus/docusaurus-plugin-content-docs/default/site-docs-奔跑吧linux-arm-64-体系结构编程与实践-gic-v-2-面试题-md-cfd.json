@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/arm64体系结构编程与实践/GIC-V2面试题",
+  "id": "奔跑吧linux/arm64体系结构编程与实践/GIC-V2面试题",
+  "title": "1．GIC-V2里的SGI、PPI和SPI中断有什么区别？",
+  "description": "",
+  "source": "@site/docs/奔跑吧linux/arm64体系结构编程与实践/GIC-V2面试题.md",
+  "sourceDirName": "奔跑吧linux/arm64体系结构编程与实践",
+  "slug": "/奔跑吧linux/arm64体系结构编程与实践/GIC-V2面试题",
+  "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/GIC-V2面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/arm64体系结构编程与实践/GIC-V2面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．在内嵌汇编代码中，关键字asm、volatile、inline以及goto分别代表什么意思？",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/GCC内嵌汇编面试题"
+  },
+  "next": {
+    "title": "1．什么是汇编器？",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/GNU汇编器面试题"
+  }
+}

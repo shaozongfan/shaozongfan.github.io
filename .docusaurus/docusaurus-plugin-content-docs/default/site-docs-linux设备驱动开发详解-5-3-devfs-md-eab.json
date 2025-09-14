@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/5.3　devfs",
+  "id": "linux设备驱动开发详解/5.3　devfs",
+  "title": "5.3　devfs",
+  "description": "devfs（设备文件系统）是由Linux 2.4内核引入的，引入时被许多工程师给予了高度评价，它的出现使得设备驱动程序能自主地管理自己的设备文件。具体来说，devfs具有如下优点。",
+  "source": "@site/docs/linux设备驱动开发详解/5.3　devfs.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/5.3　devfs",
+  "permalink": "/docs/linux设备驱动开发详解/5.3　devfs",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/5.3　devfs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.2.1　Linux文件系统目录结构",
+    "permalink": "/docs/linux设备驱动开发详解/5.2　Linux文件系统"
+  },
+  "next": {
+    "title": "5.4.1　udev与devfs的区别",
+    "permalink": "/docs/linux设备驱动开发详解/5.4　udev用户空间设备管理"
+  }
+}

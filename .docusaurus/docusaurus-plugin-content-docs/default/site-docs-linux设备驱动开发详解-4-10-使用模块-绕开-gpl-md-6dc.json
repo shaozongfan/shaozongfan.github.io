@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/4.10　使用模块“绕开”GPL",
+  "id": "linux设备驱动开发详解/4.10　使用模块“绕开”GPL",
+  "title": "4.10　使用模块“绕开”GPL",
+  "description": "Linux内核有两种导出符号的方法给模块使用，一种方法是EXPORTSYMBOL（），另外一种是EXPORTSYMBOL_GPL（）。这一点和模块A导出符号给模块B用是一致的。",
+  "source": "@site/docs/linux设备驱动开发详解/4.10　使用模块“绕开”GPL.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/4.10　使用模块“绕开”GPL",
+  "permalink": "/docs/linux设备驱动开发详解/4.10　使用模块“绕开”GPL",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/4.10　使用模块“绕开”GPL.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.6　工具链",
+    "permalink": "/docs/linux设备驱动开发详解/3.6　工具链"
+  },
+  "next": {
+    "title": "4.1　Linux内核模块简介",
+    "permalink": "/docs/linux设备驱动开发详解/4.1　Linux内核模块简介"
+  }
+}

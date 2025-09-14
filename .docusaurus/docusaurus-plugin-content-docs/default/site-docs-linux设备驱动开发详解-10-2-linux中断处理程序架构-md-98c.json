@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/10.2　Linux中断处理程序架构",
+  "id": "linux设备驱动开发详解/10.2　Linux中断处理程序架构",
+  "title": "10.2　Linux中断处理程序架构",
+  "description": "设备的中断会打断内核进程中的正常调度和运行，系统对更高吞吐率的追求势必要求中断服务程序尽量短小精悍。但是，这个良好的愿望往往与现实并不吻合。在大多数真实的系统中，当中断到来时，要完成的工作往往并不会是短小的，它可能要进行较大量的耗时处理。",
+  "source": "@site/docs/linux设备驱动开发详解/10.2　Linux中断处理程序架构.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/10.2　Linux中断处理程序架构",
+  "permalink": "/docs/linux设备驱动开发详解/10.2　Linux中断处理程序架构",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/10.2　Linux中断处理程序架构.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10.1　中断与定时器",
+    "permalink": "/docs/linux设备驱动开发详解/10.1　中断与定时器"
+  },
+  "next": {
+    "title": "10.3.1　申请和释放中断",
+    "permalink": "/docs/linux设备驱动开发详解/10.3　Linux中断编程"
+  }
+}

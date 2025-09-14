@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用",
+  "title": "9.1　异步通知的概念与作用",
+  "description": "阻塞与非阻塞访问、poll（）函数提供了较好的解决设备访问的机制，但是如果有了异步通知，整套机制则更加完整了。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "8.4　总结",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.4　总结"
+  },
+  "next": {
+    "title": "9.2.1　Linux信号",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.2　Linux异步通知编程"
+  }
+}

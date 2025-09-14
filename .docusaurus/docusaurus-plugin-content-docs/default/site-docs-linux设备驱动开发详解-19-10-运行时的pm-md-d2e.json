@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/19.10　运行时的PM",
+  "id": "linux设备驱动开发详解/19.10　运行时的PM",
+  "title": "19.10　运行时的PM",
+  "description": "在前文给出的devpmops结构体中，有3个以runtime开头的成员函数：runtimesuspend（）、runtimeresume（）和runtime_idle（），它们辅助设备完成运行时的电源管理：",
+  "source": "@site/docs/linux设备驱动开发详解/19.10　运行时的PM.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/19.10　运行时的PM",
+  "permalink": "/docs/linux设备驱动开发详解/19.10　运行时的PM",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/19.10　运行时的PM.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "18.5　总结",
+    "permalink": "/docs/linux设备驱动开发详解/18.5　总结"
+  },
+  "next": {
+    "title": "19.11　总结",
+    "permalink": "/docs/linux设备驱动开发详解/19.11　总结"
+  }
+}

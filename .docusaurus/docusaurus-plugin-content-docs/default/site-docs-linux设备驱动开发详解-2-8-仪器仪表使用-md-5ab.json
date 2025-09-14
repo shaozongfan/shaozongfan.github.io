@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/2.8　仪器仪表使用",
+  "id": "linux设备驱动开发详解/2.8　仪器仪表使用",
+  "title": "2.8.1　万用表",
+  "description": "在电路板调试过程中主要使用万用表的两个功能。",
+  "source": "@site/docs/linux设备驱动开发详解/2.8　仪器仪表使用.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/2.8　仪器仪表使用",
+  "permalink": "/docs/linux设备驱动开发详解/2.8　仪器仪表使用",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/2.8　仪器仪表使用.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.7　芯片数据手册阅读方法",
+    "permalink": "/docs/linux设备驱动开发详解/2.7　芯片数据手册阅读方法"
+  },
+  "next": {
+    "title": "20.10　总结",
+    "permalink": "/docs/linux设备驱动开发详解/20.10　总结"
+  }
+}

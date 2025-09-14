@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动",
+  "id": "linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动",
+  "title": "9.3.1　在globalfifo驱动中增加异步通知",
+  "description": "首先，参考代码清单9.3，应该将异步结构体指针添加到globalfifo_dev设备结构体内，如代码清单9.7所示。",
+  "source": "@site/docs/linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动",
+  "permalink": "/docs/linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "9.2.1　Linux信号",
+    "permalink": "/docs/linux设备驱动开发详解/9.2　Linux异步通知编程"
+  },
+  "next": {
+    "title": "9.4.1　AIO概念与GNU C库AIO",
+    "permalink": "/docs/linux设备驱动开发详解/9.4　Linux异步IO"
+  }
+}

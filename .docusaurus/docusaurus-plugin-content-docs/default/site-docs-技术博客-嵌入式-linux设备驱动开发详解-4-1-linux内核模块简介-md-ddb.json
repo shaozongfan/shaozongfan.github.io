@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介",
+  "title": "4.1　Linux内核模块简介",
+  "description": "Linux内核的整体架构本就非常庞大，其包含的组件也非常多。而我们怎样把需要的部分都包含在内核中呢？",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.10　使用模块“绕开”GPL",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.10　使用模块“绕开”GPL"
+  },
+  "next": {
+    "title": "4.2　Linux内核模块程序结构",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.2　Linux内核模块程序结构"
+  }
+}

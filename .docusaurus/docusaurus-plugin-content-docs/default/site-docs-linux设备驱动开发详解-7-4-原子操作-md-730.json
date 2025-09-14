@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/7.4　原子操作",
+  "id": "linux设备驱动开发详解/7.4　原子操作",
+  "title": "7.4　原子操作",
+  "description": "原子操作可以保证对一个整型数据的修改是排他性的。Linux内核提供了一系列函数来实现内核中的原子操作，这些函数又分为两类，分别针对位和整型变量进行原子操作。位和整型变量的原子操作都依赖于底层CPU的原子操作，因此所有这些函数都与CPU架构密切相关。对于ARM处理器而言，底层使用LDREX和STREX指令，比如atomicinc（）底层的实现会调用到atomicadd（），其代码如下：",
+  "source": "@site/docs/linux设备驱动开发详解/7.4　原子操作.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/7.4　原子操作",
+  "permalink": "/docs/linux设备驱动开发详解/7.4　原子操作",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/7.4　原子操作.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7.3　中断屏蔽",
+    "permalink": "/docs/linux设备驱动开发详解/7.3　中断屏蔽"
+  },
+  "next": {
+    "title": "7.5.1　自旋锁的使用",
+    "permalink": "/docs/linux设备驱动开发详解/7.5　自旋锁"
+  }
+}

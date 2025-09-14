@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数",
+  "title": "13.5　块设备驱动的ioctl函数",
+  "description": "与字符设备驱动一样，块设备可以包含一个ioctl（）函数以提供对设备的I/O控制能力。实际上，高层的块设备层代码处理了绝大多数I/O控制，如BLKFLSBUF、BLKROSET、BLKDISCARD、HDIO_GETGEO、BLKROGET和BLKSECTGET等，因此，在具体的块设备驱动中通常只需要实现与设备相关的特定ioctl命令。例如，源代码文件为drivers/block/floppy.c实现了与软驱相关的命令（如FDEJECT、FDSETPRM、FDFMTTRK等）。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "13.4　块设备的打开与释放",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放"
+  },
+  "next": {
+    "title": "13.6.1　使用请求队列",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理"
+  }
+}

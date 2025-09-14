@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/10.6　内核延时",
+  "id": "linux设备驱动开发详解/10.6　内核延时",
+  "title": "10.6.1　短延迟",
+  "description": "Linux内核中提供了下列3个函数以分别进行纳秒、微秒和毫秒延迟：",
+  "source": "@site/docs/linux设备驱动开发详解/10.6　内核延时.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/10.6　内核延时",
+  "permalink": "/docs/linux设备驱动开发详解/10.6　内核延时",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/10.6　内核延时.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10.5.1　内核定时器编程",
+    "permalink": "/docs/linux设备驱动开发详解/10.5　内核定时器"
+  },
+  "next": {
+    "title": "10.7　总结",
+    "permalink": "/docs/linux设备驱动开发详解/10.7　总结"
+  }
+}

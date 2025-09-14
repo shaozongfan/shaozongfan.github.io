@@ -1,0 +1,20 @@
+{
+  "unversionedId": "调试/信号机制学习记录",
+  "id": "调试/信号机制学习记录",
+  "title": "信号机制学习记录",
+  "description": "在中completesignal加入dumpstack()",
+  "source": "@site/docs/调试/信号机制学习记录.md",
+  "sourceDirName": "调试",
+  "slug": "/调试/信号机制学习记录",
+  "permalink": "/docs/调试/信号机制学习记录",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/调试/信号机制学习记录.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "linux信号机制",
+    "permalink": "/docs/调试/linux信号机制"
+  }
+}

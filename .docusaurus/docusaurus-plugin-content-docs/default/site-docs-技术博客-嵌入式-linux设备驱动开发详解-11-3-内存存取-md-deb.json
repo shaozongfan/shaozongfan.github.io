@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取",
+  "title": "11.3.1　用户空间内存动态申请",
+  "description": "在用户空间中动态申请内存的函数为malloc（），这个函数在各种操作系统上的使用都是一致的，malloc（）申请的内存的释放函数为free（）。对于Linux而言，C库的malloc（）函数一般通过brk（）和mmap（）两个系统调用从内核申请内存。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "11.2　Linux内存管理",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理"
+  },
+  "next": {
+    "title": "11.4　设备IO端口和IO内存的访问",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问"
+  }
+}

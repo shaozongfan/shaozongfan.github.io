@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/arm64体系结构编程与实践/缓存一致性面试题",
+  "id": "奔跑吧linux/arm64体系结构编程与实践/缓存一致性面试题",
+  "title": "1．为什么需要缓存一致性？",
+  "description": "",
+  "source": "@site/docs/奔跑吧linux/arm64体系结构编程与实践/缓存一致性面试题.md",
+  "sourceDirName": "奔跑吧linux/arm64体系结构编程与实践",
+  "slug": "/奔跑吧linux/arm64体系结构编程与实践/缓存一致性面试题",
+  "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/缓存一致性面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/arm64体系结构编程与实践/缓存一致性面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．什么是SISD和SIMD指令？",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/浮点运算与NEON指令面试题"
+  },
+  "next": {
+    "title": "1．什么是链接器？为什么链接器简称LD？",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/链接器与链接脚本面试题"
+  }
+}

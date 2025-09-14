@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/21.5　使用“proc”",
+  "id": "linux设备驱动开发详解/21.5　使用“proc”",
+  "title": "21.5　使用“proc”",
+  "description": "在Linux系统中，“/proc”文件系统十分有用，它被内核用于向用户导出信息。“/proc”文件系统是一个虚拟文件系统，通过它可以在Linux内核空间和用户空间之间进行通信。在/proc文件系统中，我们可以将对虚拟文件的读写作为与内核中实体进行通信的一种手段，与普通文件不同的是，这些虚拟文件的内容都是动态创建的。",
+  "source": "@site/docs/linux设备驱动开发详解/21.5　使用“proc”.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/21.5　使用“proc”",
+  "permalink": "/docs/linux设备驱动开发详解/21.5　使用“proc”",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/21.5　使用“proc”.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.4　DEBUG_LL和EARLY_PRINTK",
+    "permalink": "/docs/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK"
+  },
+  "next": {
+    "title": "21.6　Oops",
+    "permalink": "/docs/linux设备驱动开发详解/21.6　Oops"
+  }
+}

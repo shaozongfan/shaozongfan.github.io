@@ -1,0 +1,24 @@
+{
+  "unversionedId": "个人博客/docusaurus2.4",
+  "id": "个人博客/docusaurus2.4",
+  "title": "依赖工具安装",
+  "description": "命令行依赖工具",
+  "source": "@site/docs/个人博客/docusaurus2.4.md",
+  "sourceDirName": "个人博客",
+  "slug": "/个人博客/docusaurus2.4",
+  "permalink": "/docs/个人博客/docusaurus2.4",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/个人博客/docusaurus2.4.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "依赖工具安装",
+    "permalink": "/docs/个人博客/docusaurus3.7"
+  }
+}

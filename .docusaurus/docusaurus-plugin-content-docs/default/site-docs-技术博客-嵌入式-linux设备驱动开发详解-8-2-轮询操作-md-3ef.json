@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作",
+  "title": "8.2.1　轮询的概念与作用",
+  "description": "在用户程序中，select（）和poll（）也是与设备阻塞与非阻塞访问息息相关的论题。使用非阻塞I/O的应用程序通常会使用select（）和poll（）系统调用查询是否可对设备进行无阻塞的访问。select（）和poll（）系统调用最终会使设备驱动中的poll（）函数被执行，在Linux2.5.45内核中还引入了epoll（），即扩展的poll（）。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "8.1　阻塞与非阻塞IO",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO"
+  },
+  "next": {
+    "title": "8.3.1　在globalfifo驱动中增加轮询操作",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动"
+  }
+}

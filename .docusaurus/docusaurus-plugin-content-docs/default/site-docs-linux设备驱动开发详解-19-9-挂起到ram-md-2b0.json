@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/19.9　挂起到RAM",
+  "id": "linux设备驱动开发详解/19.9　挂起到RAM",
+  "title": "19.9　挂起到RAM",
+  "description": "Linux支持STANDBY、挂起到RAM、挂起到硬盘等形式的待机，如图19.9所示。一般的嵌入式产品仅仅只实现了挂起到RAM（也简称为s2ram，或常简称为STR），即将系统的状态保存于内存中，并将SDRAM置于自刷新状态，待用户按键等操作后再重新恢复系统。少数嵌入式Linux系统会实现挂起到硬盘（简称STD），它与挂起到RAM的不同是s2ram并不关机，STD则把系统的状态保持于磁盘，然后关闭整个系统。",
+  "source": "@site/docs/linux设备驱动开发详解/19.9　挂起到RAM.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/19.9　挂起到RAM",
+  "permalink": "/docs/linux设备驱动开发详解/19.9　挂起到RAM",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/19.9　挂起到RAM.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "19.8　CPU热插拔",
+    "permalink": "/docs/linux设备驱动开发详解/19.8　CPU热插拔"
+  },
+  "next": {
+    "title": "2.1.1　通用处理器",
+    "permalink": "/docs/linux设备驱动开发详解/2.1　处理器"
+  }
+}

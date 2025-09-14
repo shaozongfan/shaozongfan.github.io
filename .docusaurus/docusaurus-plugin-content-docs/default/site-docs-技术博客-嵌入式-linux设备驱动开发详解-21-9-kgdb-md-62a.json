@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB",
+  "title": "21.9　KGDB",
+  "description": "Linux直接提供了对KGDB的支持，KGDB采用了典型的嵌入式系统“插桩”技巧，一般依赖于串口与调试主机通信。为了支持KGDB，串口驱动应该实现纯粹的轮询收发单一字符的成员函数，以供drivers/tty/serial/kgdboc.c调用，譬如drivers/tty/serial/8250/8250_core.c中的：",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.8　strace",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.8　strace"
+  },
+  "next": {
+    "title": "3.1　Linux内核的发展与演变",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.1　Linux内核的发展与演变"
+  }
+}

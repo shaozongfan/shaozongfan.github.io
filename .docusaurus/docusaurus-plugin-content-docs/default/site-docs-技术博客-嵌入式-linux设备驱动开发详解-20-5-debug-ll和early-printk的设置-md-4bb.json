@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置",
+  "title": "20.5　DEBUG_LL和EARLY_PRINTK的设置",
+  "description": "在Linux启动的早期，控制台驱动还没有投入运行。当我们把Linux移植到一个新的SoC时，工程师一般非常想在刚开始就可以执行printk（）功能以跟踪调试启动过程。内核的DEBUGLL和EARLYPRINTK选项为我们提供了这样的支持，而在Bootloader引导内核执行的bootargs中，则需要使能earlyprintk选项。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "20.4　SMP多核启动以及CPU热插拔驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动"
+  },
+  "next": {
+    "title": "20.6　GPIO驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动"
+  }
+}

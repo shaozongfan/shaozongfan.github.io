@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops",
+  "title": "21.6　Oops",
+  "description": "当内核出现类似用户空间的Segmentation Fault时（例如内核访问一个并不存在的虚拟地址），Oops会被打印到控制台和写入内核log缓冲区。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.5　使用“proc”",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.5　使用“proc”"
+  },
+  "next": {
+    "title": "21.7　BUG_ON（​）和WARN_ON（​）",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.7　BUG_ON（​）和WARN_ON（​）"
+  }
+}

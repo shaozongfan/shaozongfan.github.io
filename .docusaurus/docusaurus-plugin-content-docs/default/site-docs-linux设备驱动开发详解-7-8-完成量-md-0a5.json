@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/7.8　完成量",
+  "id": "linux设备驱动开发详解/7.8　完成量",
+  "title": "7.8　完成量",
+  "description": "Linux提供了完成量（Completion，关于这个名词，至今没有好的翻译，笔者将其译为“完成量”），它用于一个执行单元等待另一个执行单元执行完某事。",
+  "source": "@site/docs/linux设备驱动开发详解/7.8　完成量.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/7.8　完成量",
+  "permalink": "/docs/linux设备驱动开发详解/7.8　完成量",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/7.8　完成量.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7.7　互斥体",
+    "permalink": "/docs/linux设备驱动开发详解/7.7　互斥体"
+  },
+  "next": {
+    "title": "7.9　增加并发控制后的globalmem的设备驱动",
+    "permalink": "/docs/linux设备驱动开发详解/7.9　增加并发控制后的globalmem的设备驱动"
+  }
+}

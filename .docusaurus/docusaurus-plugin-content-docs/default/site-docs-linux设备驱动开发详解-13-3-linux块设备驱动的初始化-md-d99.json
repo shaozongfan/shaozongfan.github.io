@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/13.3　Linux块设备驱动的初始化",
+  "id": "linux设备驱动开发详解/13.3　Linux块设备驱动的初始化",
+  "title": "13.3　Linux块设备驱动的初始化",
+  "description": "在块设备的注册和初始化阶段，与字符设备驱动类似，块设备驱动要注册它们自己到内核，申请设备号，完成这个任务的函数是register_blkdev（），其原型为：",
+  "source": "@site/docs/linux设备驱动开发详解/13.3　Linux块设备驱动的初始化.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/13.3　Linux块设备驱动的初始化",
+  "permalink": "/docs/linux设备驱动开发详解/13.3　Linux块设备驱动的初始化",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/13.3　Linux块设备驱动的初始化.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "13.2.1　block_device_operations结构体",
+    "permalink": "/docs/linux设备驱动开发详解/13.2　Linux块设备驱动结构"
+  },
+  "next": {
+    "title": "13.4　块设备的打开与释放",
+    "permalink": "/docs/linux设备驱动开发详解/13.4　块设备的打开与释放"
+  }
+}

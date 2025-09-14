@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想",
+  "title": "12.4.1　主机驱动与外设驱动分离",
+  "description": "Linux中的SPI、I2 C、USB等子系统都利用了典型的把主机驱动和外设驱动分离的想法，让主机端只负责产生总线上的传输波形，而外设端只是通过标准的API来让主机端以适当的波形访问自身。因此这里面就涉及了4个软件模块：",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "12.3.1　设备驱动核心层和例化",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/12.3　设备驱动的分层思想"
+  },
+  "next": {
+    "title": "13.1　块设备的IO操作特点",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.1　块设备的IO操作特点"
+  }
+}

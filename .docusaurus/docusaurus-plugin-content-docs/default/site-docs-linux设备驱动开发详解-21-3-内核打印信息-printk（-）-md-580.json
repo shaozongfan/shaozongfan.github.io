@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/21.3　内核打印信息—printk（​）",
+  "id": "linux设备驱动开发详解/21.3　内核打印信息—printk（​）",
+  "title": "21.3　内核打印信息—printk（​）",
+  "description": "在Linux中，内核打印语句printk（）会将内核信息输出到内核信息缓冲区中，内核缓冲区是在kernel/printk.c中通过如下语句静态定义的：",
+  "source": "@site/docs/linux设备驱动开发详解/21.3　内核打印信息—printk（​）.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/21.3　内核打印信息—printk（​）",
+  "permalink": "/docs/linux设备驱动开发详解/21.3　内核打印信息—printk（​）",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/21.3　内核打印信息—printk（​）.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.2　Linux内核调试",
+    "permalink": "/docs/linux设备驱动开发详解/21.2　Linux内核调试"
+  },
+  "next": {
+    "title": "21.4　DEBUG_LL和EARLY_PRINTK",
+    "permalink": "/docs/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK"
+  }
+}

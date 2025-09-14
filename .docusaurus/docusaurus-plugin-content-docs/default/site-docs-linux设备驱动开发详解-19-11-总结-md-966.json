@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/19.11　总结",
+  "id": "linux设备驱动开发详解/19.11　总结",
+  "title": "19.11　总结",
+  "description": "Linux内核的PM框架涉及众多组件，弄清楚这些组件之间的依赖关系，在合适的着眼点上进行优化，采用正确的方法进行PM的编程，对改善代码的质量、辅助功耗和性能测试都有极大的好处。",
+  "source": "@site/docs/linux设备驱动开发详解/19.11　总结.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/19.11　总结",
+  "permalink": "/docs/linux设备驱动开发详解/19.11　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/19.11　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "19.10　运行时的PM",
+    "permalink": "/docs/linux设备驱动开发详解/19.10　运行时的PM"
+  },
+  "next": {
+    "title": "19.1　Linux电源管理的全局架构",
+    "permalink": "/docs/linux设备驱动开发详解/19.1　Linux电源管理的全局架构"
+  }
+}

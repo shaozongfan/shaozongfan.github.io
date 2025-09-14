@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/1.3　有操作系统时的设备驱动",
+  "id": "linux设备驱动开发详解/1.3　有操作系统时的设备驱动",
+  "title": "1.3　有操作系统时的设备驱动",
+  "description": "在1.2节中我们看到一个清晰的设备驱动，它直接运行在硬件之上，不与任何操作系统关联。当系统包含操作系统时，设备驱动会变得怎样呢？",
+  "source": "@site/docs/linux设备驱动开发详解/1.3　有操作系统时的设备驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/1.3　有操作系统时的设备驱动",
+  "permalink": "/docs/linux设备驱动开发详解/1.3　有操作系统时的设备驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/1.3　有操作系统时的设备驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.2　无操作系统时的设备驱动",
+    "permalink": "/docs/linux设备驱动开发详解/1.2　无操作系统时的设备驱动"
+  },
+  "next": {
+    "title": "1.4.1　设备的分类及特点",
+    "permalink": "/docs/linux设备驱动开发详解/1.4　Linux设备驱动"
+  }
+}

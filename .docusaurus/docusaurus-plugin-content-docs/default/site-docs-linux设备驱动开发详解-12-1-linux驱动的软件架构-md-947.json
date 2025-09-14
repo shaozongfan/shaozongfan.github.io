@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/12.1　Linux驱动的软件架构",
+  "id": "linux设备驱动开发详解/12.1　Linux驱动的软件架构",
+  "title": "12.1　Linux驱动的软件架构",
+  "description": "Linux不是为了某单一电路板而设计的操作系统，它可以支持约30种体系结构下一定数量的硬件，因此，它的驱动架构很显然不能像RTOS下或者无操作系统下那么小儿科的做法。",
+  "source": "@site/docs/linux设备驱动开发详解/12.1　Linux驱动的软件架构.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/12.1　Linux驱动的软件架构",
+  "permalink": "/docs/linux设备驱动开发详解/12.1　Linux驱动的软件架构",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/12.1　Linux驱动的软件架构.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "11.7　总结",
+    "permalink": "/docs/linux设备驱动开发详解/11.7　总结"
+  },
+  "next": {
+    "title": "12.2.1　platform总线、设备与驱动",
+    "permalink": "/docs/linux设备驱动开发详解/12.2　platform设备驱动"
+  }
+}

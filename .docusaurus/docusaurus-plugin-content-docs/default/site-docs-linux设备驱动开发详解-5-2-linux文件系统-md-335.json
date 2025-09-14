@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/5.2　Linux文件系统",
+  "id": "linux设备驱动开发详解/5.2　Linux文件系统",
+  "title": "5.2.1　Linux文件系统目录结构",
+  "description": "进入Linux根目录（即“/”，Linux文件系统的入口，也是处于最高一级的目录），运行“ls–l”命令，看到Linux包含以下目录。",
+  "source": "@site/docs/linux设备驱动开发详解/5.2　Linux文件系统.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/5.2　Linux文件系统",
+  "permalink": "/docs/linux设备驱动开发详解/5.2　Linux文件系统",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/5.2　Linux文件系统.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.1.1　文件操作系统调用",
+    "permalink": "/docs/linux设备驱动开发详解/5.1　Linux文件操作"
+  },
+  "next": {
+    "title": "5.3　devfs",
+    "permalink": "/docs/linux设备驱动开发详解/5.3　devfs"
+  }
+}

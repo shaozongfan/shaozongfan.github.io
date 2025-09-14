@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程",
+  "title": "14.5　数据发送流程",
+  "description": "从14.1节网络设备驱动程序的结构分析可知，Linux网络子系统在发送数据包时，会调用驱动程序提供的hardstarttransmit（）函数，该函数用于启动数据包的发送。在设备初始化的时候，这个函数指针需被初始化以指向设备的xxx_tx（）函数。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "14.4　网络设备的打开与释放",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.4　网络设备的打开与释放"
+  },
+  "next": {
+    "title": "14.6　数据接收流程",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.6　数据接收流程"
+  }
+}

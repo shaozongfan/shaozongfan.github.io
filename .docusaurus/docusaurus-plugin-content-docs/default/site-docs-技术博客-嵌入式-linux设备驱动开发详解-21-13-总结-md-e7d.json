@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/21.13　总结",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/21.13　总结",
+  "title": "21.13　总结",
+  "description": "Linux程序的调试，尤其是内核的调试看起来比较复杂，没有类似于VC++、Tornado的IDE开发环境，最常用的调试手段依然是文本方式的GDB。文本方式的GDB调试器功能异常强大，当我们使用习惯后，就会用得非常自然。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/21.13　总结.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/21.13　总结",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.13　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/21.13　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.12　Linux性能监控与调优工具",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具"
+  },
+  "next": {
+    "title": "21.1.1　GDB的基本用法",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.1　GDB调试器的用法"
+  }
+}

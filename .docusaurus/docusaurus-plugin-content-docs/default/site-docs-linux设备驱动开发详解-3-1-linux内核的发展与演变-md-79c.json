@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/3.1　Linux内核的发展与演变",
+  "id": "linux设备驱动开发详解/3.1　Linux内核的发展与演变",
+  "title": "3.1　Linux内核的发展与演变",
+  "description": "Linux操作系统是UNIX操作系统的一种克隆系统，是一种类UNIX操作系统，诞生于1991年10月5日（第一次正式向外公布的时间），起初的作者是Linus Torvalds。Linux操作系统的诞生、发展和成长过程依赖着5个重要支柱：UNIX操作系统、Minix操作系统、GNU计划、POSIX标准和Internet。",
+  "source": "@site/docs/linux设备驱动开发详解/3.1　Linux内核的发展与演变.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/3.1　Linux内核的发展与演变",
+  "permalink": "/docs/linux设备驱动开发详解/3.1　Linux内核的发展与演变",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/3.1　Linux内核的发展与演变.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.9　KGDB",
+    "permalink": "/docs/linux设备驱动开发详解/21.9　KGDB"
+  },
+  "next": {
+    "title": "3.2　Linux 2.6后的内核特点",
+    "permalink": "/docs/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点"
+  }
+}

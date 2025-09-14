@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动",
+  "title": "16.3.1　USB设备驱动的整体结构",
+  "description": "这里所说的USB设备驱动指的是从主机角度来看，怎样访问被插入的USB设备，而不是指USB设备内部本身运行的固件程序。Linux系统实现了几类通用的USB设备驱动（也称客户驱动），划分为如下几个设备类。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "16.2.1　USB主机控制器驱动的整体结构",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动"
+  },
+  "next": {
+    "title": "16.4.1　UDC和Gadget驱动的关键数据结构与API",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动"
+  }
+}

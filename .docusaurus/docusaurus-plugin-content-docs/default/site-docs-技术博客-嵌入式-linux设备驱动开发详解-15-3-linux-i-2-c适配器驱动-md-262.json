@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动",
+  "title": "15.3.1　I2 C适配器驱动的注册与注销",
+  "description": "由于I2 C总线控制器通常是在内存上的，所以它本身也连接在platform总线上，要通过platformdriver和platformdevice的匹配来执行。因此尽管I2 C适配器给别人提供了总线，它自己也被认为是接在platform总线上的一个客户。Linux的总线、设备和驱动模型实际上是一个树形结构，每个节点虽然可能成为别人的总线控制器，但是自己也被认为是从上一级总线枚举出来的。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "15.2　Linux I2 C核心",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心"
+  },
+  "next": {
+    "title": "15.4　Linux I2 C设备驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.4　Linux I2 C设备驱动"
+  }
+}

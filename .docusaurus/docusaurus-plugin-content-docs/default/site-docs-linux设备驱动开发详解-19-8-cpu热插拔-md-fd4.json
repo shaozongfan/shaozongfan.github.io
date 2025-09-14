@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/19.8　CPU热插拔",
+  "id": "linux设备驱动开发详解/19.8　CPU热插拔",
+  "title": "19.8　CPU热插拔",
+  "description": "Linux CPU热插拔的功能已经存在相当长的时间了，Linux 3.8之后的内核里一个小小的改进就是CPU0也可以热插拔。",
+  "source": "@site/docs/linux设备驱动开发详解/19.8　CPU热插拔.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/19.8　CPU热插拔",
+  "permalink": "/docs/linux设备驱动开发详解/19.8　CPU热插拔",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/19.8　CPU热插拔.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "19.7　PM QoS",
+    "permalink": "/docs/linux设备驱动开发详解/19.7　PM QoS"
+  },
+  "next": {
+    "title": "19.9　挂起到RAM",
+    "permalink": "/docs/linux设备驱动开发详解/19.9　挂起到RAM"
+  }
+}

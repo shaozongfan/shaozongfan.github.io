@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/3.3　Linux内核的组成",
+  "id": "linux设备驱动开发详解/3.3　Linux内核的组成",
+  "title": "3.3.1　Linux内核源代码的目录结构",
+  "description": "Linux内核源代码包含如下目录。",
+  "source": "@site/docs/linux设备驱动开发详解/3.3　Linux内核的组成.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/3.3　Linux内核的组成",
+  "permalink": "/docs/linux设备驱动开发详解/3.3　Linux内核的组成",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/3.3　Linux内核的组成.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.2　Linux 2.6后的内核特点",
+    "permalink": "/docs/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点"
+  },
+  "next": {
+    "title": "3.4.3　Linux内核的引导",
+    "permalink": "/docs/linux设备驱动开发详解/3.4　Linux内核的的编译及加载"
+  }
+}

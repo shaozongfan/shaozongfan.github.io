@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理",
+  "title": "5.4.1　udev与devfs的区别",
+  "description": "尽管devfs有这样和那样的优点，但是，在Linux 2.6内核中，devfs被认为是过时的方法，并最终被抛弃了，udev取代了它。Linux VFS内核维护者Al Viro指出了几点udev取代devfs的原因：",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.3　devfs",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/5.3　devfs"
+  },
+  "next": {
+    "title": "6.1.1　cdev结构体",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/6.1　Linux字符设备驱动结构"
+  }
+}

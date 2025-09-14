@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/7.5　自旋锁",
+  "id": "linux设备驱动开发详解/7.5　自旋锁",
+  "title": "7.5.1　自旋锁的使用",
+  "description": "自旋锁（Spin Lock）是一种典型的对临界资源进行互斥访问的手段，其名称来源于它的工作方式。为了获得一个自旋锁，在某CPU上运行的代码需先执行一个原子操作，该操作测试并设置（Test-And-Set）某个内存变量。由于它是原子操作，所以在该操作完成之前其他执行单元不可能访问这个内存变量。如果测试结果表明锁已经空闲，则程序获得这个自旋锁并继续执行；如果测试结果表明锁仍被占用，程序将在一个小的循环内重复这个“测试并设置”操作，即进行所谓的“自旋”，通俗地说就是“在原地打转”，如图7.7所示。当自旋锁的持有者通过重置该变量释放这个自旋锁后，某个等待的“测试并设置”操作向其调用者报告锁已释放。",
+  "source": "@site/docs/linux设备驱动开发详解/7.5　自旋锁.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/7.5　自旋锁",
+  "permalink": "/docs/linux设备驱动开发详解/7.5　自旋锁",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/7.5　自旋锁.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7.4　原子操作",
+    "permalink": "/docs/linux设备驱动开发详解/7.4　原子操作"
+  },
+  "next": {
+    "title": "7.6　信号量",
+    "permalink": "/docs/linux设备驱动开发详解/7.6　信号量"
+  }
+}

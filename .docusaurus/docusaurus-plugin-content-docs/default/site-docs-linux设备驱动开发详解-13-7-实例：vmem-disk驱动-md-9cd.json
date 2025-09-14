@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/13.7　实例：vmem_disk驱动",
+  "id": "linux设备驱动开发详解/13.7　实例：vmem_disk驱动",
+  "title": "13.7.1　vmem_disk的硬件原理",
+  "description": "vmem_disk是一种模拟磁盘，其数据实际上存储在RAM中。它使用通过vmalloc（）分配出来的内存空间来模拟出一个磁盘，以块设备的方式来访问这片内存。该驱动是对字符设备驱动章节中globalmem驱动的块方式改造。",
+  "source": "@site/docs/linux设备驱动开发详解/13.7　实例：vmem_disk驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/13.7　实例：vmem_disk驱动",
+  "permalink": "/docs/linux设备驱动开发详解/13.7　实例：vmem_disk驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/13.7　实例：vmem_disk驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "13.6.1　使用请求队列",
+    "permalink": "/docs/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理"
+  },
+  "next": {
+    "title": "13.8　Linux MMC子系统",
+    "permalink": "/docs/linux设备驱动开发详解/13.8　Linux MMC子系统"
+  }
+}

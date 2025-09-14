@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更",
+  "title": "18.3　由设备树引发的BSP和驱动变更",
+  "description": "有了设备树后，不再需要大量的板级信息，譬如过去经常在arch/arm/plat-xxx和arch/arm/mach-xxx中实施如下事情。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "18.2　设备树的组成和结构",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构"
+  },
+  "next": {
+    "title": "18.4　常用的OF API",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API"
+  }
+}

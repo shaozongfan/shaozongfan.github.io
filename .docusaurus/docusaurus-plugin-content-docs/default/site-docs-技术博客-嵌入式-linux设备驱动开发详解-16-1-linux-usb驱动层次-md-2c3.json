@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次",
+  "title": "16.1.1　主机侧与设备侧USB驱动",
+  "description": "USB采用树形拓扑结构，主机侧和设备侧的USB控制器分别称为主机控制器（Host Controller）和USB设备控制器（UDC），每条总线上只有一个主机控制器，负责协调主机和设备间的通信，而设备不能主动向主机发送任何消息。如图16.1所示，在Linux系统中，USB驱动可以从两个角度去观察，一个角度是主机侧，一个角度是设备侧。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "15.7　总结",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.7　总结"
+  },
+  "next": {
+    "title": "16.2.1　USB主机控制器驱动的整体结构",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动"
+  }
+}

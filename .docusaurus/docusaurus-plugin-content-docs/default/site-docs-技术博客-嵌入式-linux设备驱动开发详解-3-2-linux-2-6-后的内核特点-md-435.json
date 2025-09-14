@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点",
+  "title": "3.2　Linux 2.6后的内核特点",
+  "description": "Linux 2.6内核是Linux开发者群落一个寄予厚望的版本，从2003年12月直至2011年7月，内核重新进行了版本的编号，从而过渡到Linux 3.x版本直到成书时的Linux 4.0-rc1。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.1　Linux内核的发展与演变",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.1　Linux内核的发展与演变"
+  },
+  "next": {
+    "title": "3.3.1　Linux内核源代码的目录结构",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.3　Linux内核的组成"
+  }
+}

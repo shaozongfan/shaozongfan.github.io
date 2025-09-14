@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API",
+  "title": "18.4　常用的OF API",
+  "description": "除了前文介绍的ofmachineiscompatible（）、ofdeviceiscompatible（）等常用函数以外，在Linux的BSP和驱动代码中，经常会使用到一些Linux中其他设备树的API，这些API通常被冠以of_前缀，它们的实现代码位于内核的drivers/of目录下。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "18.3　由设备树引发的BSP和驱动变更",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更"
+  },
+  "next": {
+    "title": "18.5　总结",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.5　总结"
+  }
+}

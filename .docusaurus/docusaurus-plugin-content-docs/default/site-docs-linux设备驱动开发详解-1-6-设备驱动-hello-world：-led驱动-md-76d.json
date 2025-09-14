@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动",
+  "id": "linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动",
+  "title": "1.6.1　无操作系统时的LED驱动",
+  "description": "在嵌入式系统的设计中，LED一般直接由CPU的GPIO（通用可编程I/O）口控制。GPIO一般由两组寄存器控制，即一组控制寄存器和一组数据寄存器。控制寄存器可设置GPIO口的工作方式为输入或者输出。当引脚被设置为输出时，向数据寄存器的对应位写入1和0会分别在引脚上产生高电平和低电平；当引脚设置为输入时，读取数据寄存器的对应位可获得引脚上的电平为高或低。",
+  "source": "@site/docs/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动",
+  "permalink": "/docs/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.4.1　设备的分类及特点",
+    "permalink": "/docs/linux设备驱动开发详解/1.4　Linux设备驱动"
+  },
+  "next": {
+    "title": "10.1　中断与定时器",
+    "permalink": "/docs/linux设备驱动开发详解/10.1　中断与定时器"
+  }
+}

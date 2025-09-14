@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/4.3　模块加载函数",
+  "id": "linux设备驱动开发详解/4.3　模块加载函数",
+  "title": "4.3　模块加载函数",
+  "description": "Linux内核模块加载函数一般以init标识声明，典型的模块加载函数的形式如代码清单4.2所示。",
+  "source": "@site/docs/linux设备驱动开发详解/4.3　模块加载函数.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/4.3　模块加载函数",
+  "permalink": "/docs/linux设备驱动开发详解/4.3　模块加载函数",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/4.3　模块加载函数.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.2　Linux内核模块程序结构",
+    "permalink": "/docs/linux设备驱动开发详解/4.2　Linux内核模块程序结构"
+  },
+  "next": {
+    "title": "4.4　模块卸载函数",
+    "permalink": "/docs/linux设备驱动开发详解/4.4　模块卸载函数"
+  }
+}

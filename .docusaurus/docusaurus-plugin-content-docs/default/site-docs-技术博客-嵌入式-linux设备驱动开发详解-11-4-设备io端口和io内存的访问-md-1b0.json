@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问",
+  "title": "11.4　设备IO端口和IO内存的访问",
+  "description": "设备通常会提供一组寄存器来控制设备、读写设备和获取设备状态，即控制寄存器、数据寄存器和状态寄存器。这些寄存器可能位于I/O空间中，也可能位于内存空间中。当位于I/O空间时，通常被称为I/O端口；当位于内存空间时，对应的内存空间被称为I/O内存。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "11.3.1　用户空间内存动态申请",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取"
+  },
+  "next": {
+    "title": "11.5　IO内存静态映射",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/16.4　USB UDC与Gadget驱动",
+  "id": "linux设备驱动开发详解/16.4　USB UDC与Gadget驱动",
+  "title": "16.4.1　UDC和Gadget驱动的关键数据结构与API",
+  "description": "这里的USB设备控制器（UDC）驱动指的是作为其他USB主机控制器外设的USB硬件设备上底层硬件控制器的驱动，该硬件和驱动负责将一个USB设备依附于一个USB主机控制器上。例如，当某运行Linux系统的手机作为PC的U盘时，手机中的底层USB控制器行使USB设备控制器的功能，这时候运行在底层的是UDC驱动，而手机要成为U盘，在UDC驱动之上仍然需要另外一个驱动，对于USB大容量存储器而言，这个驱动为File Storage驱动，称为Function驱动。从图16.1左边可以看出，USB设备驱动调用USB核心的API，因此具体驱动与SoC无关；同样，从图16.1右边可以看出，Function驱动调用通用的Gadget Function API，因此具体Function驱动也变得与SoC无关。软件分层设计的好处再一次得到了深刻的体现",
+  "source": "@site/docs/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动",
+  "permalink": "/docs/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "16.3.1　USB设备驱动的整体结构",
+    "permalink": "/docs/linux设备驱动开发详解/16.3　USB设备驱动"
+  },
+  "next": {
+    "title": "16.5　USB OTG驱动",
+    "permalink": "/docs/linux设备驱动开发详解/16.5　USB OTG驱动"
+  }
+}

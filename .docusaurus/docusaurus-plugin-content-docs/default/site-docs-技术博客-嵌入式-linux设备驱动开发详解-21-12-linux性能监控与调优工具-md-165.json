@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具",
+  "title": "21.12　Linux性能监控与调优工具",
+  "description": "除了保证程序的正确性以外，在项目开发中往往还关心性能和稳定性。这时候，我们往往要对内核、应用程序或整个系统进行性能优化。在性能优化中常用的手段如下。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.11　应用程序调试",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.11　应用程序调试"
+  },
+  "next": {
+    "title": "21.13　总结",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.13　总结"
+  }
+}

@@ -17,7 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "docs/intro.md",
-    "permalink": "/docs/intro"
+    "title": "人生的底层逻辑",
+    "permalink": "/docs/人生哲学/人生的底层逻辑"
+  },
+  "next": {
+    "title": "网络问题",
+    "permalink": "/docs/网络/网络问题"
   }
 }

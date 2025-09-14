@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/10.7　总结",
+  "id": "linux设备驱动开发详解/10.7　总结",
+  "title": "10.7　总结",
+  "description": "Linux的中断处理分为两个半部，顶半部处理紧急的硬件操作，底半部处理不紧急的耗时操作。tasklet和工作队列都是调度中断底半部的良好机制，tasklet基于软中断实现。内核定时器也依靠软中断实现。",
+  "source": "@site/docs/linux设备驱动开发详解/10.7　总结.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/10.7　总结",
+  "permalink": "/docs/linux设备驱动开发详解/10.7　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/10.7　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10.6.1　短延迟",
+    "permalink": "/docs/linux设备驱动开发详解/10.6　内核延时"
+  },
+  "next": {
+    "title": "11.1.1　内存空间与I/O空间",
+    "permalink": "/docs/linux设备驱动开发详解/11.1　CPU与内存、IO"
+  }
+}

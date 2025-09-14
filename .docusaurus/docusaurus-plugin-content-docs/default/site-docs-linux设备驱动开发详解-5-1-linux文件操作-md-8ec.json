@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/5.1　Linux文件操作",
+  "id": "linux设备驱动开发详解/5.1　Linux文件操作",
+  "title": "5.1.1　文件操作系统调用",
+  "description": "Linux的文件操作系统调用（在Windows编程领域，习惯称操作系统提供的接口为API）涉及创建、打开、读写和关闭文件。",
+  "source": "@site/docs/linux设备驱动开发详解/5.1　Linux文件操作.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/5.1　Linux文件操作",
+  "permalink": "/docs/linux设备驱动开发详解/5.1　Linux文件操作",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/5.1　Linux文件操作.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.9　模块的编译",
+    "permalink": "/docs/linux设备驱动开发详解/4.9　模块的编译"
+  },
+  "next": {
+    "title": "5.2.1　Linux文件系统目录结构",
+    "permalink": "/docs/linux设备驱动开发详解/5.2　Linux文件系统"
+  }
+}

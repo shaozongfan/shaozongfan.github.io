@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动",
+  "id": "linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动",
+  "title": "8.3.1　在globalfifo驱动中增加轮询操作",
+  "description": "在globalfifo的poll（）函数中，首先将设备结构体中的rwait和wwait等待队列头部添加到等待列表中（意味着因调用select而阻塞的进程可以被rwait和wwait唤醒），然后通过判断dev->currentlen是否等于0来获得设备的可读状态，通过判断dev->currentlen是否等于GLOBALFIFO_SIZE来获得设备的可写状态，如代码清单8.9所示。",
+  "source": "@site/docs/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动",
+  "permalink": "/docs/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "8.2.1　轮询的概念与作用",
+    "permalink": "/docs/linux设备驱动开发详解/8.2　轮询操作"
+  },
+  "next": {
+    "title": "8.4　总结",
+    "permalink": "/docs/linux设备驱动开发详解/8.4　总结"
+  }
+}

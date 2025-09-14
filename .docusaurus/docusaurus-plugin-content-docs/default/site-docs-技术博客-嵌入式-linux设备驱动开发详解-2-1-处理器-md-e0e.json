@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器",
+  "title": "2.1.1　通用处理器",
+  "description": "目前主流的通用处理器（GPP）多采用SoC（片上系统）的芯片设计方法，集成了各种功能模块，每一种功能都是由硬件描述语言设计程序，然后在SoC内由电路实现的。在SoC中，每一个模块不是一个已经设计成熟的ASIC器件，而是利用芯片的一部分资源去实现某种传统的功能，将各种组件采用类似搭积木的方法组合在一起。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "19.9　挂起到RAM",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.9　挂起到RAM"
+  },
+  "next": {
+    "title": "2.2　存储器",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.2　存储器"
+  }
+}

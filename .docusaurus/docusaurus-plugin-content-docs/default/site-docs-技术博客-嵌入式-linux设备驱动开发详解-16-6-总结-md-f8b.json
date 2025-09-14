@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/16.6　总结",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/16.6　总结",
+  "title": "16.6　总结",
+  "description": "USB驱动分为USB主机驱动和USB设备驱动，如果系统的USB主机控制器符合OHCI等标准，那主机驱动的绝大部分工作都可以沿用通用的代码。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/16.6　总结.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/16.6　总结",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.6　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/16.6　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "16.5　USB OTG驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.5　USB OTG驱动"
+  },
+  "next": {
+    "title": "17.1　I2 C、SPI、USB驱动架构",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例",
+  "title": "15.6　AT24xx EEPROM的I2 C设备驱动实例",
+  "description": "drivers/misc/eeprom/at24.c文件支持大多数I2 C接口的EEPROM，正如我们之前所述，一个具体的I2 C设备驱动由i2cdriver的形式进行组织，用于将设备挂接于I2 C总线，组织好了后，再完成设备本身所属类型的驱动。对于EEPROM而言，设备本身的驱动以binattribute二进制sysfs节点形式呈现。代码清单15.25给出了该驱动的框架。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "15.5　Tegra I2 C总线驱动实例",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例"
+  },
+  "next": {
+    "title": "15.7　总结",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.7　总结"
+  }
+}

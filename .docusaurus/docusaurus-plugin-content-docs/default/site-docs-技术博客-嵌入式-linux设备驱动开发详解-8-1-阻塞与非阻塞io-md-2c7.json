@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO",
+  "title": "8.1　阻塞与非阻塞IO",
+  "description": "阻塞操作是指在执行设备操作时，若不能获得资源，则挂起进程直到满足可操作的条件后再进行操作。被挂起的进程进入睡眠状态，被从调度器的运行队列移走，直到等待的条件被满足。而非阻塞操作的进程在不能进行设备操作时，并不挂起，它要么放弃，要么不停地查询，直至可以进行操作为止。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7.9　增加并发控制后的globalmem的设备驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.9　增加并发控制后的globalmem的设备驱动"
+  },
+  "next": {
+    "title": "8.2.1　轮询的概念与作用",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作"
+  }
+}

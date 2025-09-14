@@ -1,0 +1,24 @@
+{
+  "unversionedId": "网络/网络问题",
+  "id": "网络/网络问题",
+  "title": "网络问题",
+  "description": "1753882115624",
+  "source": "@site/docs/网络/网络问题.md",
+  "sourceDirName": "网络",
+  "slug": "/网络/网络问题",
+  "permalink": "/docs/网络/网络问题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/网络/网络问题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "笔记本开篇序言",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Linux内核追踪神器：perf实现原理剖析",
+    "permalink": "/docs/调试/Linux内核追踪神器：perf实现原理剖析"
+  }
+}

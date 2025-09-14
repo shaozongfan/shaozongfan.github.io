@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/7.1　并发与竞态",
+  "id": "linux设备驱动开发详解/7.1　并发与竞态",
+  "title": "7.1　并发与竞态",
+  "description": "并发（Concurrency）指的是多个执行单元同时、并行被执行，而并发的执行单元对共享资源（硬件资源和软件上的全局变量、静态变量等）的访问则很容易导致竞态（Race Conditions）。例如，对于globalmem设备，假设一个执行单元A对其写入3000个字符“a”，而另一个执行单元B对其写入4000个“b”，第三个执行单元C读取globalmem的所有字符。如果执行单元A、B的写操作按图7.1那样顺序发生，执行单元C的读操作当然不会有什么问题。但是，如果执行单元A、B按图7.2那样被执行，而执行单元C又“不合时宜”地读，则会读出3000个“b”。",
+  "source": "@site/docs/linux设备驱动开发详解/7.1　并发与竞态.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/7.1　并发与竞态",
+  "permalink": "/docs/linux设备驱动开发详解/7.1　并发与竞态",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/7.1　并发与竞态.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7.10　总结",
+    "permalink": "/docs/linux设备驱动开发详解/7.10　总结"
+  },
+  "next": {
+    "title": "7.2　编译乱序和执行乱序",
+    "permalink": "/docs/linux设备驱动开发详解/7.2　编译乱序和执行乱序"
+  }
+}

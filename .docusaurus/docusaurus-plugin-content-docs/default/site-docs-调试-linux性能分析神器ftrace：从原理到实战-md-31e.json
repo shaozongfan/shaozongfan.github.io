@@ -1,0 +1,24 @@
+{
+  "unversionedId": "调试/Linux性能分析神器ftrace：从原理到实战",
+  "id": "调试/Linux性能分析神器ftrace：从原理到实战",
+  "title": "Linux性能分析神器ftrace：从原理到实战",
+  "description": "在当今数字化时代，Linux 系统凭借其开源、稳定、安全等诸多优势，在服务器领域占据了举足轻重的地位。据统计，全球超过 70% 的网站服务器都运行在 Linux 操作系统上 ，众多大型互联网公司如 Google、Facebook 等，都在其数据中心大规模使用 Linux，以实现高效的数据处理和存储。",
+  "source": "@site/docs/调试/Linux性能分析神器ftrace：从原理到实战.md",
+  "sourceDirName": "调试",
+  "slug": "/调试/Linux性能分析神器ftrace：从原理到实战",
+  "permalink": "/docs/调试/Linux性能分析神器ftrace：从原理到实战",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/调试/Linux性能分析神器ftrace：从原理到实战.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Linux内核追踪神器：perf实现原理剖析",
+    "permalink": "/docs/调试/Linux内核追踪神器：perf实现原理剖析"
+  },
+  "next": {
+    "title": "一，ringBuffer",
+    "permalink": "/docs/调试/Linux性能工具(三)ftrace框架"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "个人生活/自建房",
+  "id": "个人生活/自建房",
+  "title": "一、宽11米深9.8米",
+  "description": "效果图",
+  "source": "@site/docs/个人生活/自建房.md",
+  "sourceDirName": "个人生活",
+  "slug": "/个人生活/自建房",
+  "permalink": "/docs/个人生活/自建房",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/个人生活/自建房.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "怀孕注意",
+    "permalink": "/docs/个人生活/怀孕注意"
+  },
+  "next": {
+    "title": "顺产",
+    "permalink": "/docs/个人生活/顺产"
+  }
+}

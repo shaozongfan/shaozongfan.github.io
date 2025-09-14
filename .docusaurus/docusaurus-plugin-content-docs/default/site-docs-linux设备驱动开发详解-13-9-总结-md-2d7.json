@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/13.9　总结",
+  "id": "linux设备驱动开发详解/13.9　总结",
+  "title": "13.9　总结",
+  "description": "块设备的I/O操作方式与字符设备的存在较大的不同，因而引入了request_queue、request、bio等一系列数据结构。在整个块设备的I/O操作中，贯穿始终的就是“请求”，字符设备的I/O操作则是直接进行不绕弯，块设备的I/O操作会排队和整合。",
+  "source": "@site/docs/linux设备驱动开发详解/13.9　总结.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/13.9　总结",
+  "permalink": "/docs/linux设备驱动开发详解/13.9　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/13.9　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "13.8　Linux MMC子系统",
+    "permalink": "/docs/linux设备驱动开发详解/13.8　Linux MMC子系统"
+  },
+  "next": {
+    "title": "14.10　总结",
+    "permalink": "/docs/linux设备驱动开发详解/14.10　总结"
+  }
+}

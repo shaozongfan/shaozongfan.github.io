@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/arm64体系结构编程与实践/可伸缩矢量计算与优化",
+  "id": "奔跑吧linux/arm64体系结构编程与实践/可伸缩矢量计算与优化",
+  "title": "可伸缩矢量计算与优化",
+  "description": "",
+  "source": "@site/docs/奔跑吧linux/arm64体系结构编程与实践/可伸缩矢量计算与优化.md",
+  "sourceDirName": "奔跑吧linux/arm64体系结构编程与实践",
+  "slug": "/奔跑吧linux/arm64体系结构编程与实践/可伸缩矢量计算与优化",
+  "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/可伸缩矢量计算与优化",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/arm64体系结构编程与实践/可伸缩矢量计算与优化.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．什么是原子操作？",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/原子操作面试题"
+  },
+  "next": {
+    "title": "1．假设在下面的执行序列中，CPU0先执行a=1和b=1，然后CPU1一直循环判断b是否等于1，如果等于1则跳出while循环，最后执行“assert (a == 1)”语句来判断a是否等于1，那么assert语句有可能会失败吗？",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/合理使用内存屏障面试题"
+  }
+}

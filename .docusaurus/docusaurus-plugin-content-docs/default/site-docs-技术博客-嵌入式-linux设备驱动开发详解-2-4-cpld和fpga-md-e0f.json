@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA",
+  "title": "2.4　CPLD和FPGA",
+  "description": "CPLD（复杂可编程逻辑器件）由完全可编程的与或门阵列以及宏单元构成。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.3.1　串口",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线"
+  },
+  "next": {
+    "title": "2.5　原理图分析",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析"
+  }
+}

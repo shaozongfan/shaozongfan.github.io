@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/21.1　GDB调试器的用法",
+  "id": "linux设备驱动开发详解/21.1　GDB调试器的用法",
+  "title": "21.1.1　GDB的基本用法",
+  "description": "GDB是GNU开源组织发布的一个强大的UNIX下的程序调试工具，GDB主要可帮助工程师完成下面4个方面的功能。",
+  "source": "@site/docs/linux设备驱动开发详解/21.1　GDB调试器的用法.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/21.1　GDB调试器的用法",
+  "permalink": "/docs/linux设备驱动开发详解/21.1　GDB调试器的用法",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/21.1　GDB调试器的用法.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.13　总结",
+    "permalink": "/docs/linux设备驱动开发详解/21.13　总结"
+  },
+  "next": {
+    "title": "21.2　Linux内核调试",
+    "permalink": "/docs/linux设备驱动开发详解/21.2　Linux内核调试"
+  }
+}

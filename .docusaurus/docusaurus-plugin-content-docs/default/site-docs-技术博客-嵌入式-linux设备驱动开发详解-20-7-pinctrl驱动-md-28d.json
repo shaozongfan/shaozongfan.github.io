@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动",
+  "title": "20.7　pinctrl驱动",
+  "description": "许多SoC内部都包含pin控制器，通过pin控制器的寄存器，我们可以配置一个或者一组引脚的功能和特性。在软件上，Linux内核的pinctrl驱动可以操作pin控制器为我们完成如下工作：",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "20.6　GPIO驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动"
+  },
+  "next": {
+    "title": "20.8　时钟驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动"
+  }
+}

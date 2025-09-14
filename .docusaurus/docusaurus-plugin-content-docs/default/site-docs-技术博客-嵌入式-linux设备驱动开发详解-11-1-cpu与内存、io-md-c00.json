@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO",
+  "title": "11.1.1　内存空间与I/O空间",
+  "description": "在X86处理器中存在着I/O空间的概念，I/O空间是相对于内存空间而言的，它通过特定的指令in、out来访问。端口号标识了外设的寄存器地址。Intel语法中的in、out指令格式如下：",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10.7　总结",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.7　总结"
+  },
+  "next": {
+    "title": "11.2　Linux内存管理",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理"
+  }
+}

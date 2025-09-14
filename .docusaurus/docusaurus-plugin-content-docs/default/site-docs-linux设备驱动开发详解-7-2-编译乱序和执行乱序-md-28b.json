@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/7.2　编译乱序和执行乱序",
+  "id": "linux设备驱动开发详解/7.2　编译乱序和执行乱序",
+  "title": "7.2　编译乱序和执行乱序",
+  "description": "理解Linux内核的锁机制，还需要理解编译器和处理器的特点。比如下面一段代码，写端申请一个新的struct foo结构体并初始化其中的a、b、c，之后把结构体地址赋值给全局gp指针：",
+  "source": "@site/docs/linux设备驱动开发详解/7.2　编译乱序和执行乱序.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/7.2　编译乱序和执行乱序",
+  "permalink": "/docs/linux设备驱动开发详解/7.2　编译乱序和执行乱序",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/7.2　编译乱序和执行乱序.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7.1　并发与竞态",
+    "permalink": "/docs/linux设备驱动开发详解/7.1　并发与竞态"
+  },
+  "next": {
+    "title": "7.3　中断屏蔽",
+    "permalink": "/docs/linux设备驱动开发详解/7.3　中断屏蔽"
+  }
+}

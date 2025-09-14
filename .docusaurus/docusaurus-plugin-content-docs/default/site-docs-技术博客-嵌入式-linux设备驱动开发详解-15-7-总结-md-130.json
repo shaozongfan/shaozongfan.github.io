@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/15.7　总结",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/15.7　总结",
+  "title": "15.7　总结",
+  "description": "Linux的I2 C驱动体系结构相当复杂，它主要由3部分组成，即I2 C核心、I2 C总线驱动和I2 C设备驱动。I2 C核心是I2 C总线驱动和I2 C设备驱动的中间枢纽，它以通用的、与平台无关的接口实现了I2 C中设备与适配器的沟通。I2 C总线驱动填充i2cadapter和i2calgorithm结构体，I2 C设备驱动填充i2c_driver结构体并实现其本身所对应设备类型的驱动。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/15.7　总结.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/15.7　总结",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.7　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/15.7　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "15.6　AT24xx EEPROM的I2 C设备驱动实例",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例"
+  },
+  "next": {
+    "title": "16.1.1　主机侧与设备侧USB驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次"
+  }
+}

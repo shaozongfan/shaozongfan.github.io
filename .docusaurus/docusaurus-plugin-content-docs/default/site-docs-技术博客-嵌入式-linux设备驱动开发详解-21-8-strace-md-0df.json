@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/21.8　strace",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/21.8　strace",
+  "title": "21.8　strace",
+  "description": "在Linux系统中，strace是一种相当有效的跟踪工具，它的主要特点是可以被用来监视系统调用。我们不仅可以用strace调试一个新开始的程序，也可以调试一个已经在运行的程序（这意味着把strace绑定到一个已有的PID上）。对于第6章的globalmem字符设备文件，以strace方式运行如代码清单21.8所示的用户空间应用程序globalmem_test，运行的结果如下：",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/21.8　strace.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/21.8　strace",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.8　strace",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/21.8　strace.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.7　BUG_ON（​）和WARN_ON（​）",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.7　BUG_ON（​）和WARN_ON（​）"
+  },
+  "next": {
+    "title": "21.9　KGDB",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB"
+  }
+}

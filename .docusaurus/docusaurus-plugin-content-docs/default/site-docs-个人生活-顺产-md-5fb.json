@@ -1,0 +1,24 @@
+{
+  "unversionedId": "个人生活/顺产",
+  "id": "个人生活/顺产",
+  "title": "顺产",
+  "description": "1753280848119",
+  "source": "@site/docs/个人生活/顺产.md",
+  "sourceDirName": "个人生活",
+  "slug": "/个人生活/顺产",
+  "permalink": "/docs/个人生活/顺产",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/个人生活/顺产.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "一、宽11米深9.8米",
+    "permalink": "/docs/个人生活/自建房"
+  },
+  "next": {
+    "title": "人生的底层逻辑",
+    "permalink": "/docs/人生哲学/人生的底层逻辑"
+  }
+}

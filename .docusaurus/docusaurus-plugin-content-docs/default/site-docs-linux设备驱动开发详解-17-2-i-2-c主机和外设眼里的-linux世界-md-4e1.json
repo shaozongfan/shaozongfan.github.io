@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界",
+  "id": "linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界",
+  "title": "17.2　I2 C主机和外设眼里的Linux世界",
+  "description": "I2 C控制器所在驱动的platformdriver与arch/arm/mach-xxx中的platformdevice（或者设备树中的节点）通过platform总线的match（）函数匹配导致platformdriver.probe（）执行，从而完成I2 C控制器的注册；而I2 C上面挂的触摸屏依附的i2cdriver与arch/arm/mach-xxx中的i2cboardinfo指向的设备（或者设备树中的节点）通过I2 C总线的match（）函数匹配导致i2c_driver.probe（）执行，从而使触摸屏展开。",
+  "source": "@site/docs/linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界",
+  "permalink": "/docs/linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "17.1　I2 C、SPI、USB驱动架构",
+    "permalink": "/docs/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构"
+  },
+  "next": {
+    "title": "18.1　ARM设备树起源",
+    "permalink": "/docs/linux设备驱动开发详解/18.1　ARM设备树起源"
+  }
+}

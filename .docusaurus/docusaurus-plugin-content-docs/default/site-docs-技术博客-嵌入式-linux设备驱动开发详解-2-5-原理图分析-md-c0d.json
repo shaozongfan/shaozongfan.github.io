@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析",
+  "title": "2.5　原理图分析",
+  "description": "原理图分析的含义是指通过阅读电路板的原理图获得各种存储器、外设所使用的硬件资源、接口和引脚连接关系。若要整体理解整个电路板的硬件组成，原理图的分析方法是以主CPU为中心向存储器和外设辐射，步骤如下。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.4　CPLD和FPGA",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA"
+  },
+  "next": {
+    "title": "2.6.1　时序分析的概念",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/arm64体系结构编程与实践/ARM64体系结构基础知识面试题",
+  "id": "奔跑吧linux/arm64体系结构编程与实践/ARM64体系结构基础知识面试题",
+  "title": "1．ARMv8体系结构处理器包含多少个通用寄存器？",
+  "description": "",
+  "source": "@site/docs/奔跑吧linux/arm64体系结构编程与实践/ARM64体系结构基础知识面试题.md",
+  "sourceDirName": "奔跑吧linux/arm64体系结构编程与实践",
+  "slug": "/奔跑吧linux/arm64体系结构编程与实践/ARM64体系结构基础知识面试题",
+  "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/ARM64体系结构基础知识面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/arm64体系结构编程与实践/ARM64体系结构基础知识面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．请简述N、Z、C、V这4个条件标志位的作用。",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/A64指令集算数与移位指令面试题"
+  },
+  "next": {
+    "title": "1．在内嵌汇编代码中，关键字asm、volatile、inline以及goto分别代表什么意思？",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/GCC内嵌汇编面试题"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/18.5　总结",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/18.5　总结",
+  "title": "18.5　总结",
+  "description": "充斥着ARM社区的大量垃圾代码导致Linus盛怒，因此该社区在2011~2012年进行了大量的修整工作。ARM Linux开始围绕设备树展开，设备树有自己的独立语法，它的源文件为.dts，编译后得到.dtb，Bootloader在引导Linux内核的时候会将.dtb地址告知内核。之后内核会展开设备树并创建和注册相关的设备，因此arch/arm/mach-xxx和arch/arm/plat-xxx中的大量用于注册platform、I2 C、SPI等板级信息的代码被删除，而驱动也以新的方式与在.dts中定义的设备节点进行匹配。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/18.5　总结.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/18.5　总结",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.5　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/18.5　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "18.4　常用的OF API",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API"
+  },
+  "next": {
+    "title": "19.10　运行时的PM",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.10　运行时的PM"
+  }
+}

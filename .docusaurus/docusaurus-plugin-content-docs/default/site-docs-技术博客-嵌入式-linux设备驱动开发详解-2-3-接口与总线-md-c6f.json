@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线",
+  "title": "2.3.1　串口",
+  "description": "RS-232、RS-422与RS-485都是串行数据接口标准，最初都是由电子工业协会（EIA）制订并发布的。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.2　存储器",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.2　存储器"
+  },
+  "next": {
+    "title": "2.4　CPLD和FPGA",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA"
+  }
+}

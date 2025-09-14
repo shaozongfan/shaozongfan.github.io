@@ -1,0 +1,24 @@
+{
+  "unversionedId": "调试/Linux性能工具(三)ftrace框架",
+  "id": "调试/Linux性能工具(三)ftrace框架",
+  "title": "一，ringBuffer",
+  "description": "Ringbuffer是trace32框架的一个基础，所有的trace原始数据都是通过Ring Buffer记录的，其主要有以下几个作用：",
+  "source": "@site/docs/调试/Linux性能工具(三)ftrace框架.md",
+  "sourceDirName": "调试",
+  "slug": "/调试/Linux性能工具(三)ftrace框架",
+  "permalink": "/docs/调试/Linux性能工具(三)ftrace框架",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/调试/Linux性能工具(三)ftrace框架.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Linux性能分析神器ftrace：从原理到实战",
+    "permalink": "/docs/调试/Linux性能分析神器ftrace：从原理到实战"
+  },
+  "next": {
+    "title": "linux信号机制",
+    "permalink": "/docs/调试/linux信号机制"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/调试与案例分析/3、内核调试与性能优化面试题",
+  "id": "奔跑吧linux/调试与案例分析/3、内核调试与性能优化面试题",
+  "title": "内核调试与性能优化面试题",
+  "description": "1．使用GCC的“O0”优化选项来编译内核有什么优势？",
+  "source": "@site/docs/奔跑吧linux/调试与案例分析/3、内核调试与性能优化面试题.md",
+  "sourceDirName": "奔跑吧linux/调试与案例分析",
+  "slug": "/奔跑吧linux/调试与案例分析/3、内核调试与性能优化面试题",
+  "permalink": "/docs/奔跑吧linux/调试与案例分析/3、内核调试与性能优化面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/调试与案例分析/3、内核调试与性能优化面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "中断管理面试题",
+    "permalink": "/docs/奔跑吧linux/调试与案例分析/2、中断管理面试题"
+  },
+  "next": {
+    "title": "1．请简述Kdump的工作原理。",
+    "permalink": "/docs/奔跑吧linux/调试与案例分析/4、基于x86_64宕机难题面试题"
+  }
+}

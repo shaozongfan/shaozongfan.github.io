@@ -1,0 +1,24 @@
+{
+  "unversionedId": "人生哲学/人生的底层逻辑",
+  "id": "人生哲学/人生的底层逻辑",
+  "title": "人生的底层逻辑",
+  "description": "家庭的底层逻辑是经济，不是感情",
+  "source": "@site/docs/人生哲学/人生的底层逻辑.md",
+  "sourceDirName": "人生哲学",
+  "slug": "/人生哲学/人生的底层逻辑",
+  "permalink": "/docs/人生哲学/人生的底层逻辑",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/人生哲学/人生的底层逻辑.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "顺产",
+    "permalink": "/docs/个人生活/顺产"
+  },
+  "next": {
+    "title": "AI核心技能",
+    "permalink": "/docs/技术博客/AI相关/AI核心技能"
+  }
+}

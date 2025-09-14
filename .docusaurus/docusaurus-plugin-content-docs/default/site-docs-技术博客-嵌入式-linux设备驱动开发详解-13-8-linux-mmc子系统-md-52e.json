@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统",
+  "title": "13.8　Linux MMC子系统",
+  "description": "Linux MMC/SD存储卡是一种典型的块设备，它的实现位于drivers/mmc。drivers/mmc下又分为card、core和host这3个子目录。card实际上跟Linux的块设备子系统对接，实现块设备驱动以及完成请求，但是具体的协议经过core层的接口，最终通过host完成传输，因此整个MMC子系统的框架结构如图13.5所示。另外，card目录除了实现标准的MMC/SD存储卡以外，该目录还包含一些SDIO外设的卡驱动，如drivers/mmc/card/sdio_uart.c。core目录除了给card提供接口外，实际上也定义好了host驱动的框架。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "13.7.1　vmem_disk的硬件原理",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.7　实例：vmem_disk驱动"
+  },
+  "next": {
+    "title": "13.9　总结",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.9　总结"
+  }
+}

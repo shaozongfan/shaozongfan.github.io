@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/14.2　网络设备驱动的注册与注销",
+  "id": "linux设备驱动开发详解/14.2　网络设备驱动的注册与注销",
+  "title": "14.2　网络设备驱动的注册与注销",
+  "description": "网络设备驱动的注册与注销由registernetdev（）和unregisternetdev（）函数完成，这两个函数的原型为：",
+  "source": "@site/docs/linux设备驱动开发详解/14.2　网络设备驱动的注册与注销.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/14.2　网络设备驱动的注册与注销",
+  "permalink": "/docs/linux设备驱动开发详解/14.2　网络设备驱动的注册与注销",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/14.2　网络设备驱动的注册与注销.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "14.1　Linux网络设备驱动的结构",
+    "permalink": "/docs/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构"
+  },
+  "next": {
+    "title": "14.3　网络设备的初始化",
+    "permalink": "/docs/linux设备驱动开发详解/14.3　网络设备的初始化"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态",
+  "title": "14.7　网络连接状态",
+  "description": "网络适配器硬件电路可以检测出链路上是否有载波，载波反映了网络的连接是否正常。网络设备驱动可以通过netifcarrieron（）和netifcarrieroff（）函数改变设备的连接状态，如果驱动检测到连接状态发生变化，也应该以netifcarrieron（）和netifcarrieroff（）函数显式地通知内核。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "14.6　数据接收流程",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.6　数据接收流程"
+  },
+  "next": {
+    "title": "14.8　参数设置和统计数据",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.8　参数设置和统计数据"
+  }
+}

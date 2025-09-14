@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器",
+  "title": "10.1　中断与定时器",
+  "description": "所谓中断是指CPU在执行程序的过程中，出现了某些突发事件急待处理，CPU必须暂停当前程序的执行，转去处理突发事件，处理完毕后又返回原程序被中断的位置继续执行。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.6.1　无操作系统时的LED驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动"
+  },
+  "next": {
+    "title": "10.2　Linux中断处理程序架构",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.2　Linux中断处理程序架构"
+  }
+}

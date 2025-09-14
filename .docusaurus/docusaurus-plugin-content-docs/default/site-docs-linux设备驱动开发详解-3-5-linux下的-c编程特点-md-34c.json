@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/3.5　Linux下的C编程特点",
+  "id": "linux设备驱动开发详解/3.5　Linux下的C编程特点",
+  "title": "3.5.1　Linux编码风格",
+  "description": "Linux有独特的编码风格，在内核源代码下存在一个文件Documentation/CodingStyle，进行了比较详细的描述。",
+  "source": "@site/docs/linux设备驱动开发详解/3.5　Linux下的C编程特点.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/3.5　Linux下的C编程特点",
+  "permalink": "/docs/linux设备驱动开发详解/3.5　Linux下的C编程特点",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/3.5　Linux下的C编程特点.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.4.3　Linux内核的引导",
+    "permalink": "/docs/linux设备驱动开发详解/3.4　Linux内核的的编译及加载"
+  },
+  "next": {
+    "title": "3.6　工具链",
+    "permalink": "/docs/linux设备驱动开发详解/3.6　工具链"
+  }
+}

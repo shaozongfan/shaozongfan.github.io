@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/13.1　块设备的IO操作特点",
+  "id": "linux设备驱动开发详解/13.1　块设备的IO操作特点",
+  "title": "13.1　块设备的IO操作特点",
+  "description": "字符设备与块设备I/O操作的不同如下。",
+  "source": "@site/docs/linux设备驱动开发详解/13.1　块设备的IO操作特点.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/13.1　块设备的IO操作特点",
+  "permalink": "/docs/linux设备驱动开发详解/13.1　块设备的IO操作特点",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/13.1　块设备的IO操作特点.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "12.4.1　主机驱动与外设驱动分离",
+    "permalink": "/docs/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想"
+  },
+  "next": {
+    "title": "13.2.1　block_device_operations结构体",
+    "permalink": "/docs/linux设备驱动开发详解/13.2　Linux块设备驱动结构"
+  }
+}

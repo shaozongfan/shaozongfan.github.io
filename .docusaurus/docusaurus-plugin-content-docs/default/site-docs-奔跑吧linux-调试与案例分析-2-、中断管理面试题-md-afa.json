@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/调试与案例分析/2、中断管理面试题",
+  "id": "奔跑吧linux/调试与案例分析/2、中断管理面试题",
+  "title": "中断管理面试题",
+  "description": "1．发生硬件中断后，ARM64处理器做了哪些事情？",
+  "source": "@site/docs/奔跑吧linux/调试与案例分析/2、中断管理面试题.md",
+  "sourceDirName": "奔跑吧linux/调试与案例分析",
+  "slug": "/奔跑吧linux/调试与案例分析/2、中断管理面试题",
+  "permalink": "/docs/奔跑吧linux/调试与案例分析/2、中断管理面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/调试与案例分析/2、中断管理面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "并发与同步面试题",
+    "permalink": "/docs/奔跑吧linux/调试与案例分析/1、并发与同步面试题"
+  },
+  "next": {
+    "title": "内核调试与性能优化面试题",
+    "permalink": "/docs/奔跑吧linux/调试与案例分析/3、内核调试与性能优化面试题"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/14.1　Linux网络设备驱动的结构",
+  "id": "linux设备驱动开发详解/14.1　Linux网络设备驱动的结构",
+  "title": "14.1　Linux网络设备驱动的结构",
+  "description": "Linux网络设备驱动程序的体系结构如图14.1所示，从上到下可以划分为4层，依次为网络协议接口层、网络设备接口层、提供实际功能的设备驱动功能层以及网络设备与媒介层，这4层的作用如下所示。",
+  "source": "@site/docs/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构",
+  "permalink": "/docs/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "14.10　总结",
+    "permalink": "/docs/linux设备驱动开发详解/14.10　总结"
+  },
+  "next": {
+    "title": "14.2　网络设备驱动的注册与注销",
+    "permalink": "/docs/linux设备驱动开发详解/14.2　网络设备驱动的注册与注销"
+  }
+}

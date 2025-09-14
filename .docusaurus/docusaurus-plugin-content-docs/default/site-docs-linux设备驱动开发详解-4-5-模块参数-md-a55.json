@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/4.5　模块参数",
+  "id": "linux设备驱动开发详解/4.5　模块参数",
+  "title": "4.5　模块参数",
+  "description": "我们可以用“module_param（参数名，参数类型，参数读/写权限）”为模块定义一个参数，例如下列代码定义了1个整型参数和1个字符指针参数：",
+  "source": "@site/docs/linux设备驱动开发详解/4.5　模块参数.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/4.5　模块参数",
+  "permalink": "/docs/linux设备驱动开发详解/4.5　模块参数",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/4.5　模块参数.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.4　模块卸载函数",
+    "permalink": "/docs/linux设备驱动开发详解/4.4　模块卸载函数"
+  },
+  "next": {
+    "title": "4.6　导出符号",
+    "permalink": "/docs/linux设备驱动开发详解/4.6　导出符号"
+  }
+}

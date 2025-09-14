@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/rzg部署kdump",
+  "id": "技术博客/嵌入式/rzg部署kdump",
+  "title": "rzg部署kdump",
+  "description": "busybox支持kdump",
+  "source": "@site/docs/技术博客/嵌入式/rzg部署kdump.md",
+  "sourceDirName": "技术博客/嵌入式",
+  "slug": "/技术博客/嵌入式/rzg部署kdump",
+  "permalink": "/docs/技术博客/嵌入式/rzg部署kdump",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/rzg部署kdump.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "9.5　总结",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.5　总结"
+  },
+  "next": {
+    "title": "网络问题",
+    "permalink": "/docs/技术博客/网络/网络问题"
+  }
+}

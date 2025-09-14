@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射",
+  "title": "11.5　IO内存静态映射",
+  "description": "在将Linux移植到目标电路板的过程中，有得会建立外设I/O内存物理地址到虚拟地址的静态映射，这个映射通过在与电路板对应的mapdesc结构体数组中添加新的成员来完成，mapdesc结构体的定义如代码清单11.10所示。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "11.4　设备IO端口和IO内存的访问",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问"
+  },
+  "next": {
+    "title": "11.6　DMA",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.6　DMA"
+  }
+}

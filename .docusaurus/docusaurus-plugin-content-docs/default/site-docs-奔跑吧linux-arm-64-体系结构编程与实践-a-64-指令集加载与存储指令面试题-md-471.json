@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/arm64体系结构编程与实践/A64指令集加载与存储指令面试题",
+  "id": "奔跑吧linux/arm64体系结构编程与实践/A64指令集加载与存储指令面试题",
+  "title": "1．A64指令集有什么特点？",
+  "description": "",
+  "source": "@site/docs/奔跑吧linux/arm64体系结构编程与实践/A64指令集加载与存储指令面试题.md",
+  "sourceDirName": "奔跑吧linux/arm64体系结构编程与实践",
+  "slug": "/奔跑吧linux/arm64体系结构编程与实践/A64指令集加载与存储指令面试题",
+  "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/A64指令集加载与存储指令面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/arm64体系结构编程与实践/A64指令集加载与存储指令面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．ADR/ADRP与伪指令LDR有什么区别？",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/A64指令集其他重要指令面试题"
+  },
+  "next": {
+    "title": "1．请用汇编代码来实现如下C语言代码。",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/A64指令集比较与跳转指令面试题"
+  }
+}

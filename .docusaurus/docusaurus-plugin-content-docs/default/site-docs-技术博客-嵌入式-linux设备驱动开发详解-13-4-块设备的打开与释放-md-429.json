@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放",
+  "title": "13.4　块设备的打开与释放",
+  "description": "块设备驱动的open（）函数和其字符设备驱动的对等体不太相似，前者不以相关的inode和file结构体指针作为参数（因为file和inode概念位于文件系统层中）。在open（）中我们可以通过blockdevice参数bdev获取privatedata、在release（）函数中则通过gendisk参数disk获取，如代码清单13.7所示。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "13.3　Linux块设备驱动的初始化",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.3　Linux块设备驱动的初始化"
+  },
+  "next": {
+    "title": "13.5　块设备驱动的ioctl函数",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数"
+  }
+}

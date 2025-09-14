@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/arm64体系结构编程与实践/异常处理面试题",
+  "id": "奔跑吧linux/arm64体系结构编程与实践/异常处理面试题",
+  "title": "1．在ARM64处理器中，异常有哪几类？",
+  "description": "",
+  "source": "@site/docs/奔跑吧linux/arm64体系结构编程与实践/异常处理面试题.md",
+  "sourceDirName": "奔跑吧linux/arm64体系结构编程与实践",
+  "slug": "/奔跑吧linux/arm64体系结构编程与实践/异常处理面试题",
+  "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/异常处理面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/arm64体系结构编程与实践/异常处理面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．假设在下面的执行序列中，CPU0先执行a=1和b=1，然后CPU1一直循环判断b是否等于1，如果等于1则跳出while循环，最后执行“assert (a == 1)”语句来判断a是否等于1，那么assert语句有可能会失败吗？",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/合理使用内存屏障面试题"
+  },
+  "next": {
+    "title": "1．什么是C语言的整型提升？请从ARM64处理器角度来解释整型提升。",
+    "permalink": "/docs/奔跑吧linux/arm64体系结构编程与实践/操作系统相关面试题"
+  }
+}

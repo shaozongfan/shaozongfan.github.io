@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/基础架构/2、ARM64在linux内核中的实现面试题",
+  "id": "奔跑吧linux/基础架构/2、ARM64在linux内核中的实现面试题",
+  "title": "1．ARM64处理器中有两个页表基地址寄存器TTBR0和TTBR1，处理器如何使用它们？",
+  "description": "",
+  "source": "@site/docs/奔跑吧linux/基础架构/2、ARM64在linux内核中的实现面试题.md",
+  "sourceDirName": "奔跑吧linux/基础架构",
+  "slug": "/奔跑吧linux/基础架构/2、ARM64在linux内核中的实现面试题",
+  "permalink": "/docs/奔跑吧linux/基础架构/2、ARM64在linux内核中的实现面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/基础架构/2、ARM64在linux内核中的实现面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．请简述精简指令集RISC和复杂指令集CISC的区别。",
+    "permalink": "/docs/奔跑吧linux/基础架构/1、处理器架构面试题"
+  },
+  "next": {
+    "title": "1．请简述内存架构中UMA和NUMA的区别。",
+    "permalink": "/docs/奔跑吧linux/基础架构/3、内存管理预备知识面试题"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动",
+  "title": "20.2　内核节拍驱动",
+  "description": "Linux 2.6的早期（Linux2.6.21之前）内核是基于节拍设计的，一般SoC公司在将Linux移植到自己芯片上的时候，会从芯片内部找一个定时器，并将该定时器配置为赫兹的频率，在每个时钟节拍到来时，调用ARM Linux内核核心层的timer_tick（）函数，从而引发系统里的一系列行为。如Linux 2.6.17中arch/arm/mach-s3c2410/time.c的做法类似于代码清单20.1所示。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "20.1　ARM Linux底层驱动的组成和现状",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状"
+  },
+  "next": {
+    "title": "20.3　中断控制器驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.3　中断控制器驱动"
+  }
+}

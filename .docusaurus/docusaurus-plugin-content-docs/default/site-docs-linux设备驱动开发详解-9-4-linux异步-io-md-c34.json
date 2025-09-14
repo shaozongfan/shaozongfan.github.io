@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/9.4　Linux异步IO",
+  "id": "linux设备驱动开发详解/9.4　Linux异步IO",
+  "title": "9.4.1　AIO概念与GNU C库AIO",
+  "description": "Linux中最常用的输入/输出（I/O）模型是同步I/O。在这个模型中，当请求发出之后，应用程序就会阻塞，直到请求满足为止。这是一种很好的解决方案，调用应用程序在等待I/O请求完成时不需要占用CPU。但是在许多应用场景中，I/O请求可能需要与CPU消耗产生交叠，以充分利用CPU和I/O提高吞吐率。",
+  "source": "@site/docs/linux设备驱动开发详解/9.4　Linux异步IO.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/9.4　Linux异步IO",
+  "permalink": "/docs/linux设备驱动开发详解/9.4　Linux异步IO",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/9.4　Linux异步IO.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "9.3.1　在globalfifo驱动中增加异步通知",
+    "permalink": "/docs/linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动"
+  },
+  "next": {
+    "title": "9.5　总结",
+    "permalink": "/docs/linux设备驱动开发详解/9.5　总结"
+  }
+}

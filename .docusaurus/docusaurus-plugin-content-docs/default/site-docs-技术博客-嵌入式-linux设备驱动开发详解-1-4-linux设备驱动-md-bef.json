@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动",
+  "title": "1.4.1　设备的分类及特点",
+  "description": "计算机系统的硬件主要由CPU、存储器和外设组成。随着IC制作工艺的发展，目前，芯片的集成度越来越高，往往在CPU内部就集成了存储器和外设适配器。譬如，相当多的ARM、PowerPC、MIPS等处理器都集成了UART、I2 C控制器、SPI控制器、USB控制器、SDRAM控制器等，有的处理器还集成了GPU（图形处理器）、视频编解码器等。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.3　有操作系统时的设备驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.3　有操作系统时的设备驱动"
+  },
+  "next": {
+    "title": "1.6.1　无操作系统时的LED驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动"
+  }
+}

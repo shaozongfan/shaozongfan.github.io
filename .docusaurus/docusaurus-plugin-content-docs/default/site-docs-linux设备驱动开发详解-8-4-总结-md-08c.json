@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/8.4　总结",
+  "id": "linux设备驱动开发详解/8.4　总结",
+  "title": "8.4　总结",
+  "description": "阻塞与非阻塞访问是I/O操作的两种不同模式，前者在暂时不可进行I/O操作时会让进程睡眠，后者则不然。",
+  "source": "@site/docs/linux设备驱动开发详解/8.4　总结.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/8.4　总结",
+  "permalink": "/docs/linux设备驱动开发详解/8.4　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/8.4　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "8.3.1　在globalfifo驱动中增加轮询操作",
+    "permalink": "/docs/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动"
+  },
+  "next": {
+    "title": "9.1　异步通知的概念与作用",
+    "permalink": "/docs/linux设备驱动开发详解/9.1　异步通知的概念与作用"
+  }
+}

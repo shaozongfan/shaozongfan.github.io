@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/4.2　Linux内核模块程序结构",
+  "id": "linux设备驱动开发详解/4.2　Linux内核模块程序结构",
+  "title": "4.2　Linux内核模块程序结构",
+  "description": "一个Linux内核模块主要由如下几个部分组成。",
+  "source": "@site/docs/linux设备驱动开发详解/4.2　Linux内核模块程序结构.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/4.2　Linux内核模块程序结构",
+  "permalink": "/docs/linux设备驱动开发详解/4.2　Linux内核模块程序结构",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/4.2　Linux内核模块程序结构.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.1　Linux内核模块简介",
+    "permalink": "/docs/linux设备驱动开发详解/4.1　Linux内核模块简介"
+  },
+  "next": {
+    "title": "4.3　模块加载函数",
+    "permalink": "/docs/linux设备驱动开发详解/4.3　模块加载函数"
+  }
+}

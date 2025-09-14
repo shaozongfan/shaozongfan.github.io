@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述",
+  "title": "6.2　globalmem虚拟设备实例描述",
+  "description": "从本章开始，后续的数章都将基于虚拟的globalmem设备进行字符设备驱动的讲解。globalmem意味着“全局内存”，在globalmem字符设备驱动中会分配一片大小为GLOBALMEM_SIZE（4KB）的内存空间，并在驱动中提供针对该片内存的读写、控制和定位函数，以供用户空间的进程能通过Linux系统调用获取或设置这片内存的内容。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "6.1.1　cdev结构体",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/6.1　Linux字符设备驱动结构"
+  },
+  "next": {
+    "title": "6.3.1　头文件、宏及设备结构体",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/6.3　globalmem设备驱动"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链",
+  "title": "3.6　工具链",
+  "description": "在Linux的编程中，通常使用GNU工具链编译Bootloader、内核和应用程序。GNU组织维护了GCC、GDB、glibc、Binutils等，分别见于https//www.gnu.org/software/gdb/ ，https//www.gnu.org/software/binutils/ 。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.5.1　Linux编码风格",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.5　Linux下的C编程特点"
+  },
+  "next": {
+    "title": "4.10　使用模块“绕开”GPL",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.10　使用模块“绕开”GPL"
+  }
+}

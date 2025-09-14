@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/19.2　CPUFreq驱动",
+  "id": "linux设备驱动开发详解/19.2　CPUFreq驱动",
+  "title": "19.2　CPUFreq驱动",
+  "description": "CPUFreq子系统位于drivers/cpufreq目录下，负责进行运行过程中CPU频率和电压的动态调整，即DVFS（Dynamic Voltage Frequency Scaling，动态电压频率调整）。运行时进行CPU电压和频率调整的原因是：CMOS电路中的功耗与电压的平方成正比、与频率成正比（P∝fV2 ），因此降低电压和频率可降低功耗。",
+  "source": "@site/docs/linux设备驱动开发详解/19.2　CPUFreq驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/19.2　CPUFreq驱动",
+  "permalink": "/docs/linux设备驱动开发详解/19.2　CPUFreq驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/19.2　CPUFreq驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "19.1　Linux电源管理的全局架构",
+    "permalink": "/docs/linux设备驱动开发详解/19.1　Linux电源管理的全局架构"
+  },
+  "next": {
+    "title": "19.3　CPUIdle驱动",
+    "permalink": "/docs/linux设备驱动开发详解/19.3　CPUIdle驱动"
+  }
+}

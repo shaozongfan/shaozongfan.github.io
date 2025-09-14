@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/9.5　总结",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/9.5　总结",
+  "title": "9.5　总结",
+  "description": "本章主要讲述了Linux中的异步I/O，异步I/O可以使得应用程序在等待I/O操作的同时进行其他操作。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/9.5　总结.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/9.5　总结",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.5　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/9.5　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "9.4.1　AIO概念与GNU C库AIO",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.4　Linux异步IO"
+  },
+  "next": {
+    "title": "rzg部署kdump",
+    "permalink": "/docs/技术博客/嵌入式/rzg部署kdump"
+  }
+}

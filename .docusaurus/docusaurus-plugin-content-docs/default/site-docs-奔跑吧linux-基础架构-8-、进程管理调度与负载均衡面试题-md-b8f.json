@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/基础架构/8、进程管理调度与负载均衡面试题",
+  "id": "奔跑吧linux/基础架构/8、进程管理调度与负载均衡面试题",
+  "title": "1．请简述进程优先级、nice值和权重之间的关系。",
+  "description": "",
+  "source": "@site/docs/奔跑吧linux/基础架构/8、进程管理调度与负载均衡面试题.md",
+  "sourceDirName": "奔跑吧linux/基础架构",
+  "slug": "/奔跑吧linux/基础架构/8、进程管理调度与负载均衡面试题",
+  "permalink": "/docs/奔跑吧linux/基础架构/8、进程管理调度与负载均衡面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/基础架构/8、进程管理调度与负载均衡面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．进程是什么？",
+    "permalink": "/docs/奔跑吧linux/基础架构/7、进程管理基本概念面试题"
+  },
+  "next": {
+    "title": "1．如何查看进程的调度信息？",
+    "permalink": "/docs/奔跑吧linux/基础架构/9、进程管理调试和案例面试题"
+  }
+}

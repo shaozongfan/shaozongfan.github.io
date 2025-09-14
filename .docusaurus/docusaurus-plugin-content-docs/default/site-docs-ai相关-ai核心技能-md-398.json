@@ -1,0 +1,20 @@
+{
+  "unversionedId": "AI相关/AI核心技能",
+  "id": "AI相关/AI核心技能",
+  "title": "AI核心技能",
+  "description": "",
+  "source": "@site/docs/AI相关/AI核心技能.md",
+  "sourceDirName": "AI相关",
+  "slug": "/AI相关/AI核心技能",
+  "permalink": "/docs/AI相关/AI核心技能",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/AI相关/AI核心技能.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "docs/intro.md",
+    "permalink": "/docs/intro"
+  }
+}

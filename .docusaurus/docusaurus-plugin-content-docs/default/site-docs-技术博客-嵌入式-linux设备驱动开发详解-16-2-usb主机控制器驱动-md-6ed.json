@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动",
+  "title": "16.2.1　USB主机控制器驱动的整体结构",
+  "description": "USB主机控制器有这些规格：OHCI（Open Host Controller Interface）、UHCI（Universal Host Controller Interface）、EHCI（Enhanced Host Controller Interface）和xHCI（eXtensible Host Controller Interface）。OHCI驱动程序用来为非PC系统上以及带有SiS和ALi芯片组的PC主板上的USB芯片提供支持。UHCI驱动程序多用来为大多数其他PC主板（包括Intel和Via）上的USB芯片提供支持。EHCI由USB 2.0规范所提出，它兼容于OHCI和UHCI。由于UHCI的硬件线路比OHCI简单，所以成本较低，但需要较复杂的驱动程序，CPU负荷稍重。xHCI，即可扩展的主机控制器接口是Intel公司开发的一个USB主机控制器接口，它目前主要是面向USB 3.0的，同时它也支持USB 2.0及以下的设备。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "16.1.1　主机侧与设备侧USB驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次"
+  },
+  "next": {
+    "title": "16.3.1　USB设备驱动的整体结构",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动"
+  }
+}

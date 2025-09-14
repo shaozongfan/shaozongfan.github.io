@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/10.5　内核定时器",
+  "id": "linux设备驱动开发详解/10.5　内核定时器",
+  "title": "10.5.1　内核定时器编程",
+  "description": "软件意义上的定时器最终依赖硬件定时器来实现，内核在时钟中断发生后检测各定时器是否到期，到期后的定时器处理函数将作为软中断在底半部执行。实质上，时钟中断处理程序会唤起TIMER_SOFTIRQ软中断，运行当前处理器上到期的所有定时器。",
+  "source": "@site/docs/linux设备驱动开发详解/10.5　内核定时器.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/10.5　内核定时器",
+  "permalink": "/docs/linux设备驱动开发详解/10.5　内核定时器",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/10.5　内核定时器.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10.4　中断共享",
+    "permalink": "/docs/linux设备驱动开发详解/10.4　中断共享"
+  },
+  "next": {
+    "title": "10.6.1　短延迟",
+    "permalink": "/docs/linux设备驱动开发详解/10.6　内核延时"
+  }
+}

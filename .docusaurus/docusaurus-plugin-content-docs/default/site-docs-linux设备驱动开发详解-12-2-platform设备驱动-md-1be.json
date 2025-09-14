@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/12.2　platform设备驱动",
+  "id": "linux设备驱动开发详解/12.2　platform设备驱动",
+  "title": "12.2.1　platform总线、设备与驱动",
+  "description": "在Linux 2.6以后的设备驱动模型中，需关心总线、设备和驱动这3个实体，总线将设备和驱动绑定。在系统每注册一个设备的时候，会寻找与之匹配的驱动；相反的，在系统每注册一个驱动的时候，会寻找与之匹配的设备，而匹配由总线完成。",
+  "source": "@site/docs/linux设备驱动开发详解/12.2　platform设备驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/12.2　platform设备驱动",
+  "permalink": "/docs/linux设备驱动开发详解/12.2　platform设备驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/12.2　platform设备驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "12.1　Linux驱动的软件架构",
+    "permalink": "/docs/linux设备驱动开发详解/12.1　Linux驱动的软件架构"
+  },
+  "next": {
+    "title": "12.3.1　设备驱动核心层和例化",
+    "permalink": "/docs/linux设备驱动开发详解/12.3　设备驱动的分层思想"
+  }
+}

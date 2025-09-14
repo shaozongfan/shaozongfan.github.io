@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理",
+  "title": "11.2　Linux内存管理",
+  "description": "对于包含MMU的处理器而言，Linux系统提供了复杂的存储管理系统，使得进程所能访问的内存达到4GB。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "11.1.1　内存空间与I/O空间",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO"
+  },
+  "next": {
+    "title": "11.3.1　用户空间内存动态申请",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取"
+  }
+}

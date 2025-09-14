@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/20.9　dmaengine驱动",
+  "id": "linux设备驱动开发详解/20.9　dmaengine驱动",
+  "title": "20.9　dmaengine驱动",
+  "description": "dmaengine是一套通用的DMA驱动框架，该框架为具体使用DMA通道的设备驱动提供了一套统一的API，而且也定义了用具体的DMA控制器实现这一套API的方法。",
+  "source": "@site/docs/linux设备驱动开发详解/20.9　dmaengine驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/20.9　dmaengine驱动",
+  "permalink": "/docs/linux设备驱动开发详解/20.9　dmaengine驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/20.9　dmaengine驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "20.8　时钟驱动",
+    "permalink": "/docs/linux设备驱动开发详解/20.8　时钟驱动"
+  },
+  "next": {
+    "title": "21.10　使用仿真器调试内核",
+    "permalink": "/docs/linux设备驱动开发详解/21.10　使用仿真器调试内核"
+  }
+}

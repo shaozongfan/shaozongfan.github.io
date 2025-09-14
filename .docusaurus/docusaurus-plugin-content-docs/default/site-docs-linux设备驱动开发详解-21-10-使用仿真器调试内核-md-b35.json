@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/21.10　使用仿真器调试内核",
+  "id": "linux设备驱动开发详解/21.10　使用仿真器调试内核",
+  "title": "21.10　使用仿真器调试内核",
+  "description": "在ARM Linux领域，目前比较主流的是采用ARM DS-5Development Studio方案。ARM DS-5是一个针对基于Linux的系统和裸机嵌入式系统的专业软件开发解决方案，它涵盖了开发的所有阶段，从启动代码、内核移植直到应用程序调试、分析。如图21.7所示，它使用了DSTREAM高性能仿真器（ARM已经停止更新RVI-RVT2仿真器），在Eclipse内包含了DS-5和DSTREAM的开发插件。",
+  "source": "@site/docs/linux设备驱动开发详解/21.10　使用仿真器调试内核.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/21.10　使用仿真器调试内核",
+  "permalink": "/docs/linux设备驱动开发详解/21.10　使用仿真器调试内核",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/21.10　使用仿真器调试内核.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "20.9　dmaengine驱动",
+    "permalink": "/docs/linux设备驱动开发详解/20.9　dmaengine驱动"
+  },
+  "next": {
+    "title": "21.11　应用程序调试",
+    "permalink": "/docs/linux设备驱动开发详解/21.11　应用程序调试"
+  }
+}

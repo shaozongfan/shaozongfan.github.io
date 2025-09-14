@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/12.3　设备驱动的分层思想",
+  "id": "linux设备驱动开发详解/12.3　设备驱动的分层思想",
+  "title": "12.3.1　设备驱动核心层和例化",
+  "description": "在12.1节，我们已经从感性上认识了Linux驱动软件分层的意义。其实，在分层设计的时候，Linux内核大量使用了面向对象的设计思想。",
+  "source": "@site/docs/linux设备驱动开发详解/12.3　设备驱动的分层思想.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/12.3　设备驱动的分层思想",
+  "permalink": "/docs/linux设备驱动开发详解/12.3　设备驱动的分层思想",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/12.3　设备驱动的分层思想.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "12.2.1　platform总线、设备与驱动",
+    "permalink": "/docs/linux设备驱动开发详解/12.2　platform设备驱动"
+  },
+  "next": {
+    "title": "12.4.1　主机驱动与外设驱动分离",
+    "permalink": "/docs/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想"
+  }
+}

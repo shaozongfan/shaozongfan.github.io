@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动",
+  "id": "linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动",
+  "title": "20.4　SMP多核启动以及CPU热插拔驱动",
+  "description": "在Linux系统中，对于多核的ARM芯片而言，在Bootrom代码中，每个CPU都会识别自身ID，如果ID是0，则引导Bootloader和Linux内核执行，如果ID不是0，则Bootrom一般在上电时将自身置于WFI或者WFE状态，并等待CPU0给其发CPU核间中断或事件（一般通过SEV指令）以唤醒它。一个典型的多核Linux启动过程如图20.6所示。",
+  "source": "@site/docs/linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动",
+  "permalink": "/docs/linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "20.3　中断控制器驱动",
+    "permalink": "/docs/linux设备驱动开发详解/20.3　中断控制器驱动"
+  },
+  "next": {
+    "title": "20.5　DEBUG_LL和EARLY_PRINTK的设置",
+    "permalink": "/docs/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置"
+  }
+}

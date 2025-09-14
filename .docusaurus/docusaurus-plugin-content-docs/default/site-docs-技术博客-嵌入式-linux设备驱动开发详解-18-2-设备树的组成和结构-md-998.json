@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构",
+  "title": "18.2　设备树的组成和结构",
+  "description": "整个设备树牵涉面比较广，即增加了新的用于描述设备硬件信息的文本格式，又增加了编译这个文本的工具，同时Bootloader也需要支持将编译后的设备树传递给Linux内核。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "18.1　ARM设备树起源",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.1　ARM设备树起源"
+  },
+  "next": {
+    "title": "18.3　由设备树引发的BSP和驱动变更",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更"
+  }
+}

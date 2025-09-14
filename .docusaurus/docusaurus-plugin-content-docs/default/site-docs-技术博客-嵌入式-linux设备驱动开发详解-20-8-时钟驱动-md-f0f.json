@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动",
+  "title": "20.8　时钟驱动",
+  "description": "在一个SoC中，晶振、PLL、驱动和门等会形成一个时钟树形结构，在Linux 2.6中，也存有clkgetrate（）、clksetrate（）、clkgetparent（）、clksetparent（）等通用API，但是这些API由每个SoC单独实现，而且各个SoC供应商在实现方面的差异很大，于是内核增加了一个新的通用时钟框架以解决这个碎片化问题。之所以称为通用时钟，是因为这个通用主要体现在：",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "20.7　pinctrl驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动"
+  },
+  "next": {
+    "title": "20.9　dmaengine驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.9　dmaengine驱动"
+  }
+}

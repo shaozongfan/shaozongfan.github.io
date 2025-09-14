@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例",
+  "id": "linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例",
+  "title": "15.5　Tegra I2 C总线驱动实例",
+  "description": "NVIDIA Tegra I2 C总线驱动位于drivers/i2c/busses/i2c-tegra.c下，这里我们不具体研究它的硬件细节，只看一下驱动的框架和流程。",
+  "source": "@site/docs/linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例",
+  "permalink": "/docs/linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "15.4　Linux I2 C设备驱动",
+    "permalink": "/docs/linux设备驱动开发详解/15.4　Linux I2 C设备驱动"
+  },
+  "next": {
+    "title": "15.6　AT24xx EEPROM的I2 C设备驱动实例",
+    "permalink": "/docs/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例"
+  }
+}

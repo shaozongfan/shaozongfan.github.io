@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/6.1　Linux字符设备驱动结构",
+  "id": "linux设备驱动开发详解/6.1　Linux字符设备驱动结构",
+  "title": "6.1.1　cdev结构体",
+  "description": "在Linux内核中，使用cdev结构体描述一个字符设备，cdev结构体的定义如代码清单6.1。",
+  "source": "@site/docs/linux设备驱动开发详解/6.1　Linux字符设备驱动结构.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/6.1　Linux字符设备驱动结构",
+  "permalink": "/docs/linux设备驱动开发详解/6.1　Linux字符设备驱动结构",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/6.1　Linux字符设备驱动结构.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.4.1　udev与devfs的区别",
+    "permalink": "/docs/linux设备驱动开发详解/5.4　udev用户空间设备管理"
+  },
+  "next": {
+    "title": "6.2　globalmem虚拟设备实例描述",
+    "permalink": "/docs/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述"
+  }
+}

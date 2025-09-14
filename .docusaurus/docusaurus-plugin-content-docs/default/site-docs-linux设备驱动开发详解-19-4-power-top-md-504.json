@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/19.4　PowerTop",
+  "id": "linux设备驱动开发详解/19.4　PowerTop",
+  "title": "19.4　PowerTop",
+  "description": "PowerTop是一款开源的用于进行电量消耗分析和电源管理诊断的工具，其主页位于Intel开源技术中心的https://01.org/powertop/ ，维护者是Arjan van de Ven和Kristen Accardi。PowerTop可分析系统中软件的功耗，以便找到功耗大户，也可显示系统中不同的C状态（与CPUIdle驱动对应）和P状态（与CPUFreq驱动对应）的时间比例，并采用了基于TAB的界面风格，如图19.5所示。",
+  "source": "@site/docs/linux设备驱动开发详解/19.4　PowerTop.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/19.4　PowerTop",
+  "permalink": "/docs/linux设备驱动开发详解/19.4　PowerTop",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/19.4　PowerTop.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "19.3　CPUIdle驱动",
+    "permalink": "/docs/linux设备驱动开发详解/19.3　CPUIdle驱动"
+  },
+  "next": {
+    "title": "19.5　Regulator驱动",
+    "permalink": "/docs/linux设备驱动开发详解/19.5　Regulator驱动"
+  }
+}

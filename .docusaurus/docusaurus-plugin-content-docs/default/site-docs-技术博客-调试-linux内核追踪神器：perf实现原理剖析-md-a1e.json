@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/调试/Linux内核追踪神器：perf实现原理剖析",
+  "id": "技术博客/调试/Linux内核追踪神器：perf实现原理剖析",
+  "title": "Linux内核追踪神器：perf实现原理剖析",
+  "description": "在 Linux 内核的广袤天地里，性能优化与故障排查宛如两座高耸的山峰，横亘在开发者前行的道路上。为了攀登这两座高峰，开发者们不断寻觅着强大的工具。而 perf，无疑是其中最为耀眼的 “神器” 之一。当你在运行一个复杂的 Linux 系统时，是否常常被一些莫名的性能问题所困扰？系统突然变得卡顿，应用程序响应迟缓，可你却无从下手，不知问题究竟出在哪里。或许是某个内核函数在不经意间消耗了大量资源，又或许是进程间的资源竞争引发了瓶颈。",
+  "source": "@site/docs/技术博客/调试/Linux内核追踪神器：perf实现原理剖析.md",
+  "sourceDirName": "技术博客/调试",
+  "slug": "/技术博客/调试/Linux内核追踪神器：perf实现原理剖析",
+  "permalink": "/docs/技术博客/调试/Linux内核追踪神器：perf实现原理剖析",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/调试/Linux内核追踪神器：perf实现原理剖析.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "网络问题",
+    "permalink": "/docs/技术博客/网络/网络问题"
+  },
+  "next": {
+    "title": "Linux性能分析神器ftrace：从原理到实战",
+    "permalink": "/docs/技术博客/调试/Linux性能分析神器ftrace：从原理到实战"
+  }
+}

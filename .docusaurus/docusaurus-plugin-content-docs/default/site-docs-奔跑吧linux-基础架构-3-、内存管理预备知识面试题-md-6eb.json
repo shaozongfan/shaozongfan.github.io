@@ -1,0 +1,24 @@
+{
+  "unversionedId": "奔跑吧linux/基础架构/3、内存管理预备知识面试题",
+  "id": "奔跑吧linux/基础架构/3、内存管理预备知识面试题",
+  "title": "1．请简述内存架构中UMA和NUMA的区别。",
+  "description": "如mmstruct、VMA、vaddr、page、PFN、PTE、zone、paddr和pgdata等，并思考如下转换关系。如何由mmstruct和vaddr找到对应的VMA？如何由page和VMA找到vaddr？如何由page找到所有映射的VMA？如何由VMA和vaddr找出相应的page数据结构？page和PFN之间如何互换？PFN和paddr之间如何互换？page和PTE之间如何互换？zone和page之间如何互换？zone和pgdata之间如何互换？",
+  "source": "@site/docs/奔跑吧linux/基础架构/3、内存管理预备知识面试题.md",
+  "sourceDirName": "奔跑吧linux/基础架构",
+  "slug": "/奔跑吧linux/基础架构/3、内存管理预备知识面试题",
+  "permalink": "/docs/奔跑吧linux/基础架构/3、内存管理预备知识面试题",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/奔跑吧linux/基础架构/3、内存管理预备知识面试题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1．ARM64处理器中有两个页表基地址寄存器TTBR0和TTBR1，处理器如何使用它们？",
+    "permalink": "/docs/奔跑吧linux/基础架构/2、ARM64在linux内核中的实现面试题"
+  },
+  "next": {
+    "title": "1．请简述Linux内核在理想情况下页面分配器（page allocator）是如何分配出连续物理页面的。",
+    "permalink": "/docs/奔跑吧linux/基础架构/4、物理内存与虚拟内存面试题"
+  }
+}

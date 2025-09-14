@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/14.10　总结",
+  "id": "linux设备驱动开发详解/14.10　总结",
+  "title": "14.10　总结",
+  "description": "对Linux网络设备驱动体系结构的层次化设计实现了对上层协议接口的统一和硬件驱动对下层多样化硬件设备的可适应。程序员需要完成的工作集中在设备驱动功能层，网络设备接口层netdevice结构体的存在将千变万化的网络设备进行抽象，使得设备功能层中除数据包接收以外的主体工作都由填充netdevice的属性和函数指针完成。",
+  "source": "@site/docs/linux设备驱动开发详解/14.10　总结.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/14.10　总结",
+  "permalink": "/docs/linux设备驱动开发详解/14.10　总结",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/14.10　总结.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "13.9　总结",
+    "permalink": "/docs/linux设备驱动开发详解/13.9　总结"
+  },
+  "next": {
+    "title": "14.1　Linux网络设备驱动的结构",
+    "permalink": "/docs/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构"
+  }
+}

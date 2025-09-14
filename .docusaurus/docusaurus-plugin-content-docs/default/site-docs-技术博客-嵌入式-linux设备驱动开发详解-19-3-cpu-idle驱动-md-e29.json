@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动",
+  "title": "19.3　CPUIdle驱动",
+  "description": "目前的ARM SoC大多支持几个不同的Idle级别，CPUIdle驱动子系统存在的目的就是对这些Idle状态进行管理，并根据系统的运行情况进入不同的Idle级别。具体SoC的底层CPUIdle驱动实现则提供一个类似于CPUFreq驱动频率表的Idle级别表，并实现各种不同Idle状态的进入和退出流程。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "19.2　CPUFreq驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.2　CPUFreq驱动"
+  },
+  "next": {
+    "title": "19.4　PowerTop",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.4　PowerTop"
+  }
+}

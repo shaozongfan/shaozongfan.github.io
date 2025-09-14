@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/14.8　参数设置和统计数据",
+  "id": "linux设备驱动开发详解/14.8　参数设置和统计数据",
+  "title": "14.8　参数设置和统计数据",
+  "description": "网络设备的驱动程序还提供一些供系统对设备的参数进行设置或读取设备相关信息的方法。",
+  "source": "@site/docs/linux设备驱动开发详解/14.8　参数设置和统计数据.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/14.8　参数设置和统计数据",
+  "permalink": "/docs/linux设备驱动开发详解/14.8　参数设置和统计数据",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/14.8　参数设置和统计数据.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "14.7　网络连接状态",
+    "permalink": "/docs/linux设备驱动开发详解/14.7　网络连接状态"
+  },
+  "next": {
+    "title": "14.9.1　DM9000网卡硬件描述",
+    "permalink": "/docs/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例"
+  }
+}

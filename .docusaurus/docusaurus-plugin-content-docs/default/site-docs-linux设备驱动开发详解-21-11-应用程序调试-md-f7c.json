@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/21.11　应用程序调试",
+  "id": "linux设备驱动开发详解/21.11　应用程序调试",
+  "title": "21.11　应用程序调试",
+  "description": "在嵌入式系统中，为调试Linux应用程序，可在目标板上先运行GDBServer，再让主机上的GDB与目标板上的GDBServer通过网口或串口通信。",
+  "source": "@site/docs/linux设备驱动开发详解/21.11　应用程序调试.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/21.11　应用程序调试",
+  "permalink": "/docs/linux设备驱动开发详解/21.11　应用程序调试",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/21.11　应用程序调试.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.10　使用仿真器调试内核",
+    "permalink": "/docs/linux设备驱动开发详解/21.10　使用仿真器调试内核"
+  },
+  "next": {
+    "title": "21.12　Linux性能监控与调优工具",
+    "permalink": "/docs/linux设备驱动开发详解/21.12　Linux性能监控与调优工具"
+  }
+}

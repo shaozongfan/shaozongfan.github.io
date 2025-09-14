@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数",
+  "title": "4.8　模块的使用计数",
+  "description": "Linux 2.4内核中，模块自身通过MODINCUSECOUNT、MODDECUSECOUNT宏来管理自己被使用的计数。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.7　模块声明与描述",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.7　模块声明与描述"
+  },
+  "next": {
+    "title": "4.9　模块的编译",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.9　模块的编译"
+  }
+}

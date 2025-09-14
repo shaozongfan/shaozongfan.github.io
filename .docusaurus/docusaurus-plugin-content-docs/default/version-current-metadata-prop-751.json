@@ -10,29 +10,2033 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "docs/intro.md",
+        "label": "intro",
         "href": "/docs/intro",
         "docId": "intro"
       },
       {
-        "type": "link",
-        "label": "笔记本开篇序言",
-        "href": "/docs/",
-        "docId": "初心"
+        "type": "category",
+        "label": "个人博客",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "依赖工具安装",
+            "href": "/docs/个人博客/docusaurus2.4",
+            "docId": "个人博客/docusaurus2.4"
+          },
+          {
+            "type": "link",
+            "label": "依赖工具安装",
+            "href": "/docs/个人博客/docusaurus3.7",
+            "docId": "个人博客/docusaurus3.7"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "个人生活",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "2025国家生育政策8大补贴汇总",
+            "href": "/docs/个人生活/2025国家生育政策8大补贴汇总",
+            "docId": "个人生活/2025国家生育政策8大补贴汇总"
+          },
+          {
+            "type": "link",
+            "label": "孕早期",
+            "href": "/docs/个人生活/孕早期",
+            "docId": "个人生活/孕早期"
+          },
+          {
+            "type": "link",
+            "label": "怀孕注意",
+            "href": "/docs/个人生活/怀孕注意",
+            "docId": "个人生活/怀孕注意"
+          },
+          {
+            "type": "link",
+            "label": "一、宽11米深9.8米",
+            "href": "/docs/个人生活/自建房",
+            "docId": "个人生活/自建房"
+          },
+          {
+            "type": "link",
+            "label": "顺产",
+            "href": "/docs/个人生活/顺产",
+            "docId": "个人生活/顺产"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "人生哲学",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "人生的底层逻辑",
+            "href": "/docs/人生哲学/人生的底层逻辑",
+            "docId": "人生哲学/人生的底层逻辑"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "技术博客",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "AI相关",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "AI核心技能",
+                "href": "/docs/技术博客/AI相关/AI核心技能",
+                "docId": "技术博客/AI相关/AI核心技能"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "嵌入式",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "linux设备驱动开发详解",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "1.1　设备驱动的作用",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用"
+                  },
+                  {
+                    "type": "link",
+                    "label": "1.2　无操作系统时的设备驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.2　无操作系统时的设备驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/1.2　无操作系统时的设备驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "1.3　有操作系统时的设备驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.3　有操作系统时的设备驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/1.3　有操作系统时的设备驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "1.4.1　设备的分类及特点",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "1.6.1　无操作系统时的LED驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "10.1　中断与定时器",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器"
+                  },
+                  {
+                    "type": "link",
+                    "label": "10.2　Linux中断处理程序架构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.2　Linux中断处理程序架构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/10.2　Linux中断处理程序架构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "10.3.1　申请和释放中断",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.3　Linux中断编程",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/10.3　Linux中断编程"
+                  },
+                  {
+                    "type": "link",
+                    "label": "10.4　中断共享",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.4　中断共享",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/10.4　中断共享"
+                  },
+                  {
+                    "type": "link",
+                    "label": "10.5.1　内核定时器编程",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.5　内核定时器",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/10.5　内核定时器"
+                  },
+                  {
+                    "type": "link",
+                    "label": "10.6.1　短延迟",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.6　内核延时",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/10.6　内核延时"
+                  },
+                  {
+                    "type": "link",
+                    "label": "10.7　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/10.7　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/10.7　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "11.1.1　内存空间与I/O空间",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO"
+                  },
+                  {
+                    "type": "link",
+                    "label": "11.2　Linux内存管理",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理"
+                  },
+                  {
+                    "type": "link",
+                    "label": "11.3.1　用户空间内存动态申请",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取"
+                  },
+                  {
+                    "type": "link",
+                    "label": "11.4　设备IO端口和IO内存的访问",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问"
+                  },
+                  {
+                    "type": "link",
+                    "label": "11.5　IO内存静态映射",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射"
+                  },
+                  {
+                    "type": "link",
+                    "label": "11.6　DMA",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.6　DMA",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/11.6　DMA"
+                  },
+                  {
+                    "type": "link",
+                    "label": "11.7　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/11.7　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/11.7　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "12.1　Linux驱动的软件架构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/12.1　Linux驱动的软件架构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/12.1　Linux驱动的软件架构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "12.2.1　platform总线、设备与驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/12.2　platform设备驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/12.2　platform设备驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "12.3.1　设备驱动核心层和例化",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/12.3　设备驱动的分层思想",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/12.3　设备驱动的分层思想"
+                  },
+                  {
+                    "type": "link",
+                    "label": "12.4.1　主机驱动与外设驱动分离",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想"
+                  },
+                  {
+                    "type": "link",
+                    "label": "13.1　块设备的IO操作特点",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.1　块设备的IO操作特点",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/13.1　块设备的IO操作特点"
+                  },
+                  {
+                    "type": "link",
+                    "label": "13.2.1　block_device_operations结构体",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.2　Linux块设备驱动结构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/13.2　Linux块设备驱动结构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "13.3　Linux块设备驱动的初始化",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.3　Linux块设备驱动的初始化",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/13.3　Linux块设备驱动的初始化"
+                  },
+                  {
+                    "type": "link",
+                    "label": "13.4　块设备的打开与释放",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放"
+                  },
+                  {
+                    "type": "link",
+                    "label": "13.5　块设备驱动的ioctl函数",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数"
+                  },
+                  {
+                    "type": "link",
+                    "label": "13.6.1　使用请求队列",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理"
+                  },
+                  {
+                    "type": "link",
+                    "label": "13.7.1　vmem_disk的硬件原理",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.7　实例：vmem_disk驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/13.7　实例：vmem_disk驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "13.8　Linux MMC子系统",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统"
+                  },
+                  {
+                    "type": "link",
+                    "label": "13.9　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/13.9　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/13.9　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.10　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.10　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.10　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.1　Linux网络设备驱动的结构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.2　网络设备驱动的注册与注销",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.2　网络设备驱动的注册与注销",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.2　网络设备驱动的注册与注销"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.3　网络设备的初始化",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.3　网络设备的初始化",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.3　网络设备的初始化"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.4　网络设备的打开与释放",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.4　网络设备的打开与释放",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.4　网络设备的打开与释放"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.5　数据发送流程",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.6　数据接收流程",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.6　数据接收流程",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.6　数据接收流程"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.7　网络连接状态",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.8　参数设置和统计数据",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.8　参数设置和统计数据",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.8　参数设置和统计数据"
+                  },
+                  {
+                    "type": "link",
+                    "label": "14.9.1　DM9000网卡硬件描述",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例"
+                  },
+                  {
+                    "type": "link",
+                    "label": "15.1　Linux I2 C体系结构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "15.2　Linux I2 C核心",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心"
+                  },
+                  {
+                    "type": "link",
+                    "label": "15.3.1　I2 C适配器驱动的注册与注销",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "15.4　Linux I2 C设备驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.4　Linux I2 C设备驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/15.4　Linux I2 C设备驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "15.5　Tegra I2 C总线驱动实例",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例"
+                  },
+                  {
+                    "type": "link",
+                    "label": "15.6　AT24xx EEPROM的I2 C设备驱动实例",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例"
+                  },
+                  {
+                    "type": "link",
+                    "label": "15.7　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.7　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/15.7　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "16.1.1　主机侧与设备侧USB驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次"
+                  },
+                  {
+                    "type": "link",
+                    "label": "16.2.1　USB主机控制器驱动的整体结构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "16.3.1　USB设备驱动的整体结构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "16.4.1　UDC和Gadget驱动的关键数据结构与API",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "16.5　USB OTG驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.5　USB OTG驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/16.5　USB OTG驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "16.6　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.6　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/16.6　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "17.1　I2 C、SPI、USB驱动架构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "17.2　I2 C主机和外设眼里的Linux世界",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界"
+                  },
+                  {
+                    "type": "link",
+                    "label": "18.1　ARM设备树起源",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.1　ARM设备树起源",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/18.1　ARM设备树起源"
+                  },
+                  {
+                    "type": "link",
+                    "label": "18.2　设备树的组成和结构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "18.3　由设备树引发的BSP和驱动变更",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更"
+                  },
+                  {
+                    "type": "link",
+                    "label": "18.4　常用的OF API",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API"
+                  },
+                  {
+                    "type": "link",
+                    "label": "18.5　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/18.5　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/18.5　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.10　运行时的PM",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.10　运行时的PM",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.10　运行时的PM"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.11　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.11　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.11　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.1　Linux电源管理的全局架构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.1　Linux电源管理的全局架构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.1　Linux电源管理的全局架构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.2　CPUFreq驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.2　CPUFreq驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.2　CPUFreq驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.3　CPUIdle驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.4　PowerTop",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.4　PowerTop",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.4　PowerTop"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.5　Regulator驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.5　Regulator驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.5　Regulator驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.6　OPP",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.7　PM QoS",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.7　PM QoS",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.7　PM QoS"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.8　CPU热插拔",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.8　CPU热插拔",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.8　CPU热插拔"
+                  },
+                  {
+                    "type": "link",
+                    "label": "19.9　挂起到RAM",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/19.9　挂起到RAM",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/19.9　挂起到RAM"
+                  },
+                  {
+                    "type": "link",
+                    "label": "2.1.1　通用处理器",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器"
+                  },
+                  {
+                    "type": "link",
+                    "label": "2.2　存储器",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.2　存储器",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/2.2　存储器"
+                  },
+                  {
+                    "type": "link",
+                    "label": "2.3.1　串口",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线"
+                  },
+                  {
+                    "type": "link",
+                    "label": "2.4　CPLD和FPGA",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA"
+                  },
+                  {
+                    "type": "link",
+                    "label": "2.5　原理图分析",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析"
+                  },
+                  {
+                    "type": "link",
+                    "label": "2.6.1　时序分析的概念",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析"
+                  },
+                  {
+                    "type": "link",
+                    "label": "2.7　芯片数据手册阅读方法",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.7　芯片数据手册阅读方法",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/2.7　芯片数据手册阅读方法"
+                  },
+                  {
+                    "type": "link",
+                    "label": "2.8.1　万用表",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.8　仪器仪表使用",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/2.8　仪器仪表使用"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.10　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.10　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.10　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.1　ARM Linux底层驱动的组成和现状",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.2　内核节拍驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.3　中断控制器驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.3　中断控制器驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.3　中断控制器驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.4　SMP多核启动以及CPU热插拔驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.5　DEBUG_LL和EARLY_PRINTK的设置",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.6　GPIO驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.7　pinctrl驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.8　时钟驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "20.9　dmaengine驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.9　dmaengine驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/20.9　dmaengine驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.10　使用仿真器调试内核",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.10　使用仿真器调试内核",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.10　使用仿真器调试内核"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.11　应用程序调试",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.11　应用程序调试",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.11　应用程序调试"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.12　Linux性能监控与调优工具",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.13　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.13　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.13　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.1.1　GDB的基本用法",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.1　GDB调试器的用法",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.1　GDB调试器的用法"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.2　Linux内核调试",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.3　内核打印信息—printk（​）",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.3　内核打印信息—printk（​）",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.3　内核打印信息—printk（​）"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.4　DEBUG_LL和EARLY_PRINTK",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.5　使用“proc”",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.5　使用“proc”",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.5　使用“proc”"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.6　Oops",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.7　BUG_ON（​）和WARN_ON（​）",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.7　BUG_ON（​）和WARN_ON（​）",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.7　BUG_ON（​）和WARN_ON（​）"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.8　strace",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.8　strace",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.8　strace"
+                  },
+                  {
+                    "type": "link",
+                    "label": "21.9　KGDB",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB"
+                  },
+                  {
+                    "type": "link",
+                    "label": "3.1　Linux内核的发展与演变",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.1　Linux内核的发展与演变",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/3.1　Linux内核的发展与演变"
+                  },
+                  {
+                    "type": "link",
+                    "label": "3.2　Linux 2.6后的内核特点",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点"
+                  },
+                  {
+                    "type": "link",
+                    "label": "3.3.1　Linux内核源代码的目录结构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.3　Linux内核的组成",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/3.3　Linux内核的组成"
+                  },
+                  {
+                    "type": "link",
+                    "label": "3.4.3　Linux内核的引导",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.4　Linux内核的的编译及加载",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/3.4　Linux内核的的编译及加载"
+                  },
+                  {
+                    "type": "link",
+                    "label": "3.5.1　Linux编码风格",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.5　Linux下的C编程特点",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/3.5　Linux下的C编程特点"
+                  },
+                  {
+                    "type": "link",
+                    "label": "3.6　工具链",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.10　使用模块“绕开”GPL",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.10　使用模块“绕开”GPL",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.10　使用模块“绕开”GPL"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.1　Linux内核模块简介",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.2　Linux内核模块程序结构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.2　Linux内核模块程序结构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.2　Linux内核模块程序结构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.3　模块加载函数",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.3　模块加载函数",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.3　模块加载函数"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.4　模块卸载函数",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.4　模块卸载函数",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.4　模块卸载函数"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.5　模块参数",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.5　模块参数",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.5　模块参数"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.6　导出符号",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.6　导出符号",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.6　导出符号"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.7　模块声明与描述",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.7　模块声明与描述",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.7　模块声明与描述"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.8　模块的使用计数",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数"
+                  },
+                  {
+                    "type": "link",
+                    "label": "4.9　模块的编译",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/4.9　模块的编译",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/4.9　模块的编译"
+                  },
+                  {
+                    "type": "link",
+                    "label": "5.1.1　文件操作系统调用",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/5.1　Linux文件操作",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/5.1　Linux文件操作"
+                  },
+                  {
+                    "type": "link",
+                    "label": "5.2.1　Linux文件系统目录结构",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/5.2　Linux文件系统",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/5.2　Linux文件系统"
+                  },
+                  {
+                    "type": "link",
+                    "label": "5.3　devfs",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/5.3　devfs",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/5.3　devfs"
+                  },
+                  {
+                    "type": "link",
+                    "label": "5.4.1　udev与devfs的区别",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理"
+                  },
+                  {
+                    "type": "link",
+                    "label": "6.1.1　cdev结构体",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/6.1　Linux字符设备驱动结构",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/6.1　Linux字符设备驱动结构"
+                  },
+                  {
+                    "type": "link",
+                    "label": "6.2　globalmem虚拟设备实例描述",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述"
+                  },
+                  {
+                    "type": "link",
+                    "label": "6.3.1　头文件、宏及设备结构体",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/6.3　globalmem设备驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/6.3　globalmem设备驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.10　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.10　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.10　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.1　并发与竞态",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.1　并发与竞态",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.1　并发与竞态"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.2　编译乱序和执行乱序",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.2　编译乱序和执行乱序",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.2　编译乱序和执行乱序"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.3　中断屏蔽",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.3　中断屏蔽",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.3　中断屏蔽"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.4　原子操作",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.4　原子操作",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.4　原子操作"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.5.1　自旋锁的使用",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.5　自旋锁",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.5　自旋锁"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.6　信号量",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.6　信号量",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.6　信号量"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.7　互斥体",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.7　互斥体",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.7　互斥体"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.8　完成量",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.8　完成量",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.8　完成量"
+                  },
+                  {
+                    "type": "link",
+                    "label": "7.9　增加并发控制后的globalmem的设备驱动",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/7.9　增加并发控制后的globalmem的设备驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/7.9　增加并发控制后的globalmem的设备驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "8.1　阻塞与非阻塞IO",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO"
+                  },
+                  {
+                    "type": "link",
+                    "label": "8.2.1　轮询的概念与作用",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作"
+                  },
+                  {
+                    "type": "link",
+                    "label": "8.3.1　在globalfifo驱动中增加轮询操作",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "8.4　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/8.4　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/8.4　总结"
+                  },
+                  {
+                    "type": "link",
+                    "label": "9.1　异步通知的概念与作用",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用"
+                  },
+                  {
+                    "type": "link",
+                    "label": "9.2.1　Linux信号",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.2　Linux异步通知编程",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/9.2　Linux异步通知编程"
+                  },
+                  {
+                    "type": "link",
+                    "label": "9.3.1　在globalfifo驱动中增加异步通知",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动"
+                  },
+                  {
+                    "type": "link",
+                    "label": "9.4.1　AIO概念与GNU C库AIO",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.4　Linux异步IO",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/9.4　Linux异步IO"
+                  },
+                  {
+                    "type": "link",
+                    "label": "9.5　总结",
+                    "href": "/docs/技术博客/嵌入式/linux设备驱动开发详解/9.5　总结",
+                    "docId": "技术博客/嵌入式/linux设备驱动开发详解/9.5　总结"
+                  }
+                ]
+              },
+              {
+                "type": "link",
+                "label": "rzg部署kdump",
+                "href": "/docs/技术博客/嵌入式/rzg部署kdump",
+                "docId": "技术博客/嵌入式/rzg部署kdump"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "网络",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "网络问题",
+                "href": "/docs/技术博客/网络/网络问题",
+                "docId": "技术博客/网络/网络问题"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "调试",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Linux内核追踪神器：perf实现原理剖析",
+                "href": "/docs/技术博客/调试/Linux内核追踪神器：perf实现原理剖析",
+                "docId": "技术博客/调试/Linux内核追踪神器：perf实现原理剖析"
+              },
+              {
+                "type": "link",
+                "label": "Linux性能分析神器ftrace：从原理到实战",
+                "href": "/docs/技术博客/调试/Linux性能分析神器ftrace：从原理到实战",
+                "docId": "技术博客/调试/Linux性能分析神器ftrace：从原理到实战"
+              },
+              {
+                "type": "link",
+                "label": "一，ringBuffer",
+                "href": "/docs/技术博客/调试/Linux性能工具(三)ftrace框架",
+                "docId": "技术博客/调试/Linux性能工具(三)ftrace框架"
+              },
+              {
+                "type": "link",
+                "label": "linux信号机制",
+                "href": "/docs/技术博客/调试/linux信号机制",
+                "docId": "技术博客/调试/linux信号机制"
+              },
+              {
+                "type": "link",
+                "label": "信号机制学习记录",
+                "href": "/docs/技术博客/调试/信号机制学习记录",
+                "docId": "技术博客/调试/信号机制学习记录"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "docs/intro.md",
-      "description": "---",
+      "title": "intro",
+      "description": "蒲城小农的博客",
       "sidebar": "tutorialSidebar"
     },
-    "初心": {
-      "id": "初心",
-      "title": "笔记本开篇序言",
-      "description": "2017 年笔记本开篇序言",
+    "个人博客/docusaurus2.4": {
+      "id": "个人博客/docusaurus2.4",
+      "title": "依赖工具安装",
+      "description": "命令行依赖工具",
+      "sidebar": "tutorialSidebar"
+    },
+    "个人博客/docusaurus3.7": {
+      "id": "个人博客/docusaurus3.7",
+      "title": "依赖工具安装",
+      "description": "命令行依赖工具",
+      "sidebar": "tutorialSidebar"
+    },
+    "个人生活/2025国家生育政策8大补贴汇总": {
+      "id": "个人生活/2025国家生育政策8大补贴汇总",
+      "title": "2025国家生育政策8大补贴汇总",
+      "description": "1753280662910",
+      "sidebar": "tutorialSidebar"
+    },
+    "个人生活/孕早期": {
+      "id": "个人生活/孕早期",
+      "title": "孕早期",
+      "description": "1753281371432",
+      "sidebar": "tutorialSidebar"
+    },
+    "个人生活/怀孕注意": {
+      "id": "个人生活/怀孕注意",
+      "title": "怀孕注意",
+      "description": "1753281068716",
+      "sidebar": "tutorialSidebar"
+    },
+    "个人生活/自建房": {
+      "id": "个人生活/自建房",
+      "title": "一、宽11米深9.8米",
+      "description": "效果图",
+      "sidebar": "tutorialSidebar"
+    },
+    "个人生活/顺产": {
+      "id": "个人生活/顺产",
+      "title": "顺产",
+      "description": "1753280848119",
+      "sidebar": "tutorialSidebar"
+    },
+    "人生哲学/人生的底层逻辑": {
+      "id": "人生哲学/人生的底层逻辑",
+      "title": "人生的底层逻辑",
+      "description": "家庭的底层逻辑是经济，不是感情",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/AI相关/AI核心技能": {
+      "id": "技术博客/AI相关/AI核心技能",
+      "title": "AI核心技能",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用",
+      "title": "1.1　设备驱动的作用",
+      "description": "任何一个计算机系统的运转都是系统中软硬件共同努力的结果，没有硬件的软件是空中楼阁，而没有软件的硬件则只是一堆废铁。硬件是底层基础，是所有软件得以运行的平台，代码最终会落实为硬件上的组合逻辑与时序逻辑；软件则实现了具体应用，它按照各种不同的业务需求而设计，并完成用户的最终诉求。硬件较固定，软件则很灵活，可以适应各种复杂多变的应用。因此，计算机系统的软硬件相互成就了对方。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/1.2　无操作系统时的设备驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/1.2　无操作系统时的设备驱动",
+      "title": "1.2　无操作系统时的设备驱动",
+      "description": "并不是任何一个计算机系统都一定要有操作系统，在许多情况下，操作系统都不必存在。对于功能比较单一、控制并不复杂的系统，譬如ASIC内部、公交车的刷卡机、电冰箱、微波炉、简单的手机和小灵通等，并不需要多任务调度、文件系统、内存管理等复杂功能，用单任务架构完全可以良好地支持它们的工作。一个无限循环中夹杂着对设备中断的检测或者对设备的轮询是这种系统中软件的典型架构，如代码清单1.1所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/1.3　有操作系统时的设备驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/1.3　有操作系统时的设备驱动",
+      "title": "1.3　有操作系统时的设备驱动",
+      "description": "在1.2节中我们看到一个清晰的设备驱动，它直接运行在硬件之上，不与任何操作系统关联。当系统包含操作系统时，设备驱动会变得怎样呢？",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/1.4　Linux设备驱动",
+      "title": "1.4.1　设备的分类及特点",
+      "description": "计算机系统的硬件主要由CPU、存储器和外设组成。随着IC制作工艺的发展，目前，芯片的集成度越来越高，往往在CPU内部就集成了存储器和外设适配器。譬如，相当多的ARM、PowerPC、MIPS等处理器都集成了UART、I2 C控制器、SPI控制器、USB控制器、SDRAM控制器等，有的处理器还集成了GPU（图形处理器）、视频编解码器等。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/1.6　设备驱动Hello World：LED驱动",
+      "title": "1.6.1　无操作系统时的LED驱动",
+      "description": "在嵌入式系统的设计中，LED一般直接由CPU的GPIO（通用可编程I/O）口控制。GPIO一般由两组寄存器控制，即一组控制寄存器和一组数据寄存器。控制寄存器可设置GPIO口的工作方式为输入或者输出。当引脚被设置为输出时，向数据寄存器的对应位写入1和0会分别在引脚上产生高电平和低电平；当引脚设置为输入时，读取数据寄存器的对应位可获得引脚上的电平为高或低。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/10.1　中断与定时器",
+      "title": "10.1　中断与定时器",
+      "description": "所谓中断是指CPU在执行程序的过程中，出现了某些突发事件急待处理，CPU必须暂停当前程序的执行，转去处理突发事件，处理完毕后又返回原程序被中断的位置继续执行。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/10.2　Linux中断处理程序架构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/10.2　Linux中断处理程序架构",
+      "title": "10.2　Linux中断处理程序架构",
+      "description": "设备的中断会打断内核进程中的正常调度和运行，系统对更高吞吐率的追求势必要求中断服务程序尽量短小精悍。但是，这个良好的愿望往往与现实并不吻合。在大多数真实的系统中，当中断到来时，要完成的工作往往并不会是短小的，它可能要进行较大量的耗时处理。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/10.3　Linux中断编程": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/10.3　Linux中断编程",
+      "title": "10.3.1　申请和释放中断",
+      "description": "在Linux设备驱动中，使用中断的设备需要申请和释放对应的中断，并分别使用内核提供的requestirq（）和freeirq（）函数。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/10.4　中断共享": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/10.4　中断共享",
+      "title": "10.4　中断共享",
+      "description": "多个设备共享一根硬件中断线的情况在实际的硬件系统中广泛存在，Linux支持这种中断共享。下面是中断共享的使用方法。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/10.5　内核定时器": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/10.5　内核定时器",
+      "title": "10.5.1　内核定时器编程",
+      "description": "软件意义上的定时器最终依赖硬件定时器来实现，内核在时钟中断发生后检测各定时器是否到期，到期后的定时器处理函数将作为软中断在底半部执行。实质上，时钟中断处理程序会唤起TIMER_SOFTIRQ软中断，运行当前处理器上到期的所有定时器。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/10.6　内核延时": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/10.6　内核延时",
+      "title": "10.6.1　短延迟",
+      "description": "Linux内核中提供了下列3个函数以分别进行纳秒、微秒和毫秒延迟：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/10.7　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/10.7　总结",
+      "title": "10.7　总结",
+      "description": "Linux的中断处理分为两个半部，顶半部处理紧急的硬件操作，底半部处理不紧急的耗时操作。tasklet和工作队列都是调度中断底半部的良好机制，tasklet基于软中断实现。内核定时器也依靠软中断实现。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/11.1　CPU与内存、IO",
+      "title": "11.1.1　内存空间与I/O空间",
+      "description": "在X86处理器中存在着I/O空间的概念，I/O空间是相对于内存空间而言的，它通过特定的指令in、out来访问。端口号标识了外设的寄存器地址。Intel语法中的in、out指令格式如下：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/11.2　Linux内存管理",
+      "title": "11.2　Linux内存管理",
+      "description": "对于包含MMU的处理器而言，Linux系统提供了复杂的存储管理系统，使得进程所能访问的内存达到4GB。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/11.3　内存存取",
+      "title": "11.3.1　用户空间内存动态申请",
+      "description": "在用户空间中动态申请内存的函数为malloc（），这个函数在各种操作系统上的使用都是一致的，malloc（）申请的内存的释放函数为free（）。对于Linux而言，C库的malloc（）函数一般通过brk（）和mmap（）两个系统调用从内核申请内存。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/11.4　设备IO端口和IO内存的访问",
+      "title": "11.4　设备IO端口和IO内存的访问",
+      "description": "设备通常会提供一组寄存器来控制设备、读写设备和获取设备状态，即控制寄存器、数据寄存器和状态寄存器。这些寄存器可能位于I/O空间中，也可能位于内存空间中。当位于I/O空间时，通常被称为I/O端口；当位于内存空间时，对应的内存空间被称为I/O内存。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/11.5　IO内存静态映射",
+      "title": "11.5　IO内存静态映射",
+      "description": "在将Linux移植到目标电路板的过程中，有得会建立外设I/O内存物理地址到虚拟地址的静态映射，这个映射通过在与电路板对应的mapdesc结构体数组中添加新的成员来完成，mapdesc结构体的定义如代码清单11.10所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/11.6　DMA": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/11.6　DMA",
+      "title": "11.6　DMA",
+      "description": "DMA是一种无须CPU的参与就可以让外设与系统内存之间进行双向数据传输的硬件机制。使用DMA可以使系统CPU从实际的I/O数据传输过程中摆脱出来，从而大大提高系统的吞吐率。DMA通常与硬件体系结构，特别是外设的总线技术密切相关。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/11.7　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/11.7　总结",
+      "title": "11.7　总结",
+      "description": "外设可处于CPU的内存空间和I/O空间，除x86外，嵌入式处理器一般只存在内存空间。在Linux系统中，为I/O内存和I/O端口的访问提高了一套统一的方法，访问流程一般为“申请资源→映射→访问→去映射→释放资源”。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/12.1　Linux驱动的软件架构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/12.1　Linux驱动的软件架构",
+      "title": "12.1　Linux驱动的软件架构",
+      "description": "Linux不是为了某单一电路板而设计的操作系统，它可以支持约30种体系结构下一定数量的硬件，因此，它的驱动架构很显然不能像RTOS下或者无操作系统下那么小儿科的做法。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/12.2　platform设备驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/12.2　platform设备驱动",
+      "title": "12.2.1　platform总线、设备与驱动",
+      "description": "在Linux 2.6以后的设备驱动模型中，需关心总线、设备和驱动这3个实体，总线将设备和驱动绑定。在系统每注册一个设备的时候，会寻找与之匹配的驱动；相反的，在系统每注册一个驱动的时候，会寻找与之匹配的设备，而匹配由总线完成。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/12.3　设备驱动的分层思想": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/12.3　设备驱动的分层思想",
+      "title": "12.3.1　设备驱动核心层和例化",
+      "description": "在12.1节，我们已经从感性上认识了Linux驱动软件分层的意义。其实，在分层设计的时候，Linux内核大量使用了面向对象的设计思想。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/12.4　主机驱动与外设驱动分离的设计思想",
+      "title": "12.4.1　主机驱动与外设驱动分离",
+      "description": "Linux中的SPI、I2 C、USB等子系统都利用了典型的把主机驱动和外设驱动分离的想法，让主机端只负责产生总线上的传输波形，而外设端只是通过标准的API来让主机端以适当的波形访问自身。因此这里面就涉及了4个软件模块：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/13.1　块设备的IO操作特点": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/13.1　块设备的IO操作特点",
+      "title": "13.1　块设备的IO操作特点",
+      "description": "字符设备与块设备I/O操作的不同如下。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/13.2　Linux块设备驱动结构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/13.2　Linux块设备驱动结构",
+      "title": "13.2.1　block_device_operations结构体",
+      "description": "在块设备驱动中，有一个类似于字符设备驱动中fileoperations结构体的blockdevice_operations结构体，它是对块设备操作的集合，定义如代码清单13.1所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/13.3　Linux块设备驱动的初始化": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/13.3　Linux块设备驱动的初始化",
+      "title": "13.3　Linux块设备驱动的初始化",
+      "description": "在块设备的注册和初始化阶段，与字符设备驱动类似，块设备驱动要注册它们自己到内核，申请设备号，完成这个任务的函数是register_blkdev（），其原型为：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/13.4　块设备的打开与释放",
+      "title": "13.4　块设备的打开与释放",
+      "description": "块设备驱动的open（）函数和其字符设备驱动的对等体不太相似，前者不以相关的inode和file结构体指针作为参数（因为file和inode概念位于文件系统层中）。在open（）中我们可以通过blockdevice参数bdev获取privatedata、在release（）函数中则通过gendisk参数disk获取，如代码清单13.7所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/13.5　块设备驱动的ioctl函数",
+      "title": "13.5　块设备驱动的ioctl函数",
+      "description": "与字符设备驱动一样，块设备可以包含一个ioctl（）函数以提供对设备的I/O控制能力。实际上，高层的块设备层代码处理了绝大多数I/O控制，如BLKFLSBUF、BLKROSET、BLKDISCARD、HDIO_GETGEO、BLKROGET和BLKSECTGET等，因此，在具体的块设备驱动中通常只需要实现与设备相关的特定ioctl命令。例如，源代码文件为drivers/block/floppy.c实现了与软驱相关的命令（如FDEJECT、FDSETPRM、FDFMTTRK等）。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/13.6　块设备驱动的IO请求处理",
+      "title": "13.6.1　使用请求队列",
+      "description": "块设备驱动在使用请求队列的场景下，会用blkinitqueue（）初始化requestqueue，而该函数的第一个参数就是请求处理函数的指针。requestqueue会作为参数传递给我们在调用blkinitqueue（）时指定的请求处理函数，块设备驱动请求处理函数的原型为：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/13.7　实例：vmem_disk驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/13.7　实例：vmem_disk驱动",
+      "title": "13.7.1　vmem_disk的硬件原理",
+      "description": "vmem_disk是一种模拟磁盘，其数据实际上存储在RAM中。它使用通过vmalloc（）分配出来的内存空间来模拟出一个磁盘，以块设备的方式来访问这片内存。该驱动是对字符设备驱动章节中globalmem驱动的块方式改造。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/13.8　Linux MMC子系统",
+      "title": "13.8　Linux MMC子系统",
+      "description": "Linux MMC/SD存储卡是一种典型的块设备，它的实现位于drivers/mmc。drivers/mmc下又分为card、core和host这3个子目录。card实际上跟Linux的块设备子系统对接，实现块设备驱动以及完成请求，但是具体的协议经过core层的接口，最终通过host完成传输，因此整个MMC子系统的框架结构如图13.5所示。另外，card目录除了实现标准的MMC/SD存储卡以外，该目录还包含一些SDIO外设的卡驱动，如drivers/mmc/card/sdio_uart.c。core目录除了给card提供接口外，实际上也定义好了host驱动的框架。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/13.9　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/13.9　总结",
+      "title": "13.9　总结",
+      "description": "块设备的I/O操作方式与字符设备的存在较大的不同，因而引入了request_queue、request、bio等一系列数据结构。在整个块设备的I/O操作中，贯穿始终的就是“请求”，字符设备的I/O操作则是直接进行不绕弯，块设备的I/O操作会排队和整合。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.1　Linux网络设备驱动的结构",
+      "title": "14.1　Linux网络设备驱动的结构",
+      "description": "Linux网络设备驱动程序的体系结构如图14.1所示，从上到下可以划分为4层，依次为网络协议接口层、网络设备接口层、提供实际功能的设备驱动功能层以及网络设备与媒介层，这4层的作用如下所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.10　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.10　总结",
+      "title": "14.10　总结",
+      "description": "对Linux网络设备驱动体系结构的层次化设计实现了对上层协议接口的统一和硬件驱动对下层多样化硬件设备的可适应。程序员需要完成的工作集中在设备驱动功能层，网络设备接口层netdevice结构体的存在将千变万化的网络设备进行抽象，使得设备功能层中除数据包接收以外的主体工作都由填充netdevice的属性和函数指针完成。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.2　网络设备驱动的注册与注销": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.2　网络设备驱动的注册与注销",
+      "title": "14.2　网络设备驱动的注册与注销",
+      "description": "网络设备驱动的注册与注销由registernetdev（）和unregisternetdev（）函数完成，这两个函数的原型为：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.3　网络设备的初始化": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.3　网络设备的初始化",
+      "title": "14.3　网络设备的初始化",
+      "description": "网络设备的初始化主要需要完成如下几个方面的工作。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.4　网络设备的打开与释放": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.4　网络设备的打开与释放",
+      "title": "14.4　网络设备的打开与释放",
+      "description": "网络设备的打开函数需要完成如下工作。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.5　数据发送流程",
+      "title": "14.5　数据发送流程",
+      "description": "从14.1节网络设备驱动程序的结构分析可知，Linux网络子系统在发送数据包时，会调用驱动程序提供的hardstarttransmit（）函数，该函数用于启动数据包的发送。在设备初始化的时候，这个函数指针需被初始化以指向设备的xxx_tx（）函数。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.6　数据接收流程": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.6　数据接收流程",
+      "title": "14.6　数据接收流程",
+      "description": "网络设备接收数据的主要方法是由中断引发设备的中断处理函数，中断处理函数判断中断类型，如果为接收中断，则读取接收到的数据，分配skbuffer数据结构和数据缓冲区，将接收到的数据复制到数据缓冲区，并调用netifrx（）函数将sk_buffer传递给上层协议。代码清单14.9所示为完成这个过程的函数模板。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.7　网络连接状态",
+      "title": "14.7　网络连接状态",
+      "description": "网络适配器硬件电路可以检测出链路上是否有载波，载波反映了网络的连接是否正常。网络设备驱动可以通过netifcarrieron（）和netifcarrieroff（）函数改变设备的连接状态，如果驱动检测到连接状态发生变化，也应该以netifcarrieron（）和netifcarrieroff（）函数显式地通知内核。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.8　参数设置和统计数据": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.8　参数设置和统计数据",
+      "title": "14.8　参数设置和统计数据",
+      "description": "网络设备的驱动程序还提供一些供系统对设备的参数进行设置或读取设备相关信息的方法。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例",
+      "title": "14.9.1　DM9000网卡硬件描述",
+      "description": "DM9000是开发板采用的网络芯片，是一个高度集成且功耗很低的高速网络控制器，可以和CPU直连，支持10/100MB以太网连接，芯片内部自带4KB双字节的SRAM（3KB用来发送，13KB用来接收）。针对不同的处理器，接口支持8位、16位和32位。DM9000一般直接挂在外面的内存总线上。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构",
+      "title": "15.1　Linux I2 C体系结构",
+      "description": "Linux的I2 C体系结构分为3个组成部分。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心",
+      "title": "15.2　Linux I2 C核心",
+      "description": "I2 C核心（drivers/i2c/i2c-core.c）中提供了一组不依赖于硬件平台的接口函数，这个文件一般不需要被工程师修改，但是理解其中的主要函数非常关键，因为I2 C总线驱动和设备驱动之间以I2 C核心作为纽带。I2 C核心中的主要函数如下。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动",
+      "title": "15.3.1　I2 C适配器驱动的注册与注销",
+      "description": "由于I2 C总线控制器通常是在内存上的，所以它本身也连接在platform总线上，要通过platformdriver和platformdevice的匹配来执行。因此尽管I2 C适配器给别人提供了总线，它自己也被认为是接在platform总线上的一个客户。Linux的总线、设备和驱动模型实际上是一个树形结构，每个节点虽然可能成为别人的总线控制器，但是自己也被认为是从上一级总线枚举出来的。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/15.4　Linux I2 C设备驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/15.4　Linux I2 C设备驱动",
+      "title": "15.4　Linux I2 C设备驱动",
+      "description": "I2 C设备驱动要使用i2cdriver和i2cclient数据结构并填充i2cdriver中的成员函数。i2cclient一般被包含在设备的私有信息结构体yyydata中，而i2cdriver则适合被定义为全局变量并初始化，代码清单15.12所示为已被初始化的i2c_driver。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/15.5　Tegra I2 C总线驱动实例",
+      "title": "15.5　Tegra I2 C总线驱动实例",
+      "description": "NVIDIA Tegra I2 C总线驱动位于drivers/i2c/busses/i2c-tegra.c下，这里我们不具体研究它的硬件细节，只看一下驱动的框架和流程。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/15.6　AT24xx EEPROM的I2 C设备驱动实例",
+      "title": "15.6　AT24xx EEPROM的I2 C设备驱动实例",
+      "description": "drivers/misc/eeprom/at24.c文件支持大多数I2 C接口的EEPROM，正如我们之前所述，一个具体的I2 C设备驱动由i2cdriver的形式进行组织，用于将设备挂接于I2 C总线，组织好了后，再完成设备本身所属类型的驱动。对于EEPROM而言，设备本身的驱动以binattribute二进制sysfs节点形式呈现。代码清单15.25给出了该驱动的框架。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/15.7　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/15.7　总结",
+      "title": "15.7　总结",
+      "description": "Linux的I2 C驱动体系结构相当复杂，它主要由3部分组成，即I2 C核心、I2 C总线驱动和I2 C设备驱动。I2 C核心是I2 C总线驱动和I2 C设备驱动的中间枢纽，它以通用的、与平台无关的接口实现了I2 C中设备与适配器的沟通。I2 C总线驱动填充i2cadapter和i2calgorithm结构体，I2 C设备驱动填充i2c_driver结构体并实现其本身所对应设备类型的驱动。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/16.1　Linux USB驱动层次",
+      "title": "16.1.1　主机侧与设备侧USB驱动",
+      "description": "USB采用树形拓扑结构，主机侧和设备侧的USB控制器分别称为主机控制器（Host Controller）和USB设备控制器（UDC），每条总线上只有一个主机控制器，负责协调主机和设备间的通信，而设备不能主动向主机发送任何消息。如图16.1所示，在Linux系统中，USB驱动可以从两个角度去观察，一个角度是主机侧，一个角度是设备侧。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/16.2　USB主机控制器驱动",
+      "title": "16.2.1　USB主机控制器驱动的整体结构",
+      "description": "USB主机控制器有这些规格：OHCI（Open Host Controller Interface）、UHCI（Universal Host Controller Interface）、EHCI（Enhanced Host Controller Interface）和xHCI（eXtensible Host Controller Interface）。OHCI驱动程序用来为非PC系统上以及带有SiS和ALi芯片组的PC主板上的USB芯片提供支持。UHCI驱动程序多用来为大多数其他PC主板（包括Intel和Via）上的USB芯片提供支持。EHCI由USB 2.0规范所提出，它兼容于OHCI和UHCI。由于UHCI的硬件线路比OHCI简单，所以成本较低，但需要较复杂的驱动程序，CPU负荷稍重。xHCI，即可扩展的主机控制器接口是Intel公司开发的一个USB主机控制器接口，它目前主要是面向USB 3.0的，同时它也支持USB 2.0及以下的设备。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/16.3　USB设备驱动",
+      "title": "16.3.1　USB设备驱动的整体结构",
+      "description": "这里所说的USB设备驱动指的是从主机角度来看，怎样访问被插入的USB设备，而不是指USB设备内部本身运行的固件程序。Linux系统实现了几类通用的USB设备驱动（也称客户驱动），划分为如下几个设备类。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动",
+      "title": "16.4.1　UDC和Gadget驱动的关键数据结构与API",
+      "description": "这里的USB设备控制器（UDC）驱动指的是作为其他USB主机控制器外设的USB硬件设备上底层硬件控制器的驱动，该硬件和驱动负责将一个USB设备依附于一个USB主机控制器上。例如，当某运行Linux系统的手机作为PC的U盘时，手机中的底层USB控制器行使USB设备控制器的功能，这时候运行在底层的是UDC驱动，而手机要成为U盘，在UDC驱动之上仍然需要另外一个驱动，对于USB大容量存储器而言，这个驱动为File Storage驱动，称为Function驱动。从图16.1左边可以看出，USB设备驱动调用USB核心的API，因此具体驱动与SoC无关；同样，从图16.1右边可以看出，Function驱动调用通用的Gadget Function API，因此具体Function驱动也变得与SoC无关。软件分层设计的好处再一次得到了深刻的体现",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/16.5　USB OTG驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/16.5　USB OTG驱动",
+      "title": "16.5　USB OTG驱动",
+      "description": "USB OTG标准在完全兼容USB 2.0标准的基础上，它允许设备既可作为主机，也可作为外设操作，OTG新增了主机通令协议（HNP）和对话请求协议（SRP）。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/16.6　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/16.6　总结",
+      "title": "16.6　总结",
+      "description": "USB驱动分为USB主机驱动和USB设备驱动，如果系统的USB主机控制器符合OHCI等标准，那主机驱动的绝大部分工作都可以沿用通用的代码。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构",
+      "title": "17.1　I2 C、SPI、USB驱动架构",
+      "description": "根据图12.4，Linux倾向于将主机端的驱动与外设端的驱动分离，而通过一个核心层将某种总线的协议进行抽象，外设端的驱动调用核心层API间接过渡到对主机驱动传输函数的调用。对于I2 C、SPI这类不具备热插拔能力的总线而言，一般在arch/arm/mach-xxx或者arch/arm/boot/dts中会有相应的板级描述信息，描述外设与主机的连接情况。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界",
+      "title": "17.2　I2 C主机和外设眼里的Linux世界",
+      "description": "I2 C控制器所在驱动的platformdriver与arch/arm/mach-xxx中的platformdevice（或者设备树中的节点）通过platform总线的match（）函数匹配导致platformdriver.probe（）执行，从而完成I2 C控制器的注册；而I2 C上面挂的触摸屏依附的i2cdriver与arch/arm/mach-xxx中的i2cboardinfo指向的设备（或者设备树中的节点）通过I2 C总线的match（）函数匹配导致i2c_driver.probe（）执行，从而使触摸屏展开。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/18.1　ARM设备树起源": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/18.1　ARM设备树起源",
+      "title": "18.1　ARM设备树起源",
+      "description": "在过去的ARM Linux中，arch/arm/plat-xxx和arch/arm/mach-xxx中充斥着大量的垃圾代码，很多代码只是在描述板级细节，而这些板级细节对于内核来讲，不过是垃圾，如板上的platform设备、resource、i2cboardinfo、spiboardinfo以及各种硬件的platform_data。读者若有兴趣，可以统计一下常见的s3c2410、s3c6410等板级目录，代码量在数万行。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/18.2　设备树的组成和结构",
+      "title": "18.2　设备树的组成和结构",
+      "description": "整个设备树牵涉面比较广，即增加了新的用于描述设备硬件信息的文本格式，又增加了编译这个文本的工具，同时Bootloader也需要支持将编译后的设备树传递给Linux内核。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/18.3　由设备树引发的BSP和驱动变更",
+      "title": "18.3　由设备树引发的BSP和驱动变更",
+      "description": "有了设备树后，不再需要大量的板级信息，譬如过去经常在arch/arm/plat-xxx和arch/arm/mach-xxx中实施如下事情。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/18.4　常用的OF API",
+      "title": "18.4　常用的OF API",
+      "description": "除了前文介绍的ofmachineiscompatible（）、ofdeviceiscompatible（）等常用函数以外，在Linux的BSP和驱动代码中，经常会使用到一些Linux中其他设备树的API，这些API通常被冠以of_前缀，它们的实现代码位于内核的drivers/of目录下。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/18.5　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/18.5　总结",
+      "title": "18.5　总结",
+      "description": "充斥着ARM社区的大量垃圾代码导致Linus盛怒，因此该社区在2011~2012年进行了大量的修整工作。ARM Linux开始围绕设备树展开，设备树有自己的独立语法，它的源文件为.dts，编译后得到.dtb，Bootloader在引导Linux内核的时候会将.dtb地址告知内核。之后内核会展开设备树并创建和注册相关的设备，因此arch/arm/mach-xxx和arch/arm/plat-xxx中的大量用于注册platform、I2 C、SPI等板级信息的代码被删除，而驱动也以新的方式与在.dts中定义的设备节点进行匹配。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.1　Linux电源管理的全局架构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.1　Linux电源管理的全局架构",
+      "title": "19.1　Linux电源管理的全局架构",
+      "description": "Linux电源管理非常复杂，牵扯到系统级的待机、频率电压变换、系统空闲时的处理以及每个设备驱动对系统待机的支持和每个设备的运行时（Runtime）电源管理，可以说它和系统中的每个设备驱动都息息相关。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.10　运行时的PM": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.10　运行时的PM",
+      "title": "19.10　运行时的PM",
+      "description": "在前文给出的devpmops结构体中，有3个以runtime开头的成员函数：runtimesuspend（）、runtimeresume（）和runtime_idle（），它们辅助设备完成运行时的电源管理：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.11　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.11　总结",
+      "title": "19.11　总结",
+      "description": "Linux内核的PM框架涉及众多组件，弄清楚这些组件之间的依赖关系，在合适的着眼点上进行优化，采用正确的方法进行PM的编程，对改善代码的质量、辅助功耗和性能测试都有极大的好处。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.2　CPUFreq驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.2　CPUFreq驱动",
+      "title": "19.2　CPUFreq驱动",
+      "description": "CPUFreq子系统位于drivers/cpufreq目录下，负责进行运行过程中CPU频率和电压的动态调整，即DVFS（Dynamic Voltage Frequency Scaling，动态电压频率调整）。运行时进行CPU电压和频率调整的原因是：CMOS电路中的功耗与电压的平方成正比、与频率成正比（P∝fV2 ），因此降低电压和频率可降低功耗。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.3　CPUIdle驱动",
+      "title": "19.3　CPUIdle驱动",
+      "description": "目前的ARM SoC大多支持几个不同的Idle级别，CPUIdle驱动子系统存在的目的就是对这些Idle状态进行管理，并根据系统的运行情况进入不同的Idle级别。具体SoC的底层CPUIdle驱动实现则提供一个类似于CPUFreq驱动频率表的Idle级别表，并实现各种不同Idle状态的进入和退出流程。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.4　PowerTop": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.4　PowerTop",
+      "title": "19.4　PowerTop",
+      "description": "PowerTop是一款开源的用于进行电量消耗分析和电源管理诊断的工具，其主页位于Intel开源技术中心的https://01.org/powertop/ ，维护者是Arjan van de Ven和Kristen Accardi。PowerTop可分析系统中软件的功耗，以便找到功耗大户，也可显示系统中不同的C状态（与CPUIdle驱动对应）和P状态（与CPUFreq驱动对应）的时间比例，并采用了基于TAB的界面风格，如图19.5所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.5　Regulator驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.5　Regulator驱动",
+      "title": "19.5　Regulator驱动",
+      "description": "Regulator是Linux系统中电源管理的基础设施之一，用于稳压电源的管理，是各种驱动子系统中设置电压的标准接口。前面介绍的CPUFreq驱动就经常使用它来设定电压，比如代码清单19.2的第57~59行。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.6　OPP",
+      "title": "19.6　OPP",
+      "description": "现今的SoC一般包含很多集成组件，在系统运行过程中，并不需要所有的模块都运行于最高频率和最高性能。在SoC内，某些domain可以运行在较低的频率和电压下，而其他domain可以运行在较高的频率和电压下，某个domain所支持的对的集合被称为Operating Performance Point，缩写为OPP。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.7　PM QoS": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.7　PM QoS",
+      "title": "19.7　PM QoS",
+      "description": "Linux内核的PM QoS系统针对内核和应用程序提供了一套接口，通过这个接口，用户可以设定自身对性能的期望。一类是系统级的需求，通过cpudmalatency、networklatency和networkthroughput这些参数来设定；另一类是单个设备可以根据自身的性能需求发起per-device的PM QoS请求。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.8　CPU热插拔": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.8　CPU热插拔",
+      "title": "19.8　CPU热插拔",
+      "description": "Linux CPU热插拔的功能已经存在相当长的时间了，Linux 3.8之后的内核里一个小小的改进就是CPU0也可以热插拔。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/19.9　挂起到RAM": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/19.9　挂起到RAM",
+      "title": "19.9　挂起到RAM",
+      "description": "Linux支持STANDBY、挂起到RAM、挂起到硬盘等形式的待机，如图19.9所示。一般的嵌入式产品仅仅只实现了挂起到RAM（也简称为s2ram，或常简称为STR），即将系统的状态保存于内存中，并将SDRAM置于自刷新状态，待用户按键等操作后再重新恢复系统。少数嵌入式Linux系统会实现挂起到硬盘（简称STD），它与挂起到RAM的不同是s2ram并不关机，STD则把系统的状态保持于磁盘，然后关闭整个系统。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/2.1　处理器",
+      "title": "2.1.1　通用处理器",
+      "description": "目前主流的通用处理器（GPP）多采用SoC（片上系统）的芯片设计方法，集成了各种功能模块，每一种功能都是由硬件描述语言设计程序，然后在SoC内由电路实现的。在SoC中，每一个模块不是一个已经设计成熟的ASIC器件，而是利用芯片的一部分资源去实现某种传统的功能，将各种组件采用类似搭积木的方法组合在一起。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/2.2　存储器": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/2.2　存储器",
+      "title": "2.2　存储器",
+      "description": "存储器主要可分类为只读储存器（ROM）、闪存（Flash）、随机存取存储器（RAM）、光/磁介质储存器。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/2.3　接口与总线",
+      "title": "2.3.1　串口",
+      "description": "RS-232、RS-422与RS-485都是串行数据接口标准，最初都是由电子工业协会（EIA）制订并发布的。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/2.4　CPLD和FPGA",
+      "title": "2.4　CPLD和FPGA",
+      "description": "CPLD（复杂可编程逻辑器件）由完全可编程的与或门阵列以及宏单元构成。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析",
+      "title": "2.5　原理图分析",
+      "description": "原理图分析的含义是指通过阅读电路板的原理图获得各种存储器、外设所使用的硬件资源、接口和引脚连接关系。若要整体理解整个电路板的硬件组成，原理图的分析方法是以主CPU为中心向存储器和外设辐射，步骤如下。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析",
+      "title": "2.6.1　时序分析的概念",
+      "description": "驱动工程师一般不需要分析硬件的时序，但是鉴于许多企业内驱动工程师还需要承担电路板调试的任务，因此，掌握时序分析的方法也就比较必要了",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/2.7　芯片数据手册阅读方法": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/2.7　芯片数据手册阅读方法",
+      "title": "2.7　芯片数据手册阅读方法",
+      "description": "芯片数据手册往往长达数百页，甚至上千页，而且全部是英文，从头到尾不加区分地阅读需要花费非常长的时间，而且不一定能获取对设计设备驱动有帮助的信息。芯片数据手册的正确阅读方法是快速而准确地定位有用信息，重点阅读这些信息，忽略无关内容。下面以S3C6410A的数据手册为例来分析阅读方法，为了直观地反映阅读过程，本节的图都是直接从数据手册中抓屏而得到的。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/2.8　仪器仪表使用": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/2.8　仪器仪表使用",
+      "title": "2.8.1　万用表",
+      "description": "在电路板调试过程中主要使用万用表的两个功能。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状",
+      "title": "20.1　ARM Linux底层驱动的组成和现状",
+      "description": "为了让Linux在一个全新的ARM SoC上运行，需要提供大量的底层支撑，如定时器节拍、中断控制器、SMP启动、CPU热插拔以及底层的GPIO、时钟、pinctrl和DMA硬件的封装等。定时器节拍、中断控制器、SMP启动和CPU热插拔这几部分相对来说没有像早期GPIO、时钟、pinctrl和DMA的实现那么杂乱，基本上有个固定的套路。定时器节拍为Linux基于时间片的调度机制以及内核和用户空间的定时器提供支撑，中断控制器的驱动则使得Linux内核的工程师可以直接调用localirqdisable（）、disable_irq（）等通用的中断API，而SMP启动支持则用于让SoC内部的多个CPU核都投入运行，CPU热插拔则运行运行时挂载或拔除CPU。这些工作，在Linux 3.0之后的内核中，Linux社区对比逐步进行了良好的层次划分和架构设计。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.10　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.10　总结",
+      "title": "20.10　总结",
+      "description": "移植Linux到全新的SMP SoC上，需在底层提供定时器节拍、中断控制器、SMP启动、GPIO、时钟、pinctrl等功能，这些底层的功能被封装好后，其他设备驱动只能调用内核提供的通用API。这良好地体现了内核的分层设计，即驱动都调用与硬件无关的通用API，而这些API的底层实现则更多的是填充内核规整好的回调函数。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.2　内核节拍驱动",
+      "title": "20.2　内核节拍驱动",
+      "description": "Linux 2.6的早期（Linux2.6.21之前）内核是基于节拍设计的，一般SoC公司在将Linux移植到自己芯片上的时候，会从芯片内部找一个定时器，并将该定时器配置为赫兹的频率，在每个时钟节拍到来时，调用ARM Linux内核核心层的timer_tick（）函数，从而引发系统里的一系列行为。如Linux 2.6.17中arch/arm/mach-s3c2410/time.c的做法类似于代码清单20.1所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.3　中断控制器驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.3　中断控制器驱动",
+      "title": "20.3　中断控制器驱动",
+      "description": "在Linux内核中，各个设备驱动可以简单地调用requestirq（）、enableirq（）、disableirq（）、localirqdisable（）、localirq_enable（）等通用API来完成中断申请、使能、禁止等功能。在将Linux移植到新的SoC时，芯片供应商需要提供该部分API的底层支持。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.4　SMP多核启动以及CPU热插拔驱动",
+      "title": "20.4　SMP多核启动以及CPU热插拔驱动",
+      "description": "在Linux系统中，对于多核的ARM芯片而言，在Bootrom代码中，每个CPU都会识别自身ID，如果ID是0，则引导Bootloader和Linux内核执行，如果ID不是0，则Bootrom一般在上电时将自身置于WFI或者WFE状态，并等待CPU0给其发CPU核间中断或事件（一般通过SEV指令）以唤醒它。一个典型的多核Linux启动过程如图20.6所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置",
+      "title": "20.5　DEBUG_LL和EARLY_PRINTK的设置",
+      "description": "在Linux启动的早期，控制台驱动还没有投入运行。当我们把Linux移植到一个新的SoC时，工程师一般非常想在刚开始就可以执行printk（）功能以跟踪调试启动过程。内核的DEBUGLL和EARLYPRINTK选项为我们提供了这样的支持，而在Bootloader引导内核执行的bootargs中，则需要使能earlyprintk选项。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动",
+      "title": "20.6　GPIO驱动",
+      "description": "在drivers/gpio下实现了通用的基于gpiolib的GPIO驱动，其中定义了一个通用的用于描述底层GPIO控制器的gpiochip结构体，并要求具体的SoC实现gpiochip结构体的成员函数，最后通过gpiochipadd（）注册gpiochip。GPIO驱动可以存在于drivers/gpio目录中，但是在GPIO兼有多种功能且需要复杂配置的情况下，GPIO的驱动部分往往直接移到drivers/pinctrl目录下并连同pinmux一起实现，而不存在于drivers/gpio目录中。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动",
+      "title": "20.7　pinctrl驱动",
+      "description": "许多SoC内部都包含pin控制器，通过pin控制器的寄存器，我们可以配置一个或者一组引脚的功能和特性。在软件上，Linux内核的pinctrl驱动可以操作pin控制器为我们完成如下工作：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.8　时钟驱动",
+      "title": "20.8　时钟驱动",
+      "description": "在一个SoC中，晶振、PLL、驱动和门等会形成一个时钟树形结构，在Linux 2.6中，也存有clkgetrate（）、clksetrate（）、clkgetparent（）、clksetparent（）等通用API，但是这些API由每个SoC单独实现，而且各个SoC供应商在实现方面的差异很大，于是内核增加了一个新的通用时钟框架以解决这个碎片化问题。之所以称为通用时钟，是因为这个通用主要体现在：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/20.9　dmaengine驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/20.9　dmaengine驱动",
+      "title": "20.9　dmaengine驱动",
+      "description": "dmaengine是一套通用的DMA驱动框架，该框架为具体使用DMA通道的设备驱动提供了一套统一的API，而且也定义了用具体的DMA控制器实现这一套API的方法。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.1　GDB调试器的用法": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.1　GDB调试器的用法",
+      "title": "21.1.1　GDB的基本用法",
+      "description": "GDB是GNU开源组织发布的一个强大的UNIX下的程序调试工具，GDB主要可帮助工程师完成下面4个方面的功能。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.10　使用仿真器调试内核": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.10　使用仿真器调试内核",
+      "title": "21.10　使用仿真器调试内核",
+      "description": "在ARM Linux领域，目前比较主流的是采用ARM DS-5Development Studio方案。ARM DS-5是一个针对基于Linux的系统和裸机嵌入式系统的专业软件开发解决方案，它涵盖了开发的所有阶段，从启动代码、内核移植直到应用程序调试、分析。如图21.7所示，它使用了DSTREAM高性能仿真器（ARM已经停止更新RVI-RVT2仿真器），在Eclipse内包含了DS-5和DSTREAM的开发插件。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.11　应用程序调试": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.11　应用程序调试",
+      "title": "21.11　应用程序调试",
+      "description": "在嵌入式系统中，为调试Linux应用程序，可在目标板上先运行GDBServer，再让主机上的GDB与目标板上的GDBServer通过网口或串口通信。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.12　Linux性能监控与调优工具",
+      "title": "21.12　Linux性能监控与调优工具",
+      "description": "除了保证程序的正确性以外，在项目开发中往往还关心性能和稳定性。这时候，我们往往要对内核、应用程序或整个系统进行性能优化。在性能优化中常用的手段如下。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.13　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.13　总结",
+      "title": "21.13　总结",
+      "description": "Linux程序的调试，尤其是内核的调试看起来比较复杂，没有类似于VC++、Tornado的IDE开发环境，最常用的调试手段依然是文本方式的GDB。文本方式的GDB调试器功能异常强大，当我们使用习惯后，就会用得非常自然。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试",
+      "title": "21.2　Linux内核调试",
+      "description": "在嵌入式系统中，由于目标机资源有限，因此往往在主机上先编译好程序，再在目标机上运行。用户所有的开发工作都在主机开发环境下完成，包括编码、编译、连接、下载和调试等。目标机和主机通过串口、以太网、仿真器或其他通信手段通信，主机用这些接口控制目标机，调试目标机上的程序。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.3　内核打印信息—printk（​）": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.3　内核打印信息—printk（​）",
+      "title": "21.3　内核打印信息—printk（​）",
+      "description": "在Linux中，内核打印语句printk（）会将内核信息输出到内核信息缓冲区中，内核缓冲区是在kernel/printk.c中通过如下语句静态定义的：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.4　DEBUG_LL和EARLY_PRINTK",
+      "title": "21.4　DEBUG_LL和EARLY_PRINTK",
+      "description": "DEBUGLL对应内核的Kernel low-level debugging功能，EARLYPRINTK则对应内核中一个早期的控制台。为了在内核的drivers/tty/serial下的控制台驱动初始化之前支持打印，可以选择DEBUGLL和EARLYPRINTK这两个配置选项。另外，也需要在bootargs中设置earlyprintk的选项。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.5　使用“proc”": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.5　使用“proc”",
+      "title": "21.5　使用“proc”",
+      "description": "在Linux系统中，“/proc”文件系统十分有用，它被内核用于向用户导出信息。“/proc”文件系统是一个虚拟文件系统，通过它可以在Linux内核空间和用户空间之间进行通信。在/proc文件系统中，我们可以将对虚拟文件的读写作为与内核中实体进行通信的一种手段，与普通文件不同的是，这些虚拟文件的内容都是动态创建的。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.6　Oops",
+      "title": "21.6　Oops",
+      "description": "当内核出现类似用户空间的Segmentation Fault时（例如内核访问一个并不存在的虚拟地址），Oops会被打印到控制台和写入内核log缓冲区。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.7　BUG_ON（​）和WARN_ON（​）": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.7　BUG_ON（​）和WARN_ON（​）",
+      "title": "21.7　BUG_ON（​）和WARN_ON（​）",
+      "description": "内核中有许多地方调用类似BUG（）的语句，它非常像一个内核运行时的断言，意味着本来不该执行到BUG（）这条语句，一旦执行即抛出Oops。BUG（）的定义为：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.8　strace": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.8　strace",
+      "title": "21.8　strace",
+      "description": "在Linux系统中，strace是一种相当有效的跟踪工具，它的主要特点是可以被用来监视系统调用。我们不仅可以用strace调试一个新开始的程序，也可以调试一个已经在运行的程序（这意味着把strace绑定到一个已有的PID上）。对于第6章的globalmem字符设备文件，以strace方式运行如代码清单21.8所示的用户空间应用程序globalmem_test，运行的结果如下：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/21.9　KGDB",
+      "title": "21.9　KGDB",
+      "description": "Linux直接提供了对KGDB的支持，KGDB采用了典型的嵌入式系统“插桩”技巧，一般依赖于串口与调试主机通信。为了支持KGDB，串口驱动应该实现纯粹的轮询收发单一字符的成员函数，以供drivers/tty/serial/kgdboc.c调用，譬如drivers/tty/serial/8250/8250_core.c中的：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/3.1　Linux内核的发展与演变": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/3.1　Linux内核的发展与演变",
+      "title": "3.1　Linux内核的发展与演变",
+      "description": "Linux操作系统是UNIX操作系统的一种克隆系统，是一种类UNIX操作系统，诞生于1991年10月5日（第一次正式向外公布的时间），起初的作者是Linus Torvalds。Linux操作系统的诞生、发展和成长过程依赖着5个重要支柱：UNIX操作系统、Minix操作系统、GNU计划、POSIX标准和Internet。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/3.2　Linux 2.6后的内核特点",
+      "title": "3.2　Linux 2.6后的内核特点",
+      "description": "Linux 2.6内核是Linux开发者群落一个寄予厚望的版本，从2003年12月直至2011年7月，内核重新进行了版本的编号，从而过渡到Linux 3.x版本直到成书时的Linux 4.0-rc1。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/3.3　Linux内核的组成": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/3.3　Linux内核的组成",
+      "title": "3.3.1　Linux内核源代码的目录结构",
+      "description": "Linux内核源代码包含如下目录。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/3.4　Linux内核的的编译及加载": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/3.4　Linux内核的的编译及加载",
+      "title": "3.4.3　Linux内核的引导",
+      "description": "引导Linux系统的过程包括很多阶段，这里将以引导ARM Linux为例来进行讲解（见图3.11）。一般的SoC内嵌入了bootrom，上电时bootrom运行。对于CPU0而言，bootrom会去引导bootloader，而其他CPU则判断自己是不是CPU0，进入WFI的状态等待CPU0来唤醒它。CPU0引导bootloader，bootloader引导Linux内核，在内核启动阶段，CPU0会发中断唤醒CPU1，之后CPU0和CPU1都投入运行。CPU0导致用户空间的init程序被调用，init程序再派生其他进程，派生出来的进程再派生其他进程。CPU0和CPU1共担这些负载，进行负载均衡。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/3.5　Linux下的C编程特点": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/3.5　Linux下的C编程特点",
+      "title": "3.5.1　Linux编码风格",
+      "description": "Linux有独特的编码风格，在内核源代码下存在一个文件Documentation/CodingStyle，进行了比较详细的描述。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/3.6　工具链",
+      "title": "3.6　工具链",
+      "description": "在Linux的编程中，通常使用GNU工具链编译Bootloader、内核和应用程序。GNU组织维护了GCC、GDB、glibc、Binutils等，分别见于https//www.gnu.org/software/gdb/ ，https//www.gnu.org/software/binutils/ 。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.1　Linux内核模块简介",
+      "title": "4.1　Linux内核模块简介",
+      "description": "Linux内核的整体架构本就非常庞大，其包含的组件也非常多。而我们怎样把需要的部分都包含在内核中呢？",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.10　使用模块“绕开”GPL": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.10　使用模块“绕开”GPL",
+      "title": "4.10　使用模块“绕开”GPL",
+      "description": "Linux内核有两种导出符号的方法给模块使用，一种方法是EXPORTSYMBOL（），另外一种是EXPORTSYMBOL_GPL（）。这一点和模块A导出符号给模块B用是一致的。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.2　Linux内核模块程序结构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.2　Linux内核模块程序结构",
+      "title": "4.2　Linux内核模块程序结构",
+      "description": "一个Linux内核模块主要由如下几个部分组成。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.3　模块加载函数": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.3　模块加载函数",
+      "title": "4.3　模块加载函数",
+      "description": "Linux内核模块加载函数一般以init标识声明，典型的模块加载函数的形式如代码清单4.2所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.4　模块卸载函数": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.4　模块卸载函数",
+      "title": "4.4　模块卸载函数",
+      "description": "Linux内核模块加载函数一般以exit标识声明，典型的模块卸载函数的形式如代码清单4.3所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.5　模块参数": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.5　模块参数",
+      "title": "4.5　模块参数",
+      "description": "我们可以用“module_param（参数名，参数类型，参数读/写权限）”为模块定义一个参数，例如下列代码定义了1个整型参数和1个字符指针参数：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.6　导出符号": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.6　导出符号",
+      "title": "4.6　导出符号",
+      "description": "Linux的“/proc/kallsyms”文件对应着内核符号表，它记录了符号以及符号所在的内存地址。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.7　模块声明与描述": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.7　模块声明与描述",
+      "title": "4.7　模块声明与描述",
+      "description": "在Linux内核模块中，我们可以用MODULEAUTHOR、MODULEDESCRIPTION、MODULEVERSION、MODULEDEVICETABLE、MODULEALIAS分别声明模块的作者、描述、版本、设备表和别名，例如：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.8　模块的使用计数",
+      "title": "4.8　模块的使用计数",
+      "description": "Linux 2.4内核中，模块自身通过MODINCUSECOUNT、MODDECUSECOUNT宏来管理自己被使用的计数。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/4.9　模块的编译": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/4.9　模块的编译",
+      "title": "4.9　模块的编译",
+      "description": "我们可以为代码清单4.1的模板编写一个简单的Makefile：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/5.1　Linux文件操作": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/5.1　Linux文件操作",
+      "title": "5.1.1　文件操作系统调用",
+      "description": "Linux的文件操作系统调用（在Windows编程领域，习惯称操作系统提供的接口为API）涉及创建、打开、读写和关闭文件。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/5.2　Linux文件系统": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/5.2　Linux文件系统",
+      "title": "5.2.1　Linux文件系统目录结构",
+      "description": "进入Linux根目录（即“/”，Linux文件系统的入口，也是处于最高一级的目录），运行“ls–l”命令，看到Linux包含以下目录。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/5.3　devfs": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/5.3　devfs",
+      "title": "5.3　devfs",
+      "description": "devfs（设备文件系统）是由Linux 2.4内核引入的，引入时被许多工程师给予了高度评价，它的出现使得设备驱动程序能自主地管理自己的设备文件。具体来说，devfs具有如下优点。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/5.4　udev用户空间设备管理",
+      "title": "5.4.1　udev与devfs的区别",
+      "description": "尽管devfs有这样和那样的优点，但是，在Linux 2.6内核中，devfs被认为是过时的方法，并最终被抛弃了，udev取代了它。Linux VFS内核维护者Al Viro指出了几点udev取代devfs的原因：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/6.1　Linux字符设备驱动结构": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/6.1　Linux字符设备驱动结构",
+      "title": "6.1.1　cdev结构体",
+      "description": "在Linux内核中，使用cdev结构体描述一个字符设备，cdev结构体的定义如代码清单6.1。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/6.2　globalmem虚拟设备实例描述",
+      "title": "6.2　globalmem虚拟设备实例描述",
+      "description": "从本章开始，后续的数章都将基于虚拟的globalmem设备进行字符设备驱动的讲解。globalmem意味着“全局内存”，在globalmem字符设备驱动中会分配一片大小为GLOBALMEM_SIZE（4KB）的内存空间，并在驱动中提供针对该片内存的读写、控制和定位函数，以供用户空间的进程能通过Linux系统调用获取或设置这片内存的内容。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/6.3　globalmem设备驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/6.3　globalmem设备驱动",
+      "title": "6.3.1　头文件、宏及设备结构体",
+      "description": "在globalmem字符设备驱动中，应包含它要使用的头文件，并定义globalmem设备结构体及相关宏。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.1　并发与竞态": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.1　并发与竞态",
+      "title": "7.1　并发与竞态",
+      "description": "并发（Concurrency）指的是多个执行单元同时、并行被执行，而并发的执行单元对共享资源（硬件资源和软件上的全局变量、静态变量等）的访问则很容易导致竞态（Race Conditions）。例如，对于globalmem设备，假设一个执行单元A对其写入3000个字符“a”，而另一个执行单元B对其写入4000个“b”，第三个执行单元C读取globalmem的所有字符。如果执行单元A、B的写操作按图7.1那样顺序发生，执行单元C的读操作当然不会有什么问题。但是，如果执行单元A、B按图7.2那样被执行，而执行单元C又“不合时宜”地读，则会读出3000个“b”。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.10　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.10　总结",
+      "title": "7.10　总结",
+      "description": "并发和竞态广泛存在，中断屏蔽、原子操作、自旋锁和互斥体都是解决并发问题的机制。中断屏蔽很少单独被使用，原子操作只能针对整数进行，因此自旋锁和互斥体应用最为广泛。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.2　编译乱序和执行乱序": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.2　编译乱序和执行乱序",
+      "title": "7.2　编译乱序和执行乱序",
+      "description": "理解Linux内核的锁机制，还需要理解编译器和处理器的特点。比如下面一段代码，写端申请一个新的struct foo结构体并初始化其中的a、b、c，之后把结构体地址赋值给全局gp指针：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.3　中断屏蔽": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.3　中断屏蔽",
+      "title": "7.3　中断屏蔽",
+      "description": "在单CPU范围内避免竞态的一种简单而有效的方法是在进入临界区之前屏蔽系统的中断，但是在驱动编程中不值得推荐，驱动通常需要考虑跨平台特点而不假定自己在单核上运行。CPU一般都具备屏蔽中断和打开中断的功能，这项功能可以保证正在执行的内核执行路径不被中断处理程序所抢占，防止某些竞态条件的发生。具体而言，中断屏蔽将使得中断与进程之间的并发不再发生，而且，由于Linux内核的进程调度等操作都依赖中断来实现，内核抢占进程之间的并发也得以避免了。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.4　原子操作": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.4　原子操作",
+      "title": "7.4　原子操作",
+      "description": "原子操作可以保证对一个整型数据的修改是排他性的。Linux内核提供了一系列函数来实现内核中的原子操作，这些函数又分为两类，分别针对位和整型变量进行原子操作。位和整型变量的原子操作都依赖于底层CPU的原子操作，因此所有这些函数都与CPU架构密切相关。对于ARM处理器而言，底层使用LDREX和STREX指令，比如atomicinc（）底层的实现会调用到atomicadd（），其代码如下：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.5　自旋锁": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.5　自旋锁",
+      "title": "7.5.1　自旋锁的使用",
+      "description": "自旋锁（Spin Lock）是一种典型的对临界资源进行互斥访问的手段，其名称来源于它的工作方式。为了获得一个自旋锁，在某CPU上运行的代码需先执行一个原子操作，该操作测试并设置（Test-And-Set）某个内存变量。由于它是原子操作，所以在该操作完成之前其他执行单元不可能访问这个内存变量。如果测试结果表明锁已经空闲，则程序获得这个自旋锁并继续执行；如果测试结果表明锁仍被占用，程序将在一个小的循环内重复这个“测试并设置”操作，即进行所谓的“自旋”，通俗地说就是“在原地打转”，如图7.7所示。当自旋锁的持有者通过重置该变量释放这个自旋锁后，某个等待的“测试并设置”操作向其调用者报告锁已释放。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.6　信号量": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.6　信号量",
+      "title": "7.6　信号量",
+      "description": "信号量（Semaphore）是操作系统中最典型的用于同步和互斥的手段，信号量的值可以是0、1或者n。信号量与操作系统中的经典概念PV操作对应。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.7　互斥体": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.7　互斥体",
+      "title": "7.7　互斥体",
+      "description": "尽管信号量已经可以实现互斥的功能，但是“正宗”的mutex在Linux内核中还是真实地存在着。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.8　完成量": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.8　完成量",
+      "title": "7.8　完成量",
+      "description": "Linux提供了完成量（Completion，关于这个名词，至今没有好的翻译，笔者将其译为“完成量”），它用于一个执行单元等待另一个执行单元执行完某事。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/7.9　增加并发控制后的globalmem的设备驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/7.9　增加并发控制后的globalmem的设备驱动",
+      "title": "7.9　增加并发控制后的globalmem的设备驱动",
+      "description": "在globalmem（）的读写函数中，由于要调用copyfromuser（）、copytouser（）这些可能导致阻塞的函数，因此不能使用自旋锁，宜使用互斥体。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/8.1　阻塞与非阻塞IO",
+      "title": "8.1　阻塞与非阻塞IO",
+      "description": "阻塞操作是指在执行设备操作时，若不能获得资源，则挂起进程直到满足可操作的条件后再进行操作。被挂起的进程进入睡眠状态，被从调度器的运行队列移走，直到等待的条件被满足。而非阻塞操作的进程在不能进行设备操作时，并不挂起，它要么放弃，要么不停地查询，直至可以进行操作为止。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/8.2　轮询操作",
+      "title": "8.2.1　轮询的概念与作用",
+      "description": "在用户程序中，select（）和poll（）也是与设备阻塞与非阻塞访问息息相关的论题。使用非阻塞I/O的应用程序通常会使用select（）和poll（）系统调用查询是否可对设备进行无阻塞的访问。select（）和poll（）系统调用最终会使设备驱动中的poll（）函数被执行，在Linux2.5.45内核中还引入了epoll（），即扩展的poll（）。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/8.3　支持轮询操作的globalfifo驱动",
+      "title": "8.3.1　在globalfifo驱动中增加轮询操作",
+      "description": "在globalfifo的poll（）函数中，首先将设备结构体中的rwait和wwait等待队列头部添加到等待列表中（意味着因调用select而阻塞的进程可以被rwait和wwait唤醒），然后通过判断dev->currentlen是否等于0来获得设备的可读状态，通过判断dev->currentlen是否等于GLOBALFIFO_SIZE来获得设备的可写状态，如代码清单8.9所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/8.4　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/8.4　总结",
+      "title": "8.4　总结",
+      "description": "阻塞与非阻塞访问是I/O操作的两种不同模式，前者在暂时不可进行I/O操作时会让进程睡眠，后者则不然。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/9.1　异步通知的概念与作用",
+      "title": "9.1　异步通知的概念与作用",
+      "description": "阻塞与非阻塞访问、poll（）函数提供了较好的解决设备访问的机制，但是如果有了异步通知，整套机制则更加完整了。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/9.2　Linux异步通知编程": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/9.2　Linux异步通知编程",
+      "title": "9.2.1　Linux信号",
+      "description": "使用信号进行进程间通信（IPC）是UNIX中的一种传统机制，Linux也支持这种机制。在Linux中，异步通知使用信号来实现，Linux中可用的信号及其定义如表9.1所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/9.3　支持异步通知的globalfifo驱动",
+      "title": "9.3.1　在globalfifo驱动中增加异步通知",
+      "description": "首先，参考代码清单9.3，应该将异步结构体指针添加到globalfifo_dev设备结构体内，如代码清单9.7所示。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/9.4　Linux异步IO": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/9.4　Linux异步IO",
+      "title": "9.4.1　AIO概念与GNU C库AIO",
+      "description": "Linux中最常用的输入/输出（I/O）模型是同步I/O。在这个模型中，当请求发出之后，应用程序就会阻塞，直到请求满足为止。这是一种很好的解决方案，调用应用程序在等待I/O请求完成时不需要占用CPU。但是在许多应用场景中，I/O请求可能需要与CPU消耗产生交叠，以充分利用CPU和I/O提高吞吐率。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/linux设备驱动开发详解/9.5　总结": {
+      "id": "技术博客/嵌入式/linux设备驱动开发详解/9.5　总结",
+      "title": "9.5　总结",
+      "description": "本章主要讲述了Linux中的异步I/O，异步I/O可以使得应用程序在等待I/O操作的同时进行其他操作。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/嵌入式/rzg部署kdump": {
+      "id": "技术博客/嵌入式/rzg部署kdump",
+      "title": "rzg部署kdump",
+      "description": "busybox支持kdump",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/网络/网络问题": {
+      "id": "技术博客/网络/网络问题",
+      "title": "网络问题",
+      "description": "1753882115624",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/调试/linux信号机制": {
+      "id": "技术博客/调试/linux信号机制",
+      "title": "linux信号机制",
+      "description": "在Linux内核中，信号处理是一个复杂的过程，涉及用户态和内核态的交互。以下是信号处理的详细流程，结合代码和注释进行说明。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/调试/Linux内核追踪神器：perf实现原理剖析": {
+      "id": "技术博客/调试/Linux内核追踪神器：perf实现原理剖析",
+      "title": "Linux内核追踪神器：perf实现原理剖析",
+      "description": "在 Linux 内核的广袤天地里，性能优化与故障排查宛如两座高耸的山峰，横亘在开发者前行的道路上。为了攀登这两座高峰，开发者们不断寻觅着强大的工具。而 perf，无疑是其中最为耀眼的 “神器” 之一。当你在运行一个复杂的 Linux 系统时，是否常常被一些莫名的性能问题所困扰？系统突然变得卡顿，应用程序响应迟缓，可你却无从下手，不知问题究竟出在哪里。或许是某个内核函数在不经意间消耗了大量资源，又或许是进程间的资源竞争引发了瓶颈。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/调试/Linux性能分析神器ftrace：从原理到实战": {
+      "id": "技术博客/调试/Linux性能分析神器ftrace：从原理到实战",
+      "title": "Linux性能分析神器ftrace：从原理到实战",
+      "description": "在当今数字化时代，Linux 系统凭借其开源、稳定、安全等诸多优势，在服务器领域占据了举足轻重的地位。据统计，全球超过 70% 的网站服务器都运行在 Linux 操作系统上 ，众多大型互联网公司如 Google、Facebook 等，都在其数据中心大规模使用 Linux，以实现高效的数据处理和存储。",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/调试/Linux性能工具(三)ftrace框架": {
+      "id": "技术博客/调试/Linux性能工具(三)ftrace框架",
+      "title": "一，ringBuffer",
+      "description": "Ringbuffer是trace32框架的一个基础，所有的trace原始数据都是通过Ring Buffer记录的，其主要有以下几个作用：",
+      "sidebar": "tutorialSidebar"
+    },
+    "技术博客/调试/信号机制学习记录": {
+      "id": "技术博客/调试/信号机制学习记录",
+      "title": "信号机制学习记录",
+      "description": "在中completesignal加入dumpstack()",
       "sidebar": "tutorialSidebar"
     }
   }

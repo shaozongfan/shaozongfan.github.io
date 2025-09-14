@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/19.7　PM QoS",
+  "id": "linux设备驱动开发详解/19.7　PM QoS",
+  "title": "19.7　PM QoS",
+  "description": "Linux内核的PM QoS系统针对内核和应用程序提供了一套接口，通过这个接口，用户可以设定自身对性能的期望。一类是系统级的需求，通过cpudmalatency、networklatency和networkthroughput这些参数来设定；另一类是单个设备可以根据自身的性能需求发起per-device的PM QoS请求。",
+  "source": "@site/docs/linux设备驱动开发详解/19.7　PM QoS.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/19.7　PM QoS",
+  "permalink": "/docs/linux设备驱动开发详解/19.7　PM QoS",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/19.7　PM QoS.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "19.6　OPP",
+    "permalink": "/docs/linux设备驱动开发详解/19.6　OPP"
+  },
+  "next": {
+    "title": "19.8　CPU热插拔",
+    "permalink": "/docs/linux设备驱动开发详解/19.8　CPU热插拔"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "个人生活/怀孕注意",
+  "id": "个人生活/怀孕注意",
+  "title": "怀孕注意",
+  "description": "1753281068716",
+  "source": "@site/docs/个人生活/怀孕注意.md",
+  "sourceDirName": "个人生活",
+  "slug": "/个人生活/怀孕注意",
+  "permalink": "/docs/个人生活/怀孕注意",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/个人生活/怀孕注意.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "孕早期",
+    "permalink": "/docs/个人生活/孕早期"
+  },
+  "next": {
+    "title": "一、宽11米深9.8米",
+    "permalink": "/docs/个人生活/自建房"
+  }
+}

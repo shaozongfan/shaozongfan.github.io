@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试",
+  "title": "21.2　Linux内核调试",
+  "description": "在嵌入式系统中，由于目标机资源有限，因此往往在主机上先编译好程序，再在目标机上运行。用户所有的开发工作都在主机开发环境下完成，包括编码、编译、连接、下载和调试等。目标机和主机通过串口、以太网、仿真器或其他通信手段通信，主机用这些接口控制目标机，调试目标机上的程序。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/21.2　Linux内核调试.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "21.1.1　GDB的基本用法",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.1　GDB调试器的用法"
+  },
+  "next": {
+    "title": "21.3　内核打印信息—printk（​）",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/21.3　内核打印信息—printk（​）"
+  }
+}

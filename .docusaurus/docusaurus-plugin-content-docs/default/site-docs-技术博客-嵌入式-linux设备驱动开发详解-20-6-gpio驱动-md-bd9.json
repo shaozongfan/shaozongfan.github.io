@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动",
+  "title": "20.6　GPIO驱动",
+  "description": "在drivers/gpio下实现了通用的基于gpiolib的GPIO驱动，其中定义了一个通用的用于描述底层GPIO控制器的gpiochip结构体，并要求具体的SoC实现gpiochip结构体的成员函数，最后通过gpiochipadd（）注册gpiochip。GPIO驱动可以存在于drivers/gpio目录中，但是在GPIO兼有多种功能且需要复杂配置的情况下，GPIO的驱动部分往往直接移到drivers/pinctrl目录下并连同pinmux一起实现，而不存在于drivers/gpio目录中。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/20.6　GPIO驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "20.5　DEBUG_LL和EARLY_PRINTK的设置",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.5　DEBUG_LL和EARLY_PRINTK的设置"
+  },
+  "next": {
+    "title": "20.7　pinctrl驱动",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/20.7　pinctrl驱动"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/AI相关/AI核心技能",
+  "id": "技术博客/AI相关/AI核心技能",
+  "title": "AI核心技能",
+  "description": "",
+  "source": "@site/docs/技术博客/AI相关/AI核心技能.md",
+  "sourceDirName": "技术博客/AI相关",
+  "slug": "/技术博客/AI相关/AI核心技能",
+  "permalink": "/docs/技术博客/AI相关/AI核心技能",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/AI相关/AI核心技能.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "人生的底层逻辑",
+    "permalink": "/docs/人生哲学/人生的底层逻辑"
+  },
+  "next": {
+    "title": "1.1　设备驱动的作用",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/1.1　设备驱动的作用"
+  }
+}

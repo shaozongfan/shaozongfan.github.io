@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/7.3　中断屏蔽",
+  "id": "linux设备驱动开发详解/7.3　中断屏蔽",
+  "title": "7.3　中断屏蔽",
+  "description": "在单CPU范围内避免竞态的一种简单而有效的方法是在进入临界区之前屏蔽系统的中断，但是在驱动编程中不值得推荐，驱动通常需要考虑跨平台特点而不假定自己在单核上运行。CPU一般都具备屏蔽中断和打开中断的功能，这项功能可以保证正在执行的内核执行路径不被中断处理程序所抢占，防止某些竞态条件的发生。具体而言，中断屏蔽将使得中断与进程之间的并发不再发生，而且，由于Linux内核的进程调度等操作都依赖中断来实现，内核抢占进程之间的并发也得以避免了。",
+  "source": "@site/docs/linux设备驱动开发详解/7.3　中断屏蔽.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/7.3　中断屏蔽",
+  "permalink": "/docs/linux设备驱动开发详解/7.3　中断屏蔽",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/7.3　中断屏蔽.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7.2　编译乱序和执行乱序",
+    "permalink": "/docs/linux设备驱动开发详解/7.2　编译乱序和执行乱序"
+  },
+  "next": {
+    "title": "7.4　原子操作",
+    "permalink": "/docs/linux设备驱动开发详解/7.4　原子操作"
+  }
+}

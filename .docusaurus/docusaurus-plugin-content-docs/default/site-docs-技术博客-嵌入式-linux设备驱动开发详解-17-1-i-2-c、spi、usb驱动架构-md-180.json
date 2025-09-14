@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构",
+  "title": "17.1　I2 C、SPI、USB驱动架构",
+  "description": "根据图12.4，Linux倾向于将主机端的驱动与外设端的驱动分离，而通过一个核心层将某种总线的协议进行抽象，外设端的驱动调用核心层API间接过渡到对主机驱动传输函数的调用。对于I2 C、SPI这类不具备热插拔能力的总线而言，一般在arch/arm/mach-xxx或者arch/arm/boot/dts中会有相应的板级描述信息，描述外设与主机的连接情况。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/17.1　I2 C、SPI、USB驱动架构.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "16.6　总结",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/16.6　总结"
+  },
+  "next": {
+    "title": "17.2　I2 C主机和外设眼里的Linux世界",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/17.2　I2 C主机和外设眼里的Linux世界"
+  }
+}

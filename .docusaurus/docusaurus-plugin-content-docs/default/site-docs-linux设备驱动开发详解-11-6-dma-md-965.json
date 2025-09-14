@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/11.6　DMA",
+  "id": "linux设备驱动开发详解/11.6　DMA",
+  "title": "11.6　DMA",
+  "description": "DMA是一种无须CPU的参与就可以让外设与系统内存之间进行双向数据传输的硬件机制。使用DMA可以使系统CPU从实际的I/O数据传输过程中摆脱出来，从而大大提高系统的吞吐率。DMA通常与硬件体系结构，特别是外设的总线技术密切相关。",
+  "source": "@site/docs/linux设备驱动开发详解/11.6　DMA.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/11.6　DMA",
+  "permalink": "/docs/linux设备驱动开发详解/11.6　DMA",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/11.6　DMA.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "11.5　IO内存静态映射",
+    "permalink": "/docs/linux设备驱动开发详解/11.5　IO内存静态映射"
+  },
+  "next": {
+    "title": "11.7　总结",
+    "permalink": "/docs/linux设备驱动开发详解/11.7　总结"
+  }
+}

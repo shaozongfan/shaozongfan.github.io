@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/3.4　Linux内核的的编译及加载",
+  "id": "linux设备驱动开发详解/3.4　Linux内核的的编译及加载",
+  "title": "3.4.3　Linux内核的引导",
+  "description": "引导Linux系统的过程包括很多阶段，这里将以引导ARM Linux为例来进行讲解（见图3.11）。一般的SoC内嵌入了bootrom，上电时bootrom运行。对于CPU0而言，bootrom会去引导bootloader，而其他CPU则判断自己是不是CPU0，进入WFI的状态等待CPU0来唤醒它。CPU0引导bootloader，bootloader引导Linux内核，在内核启动阶段，CPU0会发中断唤醒CPU1，之后CPU0和CPU1都投入运行。CPU0导致用户空间的init程序被调用，init程序再派生其他进程，派生出来的进程再派生其他进程。CPU0和CPU1共担这些负载，进行负载均衡。",
+  "source": "@site/docs/linux设备驱动开发详解/3.4　Linux内核的的编译及加载.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/3.4　Linux内核的的编译及加载",
+  "permalink": "/docs/linux设备驱动开发详解/3.4　Linux内核的的编译及加载",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/3.4　Linux内核的的编译及加载.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.3.1　Linux内核源代码的目录结构",
+    "permalink": "/docs/linux设备驱动开发详解/3.3　Linux内核的组成"
+  },
+  "next": {
+    "title": "3.5.1　Linux编码风格",
+    "permalink": "/docs/linux设备驱动开发详解/3.5　Linux下的C编程特点"
+  }
+}

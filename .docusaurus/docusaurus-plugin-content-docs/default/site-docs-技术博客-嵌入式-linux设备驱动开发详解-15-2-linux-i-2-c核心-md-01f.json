@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心",
+  "title": "15.2　Linux I2 C核心",
+  "description": "I2 C核心（drivers/i2c/i2c-core.c）中提供了一组不依赖于硬件平台的接口函数，这个文件一般不需要被工程师修改，但是理解其中的主要函数非常关键，因为I2 C总线驱动和设备驱动之间以I2 C核心作为纽带。I2 C核心中的主要函数如下。",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/15.2　Linux I2 C核心.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "15.1　Linux I2 C体系结构",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.1　Linux I2 C体系结构"
+  },
+  "next": {
+    "title": "15.3.1　I2 C适配器驱动的注册与注销",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/15.3　Linux I2 C适配器驱动"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/10.3　Linux中断编程",
+  "id": "linux设备驱动开发详解/10.3　Linux中断编程",
+  "title": "10.3.1　申请和释放中断",
+  "description": "在Linux设备驱动中，使用中断的设备需要申请和释放对应的中断，并分别使用内核提供的requestirq（）和freeirq（）函数。",
+  "source": "@site/docs/linux设备驱动开发详解/10.3　Linux中断编程.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/10.3　Linux中断编程",
+  "permalink": "/docs/linux设备驱动开发详解/10.3　Linux中断编程",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/10.3　Linux中断编程.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "10.2　Linux中断处理程序架构",
+    "permalink": "/docs/linux设备驱动开发详解/10.2　Linux中断处理程序架构"
+  },
+  "next": {
+    "title": "10.4　中断共享",
+    "permalink": "/docs/linux设备驱动开发详解/10.4　中断共享"
+  }
+}

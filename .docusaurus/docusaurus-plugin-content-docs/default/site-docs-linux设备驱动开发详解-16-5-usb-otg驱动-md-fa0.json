@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/16.5　USB OTG驱动",
+  "id": "linux设备驱动开发详解/16.5　USB OTG驱动",
+  "title": "16.5　USB OTG驱动",
+  "description": "USB OTG标准在完全兼容USB 2.0标准的基础上，它允许设备既可作为主机，也可作为外设操作，OTG新增了主机通令协议（HNP）和对话请求协议（SRP）。",
+  "source": "@site/docs/linux设备驱动开发详解/16.5　USB OTG驱动.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/16.5　USB OTG驱动",
+  "permalink": "/docs/linux设备驱动开发详解/16.5　USB OTG驱动",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/16.5　USB OTG驱动.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "16.4.1　UDC和Gadget驱动的关键数据结构与API",
+    "permalink": "/docs/linux设备驱动开发详解/16.4　USB UDC与Gadget驱动"
+  },
+  "next": {
+    "title": "16.6　总结",
+    "permalink": "/docs/linux设备驱动开发详解/16.6　总结"
+  }
+}

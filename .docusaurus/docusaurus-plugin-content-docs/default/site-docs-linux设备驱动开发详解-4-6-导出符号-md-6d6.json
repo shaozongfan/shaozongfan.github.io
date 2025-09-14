@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/4.6　导出符号",
+  "id": "linux设备驱动开发详解/4.6　导出符号",
+  "title": "4.6　导出符号",
+  "description": "Linux的“/proc/kallsyms”文件对应着内核符号表，它记录了符号以及符号所在的内存地址。",
+  "source": "@site/docs/linux设备驱动开发详解/4.6　导出符号.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/4.6　导出符号",
+  "permalink": "/docs/linux设备驱动开发详解/4.6　导出符号",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/4.6　导出符号.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.5　模块参数",
+    "permalink": "/docs/linux设备驱动开发详解/4.5　模块参数"
+  },
+  "next": {
+    "title": "4.7　模块声明与描述",
+    "permalink": "/docs/linux设备驱动开发详解/4.7　模块声明与描述"
+  }
+}

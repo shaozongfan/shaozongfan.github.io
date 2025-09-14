@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状",
+  "id": "linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状",
+  "title": "20.1　ARM Linux底层驱动的组成和现状",
+  "description": "为了让Linux在一个全新的ARM SoC上运行，需要提供大量的底层支撑，如定时器节拍、中断控制器、SMP启动、CPU热插拔以及底层的GPIO、时钟、pinctrl和DMA硬件的封装等。定时器节拍、中断控制器、SMP启动和CPU热插拔这几部分相对来说没有像早期GPIO、时钟、pinctrl和DMA的实现那么杂乱，基本上有个固定的套路。定时器节拍为Linux基于时间片的调度机制以及内核和用户空间的定时器提供支撑，中断控制器的驱动则使得Linux内核的工程师可以直接调用localirqdisable（）、disable_irq（）等通用的中断API，而SMP启动支持则用于让SoC内部的多个CPU核都投入运行，CPU热插拔则运行运行时挂载或拔除CPU。这些工作，在Linux 3.0之后的内核中，Linux社区对比逐步进行了良好的层次划分和架构设计。",
+  "source": "@site/docs/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状",
+  "permalink": "/docs/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/20.1　ARM Linux底层驱动的组成和现状.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "20.10　总结",
+    "permalink": "/docs/linux设备驱动开发详解/20.10　总结"
+  },
+  "next": {
+    "title": "20.2　内核节拍驱动",
+    "permalink": "/docs/linux设备驱动开发详解/20.2　内核节拍驱动"
+  }
+}

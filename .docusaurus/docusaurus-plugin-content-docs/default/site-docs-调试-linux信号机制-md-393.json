@@ -1,0 +1,24 @@
+{
+  "unversionedId": "调试/linux信号机制",
+  "id": "调试/linux信号机制",
+  "title": "linux信号机制",
+  "description": "在Linux内核中，信号处理是一个复杂的过程，涉及用户态和内核态的交互。以下是信号处理的详细流程，结合代码和注释进行说明。",
+  "source": "@site/docs/调试/linux信号机制.md",
+  "sourceDirName": "调试",
+  "slug": "/调试/linux信号机制",
+  "permalink": "/docs/调试/linux信号机制",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/调试/linux信号机制.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "一，ringBuffer",
+    "permalink": "/docs/调试/Linux性能工具(三)ftrace框架"
+  },
+  "next": {
+    "title": "信号机制学习记录",
+    "permalink": "/docs/调试/信号机制学习记录"
+  }
+}

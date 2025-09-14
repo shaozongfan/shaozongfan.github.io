@@ -1,0 +1,24 @@
+{
+  "unversionedId": "技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析",
+  "id": "技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析",
+  "title": "2.6.1　时序分析的概念",
+  "description": "驱动工程师一般不需要分析硬件的时序，但是鉴于许多企业内驱动工程师还需要承担电路板调试的任务，因此，掌握时序分析的方法也就比较必要了",
+  "source": "@site/docs/技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析.md",
+  "sourceDirName": "技术博客/嵌入式/linux设备驱动开发详解",
+  "slug": "/技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析",
+  "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/技术博客/嵌入式/linux设备驱动开发详解/2.6　硬件时序分析.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.5　原理图分析",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.5　原理图分析"
+  },
+  "next": {
+    "title": "2.7　芯片数据手册阅读方法",
+    "permalink": "/docs/技术博客/嵌入式/linux设备驱动开发详解/2.7　芯片数据手册阅读方法"
+  }
+}

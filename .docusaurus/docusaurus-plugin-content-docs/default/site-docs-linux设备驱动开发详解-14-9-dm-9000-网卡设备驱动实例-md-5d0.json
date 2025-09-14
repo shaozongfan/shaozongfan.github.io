@@ -1,0 +1,24 @@
+{
+  "unversionedId": "linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例",
+  "id": "linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例",
+  "title": "14.9.1　DM9000网卡硬件描述",
+  "description": "DM9000是开发板采用的网络芯片，是一个高度集成且功耗很低的高速网络控制器，可以和CPU直连，支持10/100MB以太网连接，芯片内部自带4KB双字节的SRAM（3KB用来发送，13KB用来接收）。针对不同的处理器，接口支持8位、16位和32位。DM9000一般直接挂在外面的内存总线上。",
+  "source": "@site/docs/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例.md",
+  "sourceDirName": "linux设备驱动开发详解",
+  "slug": "/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例",
+  "permalink": "/docs/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例",
+  "draft": false,
+  "editUrl": "https://github.com/shaozongfan/shaozongfan.github.io/docs/linux设备驱动开发详解/14.9　DM9000网卡设备驱动实例.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "14.8　参数设置和统计数据",
+    "permalink": "/docs/linux设备驱动开发详解/14.8　参数设置和统计数据"
+  },
+  "next": {
+    "title": "15.1　Linux I2 C体系结构",
+    "permalink": "/docs/linux设备驱动开发详解/15.1　Linux I2 C体系结构"
+  }
+}
